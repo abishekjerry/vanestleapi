@@ -1,0 +1,835 @@
+[
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "AddnewBrands",
+    "RelativePath": "api/VA/AddnewBrands",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BBrandModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "AddnewClient",
+    "RelativePath": "api/VA/AddnewClient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BClientModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "AddUpdateDeliveryAddress",
+    "RelativePath": "api/VA/AddUpdateDeliveryAddress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BDeliveryOrder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "CalculateSavings",
+    "RelativePath": "api/VA/CalculateSavings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BCalculate_supplierQuotes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "CheckDeliveryAddress",
+    "RelativePath": "api/VA/CheckDeliveryAddress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BDeliveryOrder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "CheckforUsername",
+    "RelativePath": "api/VA/CheckforUsername",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "EB_Duplicate",
+    "RelativePath": "api/VA/EB_Duplicate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BEnquiryItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "EnqClientinfo",
+    "RelativePath": "api/VA/EnqClientinfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BEnqClientinfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "EnqClientinfoDropdowns",
+    "RelativePath": "api/VA/EnqClientinfoDropdowns",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BMasterDropdowns",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "EnqLineItemDetails",
+    "RelativePath": "api/VA/EnqLineItemDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BEnquiryItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "EnqLineItemsDropdowns",
+    "RelativePath": "api/VA/EnqLineItemsDropdowns",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BMasterDropdowns",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "EnqProjectinfo",
+    "RelativePath": "api/VA/EnqProjectinfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BEnqProjectinfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "EnqReview",
+    "RelativePath": "api/VA/EnqReview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "enqId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "createdBy",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "EnqSupplierInfo",
+    "RelativePath": "api/VA/EnqSupplierInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BSupplierInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "GetDetails",
+    "RelativePath": "api/VA/GetDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BGetDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "GetPreviewQuotes",
+    "RelativePath": "api/VA/GetPreviewQuotes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "GetProjectDetails",
+    "RelativePath": "api/VA/GetProjectDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BGetProjectDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "GetProjectStatus",
+    "RelativePath": "api/VA/GetProjectStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "enqId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VAapiNestle.CustomModels.Base\u002BProjectStatus, VAapiNestle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "GetReport",
+    "RelativePath": "api/VA/GetReport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VAapiNestle.CustomModels.Base\u002BGetReport",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "GetSavings",
+    "RelativePath": "api/VA/GetSavings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "enquiryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BSavingsResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "GetSlatemplate",
+    "RelativePath": "api/VA/GetSlatemplate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BEnquiryFilterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BEnquirySlaDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "GetSupplier",
+    "RelativePath": "api/VA/GetSupplier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VAapiNestle.CustomModels.Base\u002BEnqSupplierinfo, VAapiNestle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "Language",
+    "RelativePath": "api/VA/Language",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VAapiNestle.CustomModels.Base\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "MasterDropdowns",
+    "RelativePath": "api/VA/MasterDropdowns",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BEnquiryFilterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BMasterDropdowns",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "PostRefprice",
+    "RelativePath": "api/VA/PostRefprice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quotes",
+        "Type": "System.Collections.Generic.List\u00601[[VAapiNestle.CustomModels.Base\u002BLs_Store_Refprice, VAapiNestle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "PostSupplierQuotes",
+    "RelativePath": "api/VA/PostSupplierQuotes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quotes",
+        "Type": "System.Collections.Generic.List\u00601[[VAapiNestle.CustomModels.Base\u002BRFQSupplierQuotes, VAapiNestle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "UpdateJobStatus",
+    "RelativePath": "api/VA/UpdateJobStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BJobstatus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "UpdateJobSummary",
+    "RelativePath": "api/VA/UpdateJobSummary",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BUpdateJobSummary",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "UpdatePreviewQuotes",
+    "RelativePath": "api/VA/UpdatePreviewQuotes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BPreviewQuotes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "UpdateSavingsReasons",
+    "RelativePath": "api/VA/UpdateSavingsReasons",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "savingReasons",
+        "Type": "System.Collections.Generic.List\u00601[[VAapiNestle.CustomModels.Base\u002BSavingReasons, VAapiNestle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "UserSignon",
+    "RelativePath": "api/VA/UserSignon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "User",
+        "Type": "VAapiNestle.CustomModels.Base\u002BUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VAapiNestle.Controllers.VAController",
+    "Method": "ViewDashboard",
+    "RelativePath": "api/VA/ViewDashboard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "VAapiNestle.CustomModels.Base\u002BEnquiryFilterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VAapiNestle.CustomModels.Base\u002BResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_6",
+    "RelativePath": "health",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

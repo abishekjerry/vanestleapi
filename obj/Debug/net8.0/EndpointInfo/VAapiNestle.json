@@ -1,0 +1,3746 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "VAapiNestle",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/VA/UserSignon": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/Language": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/ViewDashboard": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryFilterRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryFilterRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryFilterRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/MasterDropdowns": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryFilterRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryFilterRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryFilterRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MasterDropdowns"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MasterDropdowns"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MasterDropdowns"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/GetSlatemplate": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryFilterRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryFilterRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryFilterRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EnquirySlaDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EnquirySlaDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EnquirySlaDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/EnqClientinfoDropdowns": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MasterDropdowns"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MasterDropdowns"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MasterDropdowns"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/EnqLineItemsDropdowns": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MasterDropdowns"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MasterDropdowns"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MasterDropdowns"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/GetSupplier": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EnqSupplierinfo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EnqSupplierinfo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EnqSupplierinfo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/AddnewClient": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClientModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClientModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClientModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/AddnewBrands": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BrandModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BrandModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BrandModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/CheckforUsername": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/EB_Duplicate": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryItem"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryItem"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryItem"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/GetDetails": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/EnqClientinfo": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnqClientinfo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnqClientinfo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnqClientinfo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/EnqProjectinfo": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnqProjectinfo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnqProjectinfo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnqProjectinfo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/EnqLineItemDetails": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryItem"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryItem"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EnquiryItem"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/EnqSupplierInfo": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SupplierInfo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SupplierInfo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SupplierInfo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/EnqReview": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "parameters": [
+          {
+            "name": "enqId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "createdBy",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/GetProjectDetails": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetProjectDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetProjectDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GetProjectDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/GetSavings": {
+      "get": {
+        "tags": [
+          "VA"
+        ],
+        "parameters": [
+          {
+            "name": "enquiryId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/SavingsResponseDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SavingsResponseDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SavingsResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/GetProjectStatus": {
+      "get": {
+        "tags": [
+          "VA"
+        ],
+        "parameters": [
+          {
+            "name": "enqId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProjectStatus"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProjectStatus"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProjectStatus"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/CheckDeliveryAddress": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryOrder"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryOrder"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryOrder"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/AddUpdateDeliveryAddress": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryOrder"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryOrder"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryOrder"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/PostSupplierQuotes": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/RFQSupplierQuotes"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/RFQSupplierQuotes"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/RFQSupplierQuotes"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/UpdateJobStatus": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Jobstatus"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Jobstatus"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Jobstatus"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/CalculateSavings": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Calculate_supplierQuotes"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Calculate_supplierQuotes"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Calculate_supplierQuotes"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/PostRefprice": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Ls_Store_Refprice"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Ls_Store_Refprice"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Ls_Store_Refprice"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/UpdateSavingsReasons": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SavingReasons"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SavingReasons"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SavingReasons"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/UpdateJobSummary": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateJobSummary"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateJobSummary"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateJobSummary"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/UpdatePreviewQuotes": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PreviewQuotes"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PreviewQuotes"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PreviewQuotes"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Result"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/VA/GetPreviewQuotes": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/VA/GetReport": {
+      "post": {
+        "tags": [
+          "VA"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetReport"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetReport"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetReport"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "tags": [
+          "VAapiNestle"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BrandModel": {
+        "required": [
+          "brand",
+          "divisionid"
+        ],
+        "type": "object",
+        "properties": {
+          "divisionid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "brand": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Calculate_supplierQuotes": {
+        "type": "object",
+        "properties": {
+          "ls_getsupplierQuotes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Ls_Calculate_SupplierQuotesd"
+            },
+            "nullable": true
+          },
+          "enqid": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CalculationDetails": {
+        "type": "object",
+        "properties": {
+          "cost": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "sell": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "margin": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "markupPercent": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "marginPercent": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CalculationSupplierlogs": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemName": {
+            "type": "string",
+            "nullable": true
+          },
+          "smetaAccredited": {
+            "type": "string",
+            "nullable": true
+          },
+          "gmpAccredited": {
+            "type": "string",
+            "nullable": true
+          },
+          "natureofsupplier": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierName": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClientModel": {
+        "required": [
+          "divisionid",
+          "email",
+          "firstName",
+          "jobPosition",
+          "logonid",
+          "receivenotification"
+        ],
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "minLength": 1,
+            "pattern": "\\S+",
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "logonid": {
+            "minLength": 1,
+            "pattern": "\\S+",
+            "type": "string"
+          },
+          "jobtitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "jobPosition": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "receivenotification": {
+            "type": "boolean"
+          },
+          "divisionid": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeliveryOrder": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "enqid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "companyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "addressLineOne": {
+            "type": "string",
+            "nullable": true
+          },
+          "addressLineTwo": {
+            "type": "string",
+            "nullable": true
+          },
+          "addressLineThree": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameorDept": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "remarks": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DropdownItem": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "label": {
+            "type": "string",
+            "nullable": true
+          },
+          "selected": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EnqClientinfo": {
+        "required": [
+          "aboveorAtmarket",
+          "brand",
+          "clientContactId",
+          "divisionid"
+        ],
+        "type": "object",
+        "properties": {
+          "enqUId": {
+            "type": "string",
+            "nullable": true
+          },
+          "divisionid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientContactId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "createdBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "modifiedBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "brand": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "deliveryCountryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pmgEntity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "enqId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "menuid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "aboveorAtmarket": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "action": {
+            "type": "string",
+            "nullable": true
+          },
+          "divisionname": {
+            "type": "string",
+            "nullable": true
+          },
+          "client": {
+            "type": "string",
+            "nullable": true
+          },
+          "entityname": {
+            "type": "string",
+            "nullable": true
+          },
+          "bussinessUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "globalBussinessUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "departmentorproduct": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdByUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientContact": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "pmgEntityname": {
+            "type": "string",
+            "nullable": true
+          },
+          "deliveryCountryname": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoiceNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "actualdeliverydate": {
+            "type": "string",
+            "nullable": true
+          },
+          "raisedDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "poNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoiceDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "managementFee": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EnqProjectinfo": {
+        "required": [
+          "briefdate",
+          "estdate",
+          "hybridModel",
+          "projectDesc",
+          "projectNo",
+          "year"
+        ],
+        "type": "object",
+        "properties": {
+          "enqUId": {
+            "type": "string",
+            "nullable": true
+          },
+          "enqId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "projectNo": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "projectDesc": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "estdate": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "briefdate": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "modifiedBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quoteBy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "slaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "managementfeetypeId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "hybridModel": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "attribute": {
+            "type": "string",
+            "nullable": true
+          },
+          "year": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "quotestartdate": {
+            "type": "string",
+            "nullable": true
+          },
+          "quoteenddate": {
+            "type": "string",
+            "nullable": true
+          },
+          "proofstartdate": {
+            "type": "string",
+            "nullable": true
+          },
+          "proofenddate": {
+            "type": "string",
+            "nullable": true
+          },
+          "productionstartdate": {
+            "type": "string",
+            "nullable": true
+          },
+          "productionenddate": {
+            "type": "string",
+            "nullable": true
+          },
+          "filecopiesstartdate": {
+            "type": "string",
+            "nullable": true
+          },
+          "filecopiesenddate": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoicestartdate": {
+            "type": "string",
+            "nullable": true
+          },
+          "invoiceenddate": {
+            "type": "string",
+            "nullable": true
+          },
+          "modifiedQuote": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "modifiedProof": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "modifiedProduction": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "modifiedFilecopies": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "modifiedInvoice": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "slaTemplatename": {
+            "type": "string",
+            "nullable": true
+          },
+          "managementFeetype": {
+            "type": "string",
+            "nullable": true
+          },
+          "projectQuotetype": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EnqSupplierinfo": {
+        "type": "object",
+        "properties": {
+          "suppliername": {
+            "type": "string",
+            "nullable": true
+          },
+          "currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "printCapability": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "countryId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "suppliercode": {
+            "type": "string",
+            "nullable": true
+          },
+          "selected": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EnquiryFilterRequest": {
+        "type": "object",
+        "properties": {
+          "menuid": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "userCountryId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "slaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "createdName": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "enqId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "enqUId": {
+            "type": "string",
+            "nullable": true
+          },
+          "projectNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "endDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "statusId": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "jobposition": {
+            "type": "string",
+            "nullable": true
+          },
+          "client": {
+            "type": "string",
+            "nullable": true
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EnquiryItem": {
+        "type": "object",
+        "properties": {
+          "enqId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "enqdetailsId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemName": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "productCategoryId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "productcategory": {
+            "type": "string",
+            "nullable": true
+          },
+          "productionMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "quoteType": {
+            "type": "string",
+            "nullable": true
+          },
+          "quoteQtyOrSize": {
+            "type": "string",
+            "nullable": true
+          },
+          "flatSizeDandH": {
+            "type": "string",
+            "nullable": true
+          },
+          "flatSizeLength": {
+            "type": "string",
+            "nullable": true
+          },
+          "flatSizeWidth": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalFlatSize": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalQtySize": {
+            "type": "string",
+            "nullable": true
+          },
+          "quoteFileList": {
+            "type": "string",
+            "nullable": true
+          },
+          "modifiedBy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemSellPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "baseLinePrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "quoteTypeindex": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "subCategory": {
+            "type": "string",
+            "nullable": true
+          },
+          "subcatID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "recycled": {
+            "type": "string",
+            "nullable": true
+          },
+          "containPlastic": {
+            "type": "string",
+            "nullable": true
+          },
+          "recycledPlastic": {
+            "type": "string",
+            "nullable": true
+          },
+          "sustainableMaterial": {
+            "type": "string",
+            "nullable": true
+          },
+          "localRateCard": {
+            "type": "string",
+            "nullable": true
+          },
+          "promoOSSOrderWindows": {
+            "type": "string",
+            "nullable": true
+          },
+          "specNote": {
+            "type": "string",
+            "nullable": true
+          },
+          "sNote": {
+            "type": "string",
+            "nullable": true
+          },
+          "version": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "printedorproducedonFSCmeterial": {
+            "type": "string",
+            "nullable": true
+          },
+          "sustainableOptionthatwasrejected": {
+            "type": "string",
+            "nullable": true
+          },
+          "wasthisitemdesignedtoreducedPlastic": {
+            "type": "string",
+            "nullable": true
+          },
+          "isthisitemdesignedtobereused": {
+            "type": "string",
+            "nullable": true
+          },
+          "dictated": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemtype": {
+            "type": "string",
+            "nullable": true
+          },
+          "incoterm": {
+            "type": "string",
+            "nullable": true
+          },
+          "harmonizedOrder": {
+            "type": "string",
+            "nullable": true
+          },
+          "catalogueUsage": {
+            "type": "string",
+            "nullable": true
+          },
+          "digitalInnovation": {
+            "type": "string",
+            "nullable": true
+          },
+          "innovation": {
+            "type": "string",
+            "nullable": true
+          },
+          "sourcinglocation": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeofitem": {
+            "type": "string",
+            "nullable": true
+          },
+          "eauction": {
+            "type": "string",
+            "nullable": true
+          },
+          "smetAorEquivalentDocuments": {
+            "type": "string",
+            "nullable": true
+          },
+          "gmPorEquivalentDocuments": {
+            "type": "string",
+            "nullable": true
+          },
+          "usingFSCMaterial": {
+            "type": "string",
+            "nullable": true
+          },
+          "oekotexCertification": {
+            "type": "string",
+            "nullable": true
+          },
+          "designedforrecycling": {
+            "type": "string",
+            "nullable": true
+          },
+          "plasticapartfromPLA": {
+            "type": "string",
+            "nullable": true
+          },
+          "plastictonnageweight": {
+            "type": "string",
+            "nullable": true
+          },
+          "proposedwithsustainabilityoption": {
+            "type": "string",
+            "nullable": true
+          },
+          "containrecycledmaterial": {
+            "type": "string",
+            "nullable": true
+          },
+          "containrecycledplastic": {
+            "type": "string",
+            "nullable": true
+          },
+          "weightageofrecycledmaterial": {
+            "type": "string",
+            "nullable": true
+          },
+          "rateCard": {
+            "type": "string",
+            "nullable": true
+          },
+          "volumeAggregation": {
+            "type": "string",
+            "nullable": true
+          },
+          "catabc": {
+            "type": "string",
+            "nullable": true
+          },
+          "oWlink": {
+            "type": "string",
+            "nullable": true
+          },
+          "tojabc": {
+            "type": "string",
+            "nullable": true
+          },
+          "competbidmandate": {
+            "type": "string",
+            "nullable": true
+          },
+          "competbidcomplaint": {
+            "type": "string",
+            "nullable": true
+          },
+          "competbidexception": {
+            "type": "string",
+            "nullable": true
+          },
+          "simplex": {
+            "type": "string",
+            "nullable": true
+          },
+          "tcOapproval": {
+            "type": "string",
+            "nullable": true
+          },
+          "tcOapproved": {
+            "type": "string",
+            "nullable": true
+          },
+          "exceptionreason": {
+            "type": "string",
+            "nullable": true
+          },
+          "regionalname": {
+            "type": "string",
+            "nullable": true
+          },
+          "savingstype": {
+            "type": "string",
+            "nullable": true
+          },
+          "savingsreason": {
+            "type": "string",
+            "nullable": true
+          },
+          "competetiveWinningSupplier": {
+            "type": "string",
+            "nullable": true
+          },
+          "printornonprint": {
+            "type": "string",
+            "nullable": true
+          },
+          "printingMethod": {
+            "type": "string",
+            "nullable": true
+          },
+          "noofmaterials": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EnquirySlaDto": {
+        "type": "object",
+        "properties": {
+          "quote": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "proof": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "production": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "fileCopies": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "invoicing": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "boolean"
+          },
+          "isDefault": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "defQuote": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "defProof": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "defProduction": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "defFileCopies": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "defInvoices": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetDetails": {
+        "type": "object",
+        "properties": {
+          "enqClientinfo": {
+            "$ref": "#/components/schemas/EnqClientinfo"
+          },
+          "enqProjectinfo": {
+            "$ref": "#/components/schemas/EnqProjectinfo"
+          },
+          "enqlineItems": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EnquiryItem"
+            },
+            "nullable": true
+          },
+          "supplierinfo": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SupplierDetails"
+            },
+            "nullable": true
+          },
+          "jobstatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "statusId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "stepId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetProjectDetails": {
+        "type": "object",
+        "properties": {
+          "historySearches": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HistorySearch"
+            },
+            "nullable": true
+          },
+          "historyLogs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HistoryLogs"
+            },
+            "nullable": true
+          },
+          "lineItemLogs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LineItemsLogs"
+            },
+            "nullable": true
+          },
+          "revisedQuotes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RevisedQuotes"
+            },
+            "nullable": true
+          },
+          "requestQuotes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RequestQuotes"
+            },
+            "nullable": true
+          },
+          "calculationDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CalculationDetails"
+            },
+            "nullable": true
+          },
+          "calculationSupplierlogs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CalculationSupplierlogs"
+            },
+            "nullable": true
+          },
+          "savingReasons": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SavingReasons"
+            },
+            "nullable": true
+          },
+          "savingsResponseDto": {
+            "$ref": "#/components/schemas/SavingsResponseDto"
+          },
+          "deliveryOrder": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DeliveryOrder"
+            },
+            "nullable": true
+          },
+          "projectStatus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ProjectStatus"
+            },
+            "nullable": true
+          },
+          "previewQuotes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PreviewQuotes"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetReport": {
+        "type": "object",
+        "properties": {
+          "startDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "endDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "userClientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "countryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "reportType": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientName": {
+            "type": "string",
+            "nullable": true
+          },
+          "businessUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "statusFrom": {
+            "type": "string",
+            "nullable": true
+          },
+          "statusTo": {
+            "type": "string",
+            "nullable": true
+          },
+          "tco": {
+            "type": "string",
+            "nullable": true
+          },
+          "userType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HistoryLogs": {
+        "type": "object",
+        "properties": {
+          "modifiedDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "field": {
+            "type": "string",
+            "nullable": true
+          },
+          "oldValue": {
+            "type": "string",
+            "nullable": true
+          },
+          "newValue": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HistorySearch": {
+        "type": "object",
+        "properties": {
+          "enquriyID": {
+            "type": "string",
+            "nullable": true
+          },
+          "qty": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "specifications": {
+            "type": "string",
+            "nullable": true
+          },
+          "referencePrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "materialUsed": {
+            "type": "string",
+            "nullable": true
+          },
+          "poNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "subCategory": {
+            "type": "string",
+            "nullable": true
+          },
+          "brand": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Jobstatus": {
+        "type": "object",
+        "properties": {
+          "modifiedBy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "enqId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LineItemsLogs": {
+        "type": "object",
+        "properties": {
+          "modifiedDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "field": {
+            "type": "string",
+            "nullable": true
+          },
+          "oldValue": {
+            "type": "string",
+            "nullable": true
+          },
+          "newValue": {
+            "type": "string",
+            "nullable": true
+          },
+          "itemNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Ls_Calculate_SupplierQuotesd": {
+        "type": "object",
+        "properties": {
+          "itemnumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "supplierID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "supplierQuotesId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "initialPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "negotiatePrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Ls_Store_Refprice": {
+        "type": "object",
+        "properties": {
+          "previousSupplier": {
+            "type": "string",
+            "nullable": true
+          },
+          "previousPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "note": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "baselineQuantity": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MasterDropdowns": {
+        "type": "object",
+        "properties": {
+          "country": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "status": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "client": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "user": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "typeofJob": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "division": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "managementFeetype": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "year": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "projectAttribute": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "brands": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "sla": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "itemCategory": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "subCategory": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "exceptionReason": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "typeOfItem": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "globalOrder": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "regionalOrder": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "localCatalog": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "printingMethod": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "sourcingLocation": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "savingsReason": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "savingsType": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          },
+          "printcapabilities": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DropdownItem"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PreviewQuotes": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemName": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierA": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierB": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierC": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierAInitAmount": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierBInitAmount": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierCInitAmount": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierANegAmount": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierBNegAmount": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierCNegAmount": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProjectStatus": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "label": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RFQSupplierQuotes": {
+        "type": "object",
+        "properties": {
+          "enqId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "quoteId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "supplierQuoteAmountPriceOrQuantity": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "qty": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "modifiedBy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "intialprice": {
+            "type": "string",
+            "nullable": true
+          },
+          "negoprice": {
+            "type": "string",
+            "nullable": true
+          },
+          "initialUnitprice": {
+            "type": "string",
+            "nullable": true
+          },
+          "negoUnitprice": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RequestQuotes": {
+        "type": "object",
+        "properties": {
+          "itemNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemName": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierName": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierQuotesId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "enquiryId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "enquiryDetailsId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "supplierId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "initialQuote": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "negQuote": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "iniUnitPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "negUnitPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "negUnitPriceFee": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "pmgSellPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "isCalculateId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Result": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "boolean"
+          },
+          "data": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RevisedQuotes": {
+        "type": "object",
+        "properties": {
+          "itemNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemName": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierName": {
+            "type": "string",
+            "nullable": true
+          },
+          "supplierPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "itemNote": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateOfChange": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SavingReasons": {
+        "type": "object",
+        "properties": {
+          "enquiryId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemName": {
+            "type": "string",
+            "nullable": true
+          },
+          "savingsType": {
+            "type": "string",
+            "nullable": true
+          },
+          "savingsReason": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SavingsDetailsDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "enquiryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "enquiryDetailsId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemName": {
+            "type": "string",
+            "nullable": true
+          },
+          "reasonForSaving": {
+            "type": "string",
+            "nullable": true
+          },
+          "previousSupplier": {
+            "type": "string",
+            "nullable": true
+          },
+          "previousPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "itemSellPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "negItemSellPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "managementFee": {
+            "type": "number",
+            "format": "double"
+          },
+          "baselineQuantity": {
+            "type": "string",
+            "nullable": true
+          },
+          "baselineUnitPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "baselinePrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "baselineSaving": {
+            "type": "number",
+            "format": "double"
+          },
+          "gainShare": {
+            "type": "number",
+            "format": "double"
+          },
+          "quoteQtyOrSize": {
+            "type": "string",
+            "nullable": true
+          },
+          "savingType": {
+            "type": "string",
+            "nullable": true
+          },
+          "mFee": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SavingsItemDto": {
+        "type": "object",
+        "properties": {
+          "itemNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "itemName": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalPreviousPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalSellPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalNegSellPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "managementFee": {
+            "type": "number",
+            "format": "double"
+          },
+          "saving": {
+            "type": "number",
+            "format": "double"
+          },
+          "savingPercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "savingDisplay": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "savingPercentDisplay": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "savingExclfee": {
+            "type": "number",
+            "format": "double"
+          },
+          "savingExcelfeePercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "savingExclfeeDisplay": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "savingExclfeePercentDisplay": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "taxpercentage": {
+            "type": "number",
+            "format": "double"
+          },
+          "taxamount": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalsellpricewithtax": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SavingsResponseDto": {
+        "type": "object",
+        "properties": {
+          "totalPreviousPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalSellPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalNegSellPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalManagementFee": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalSaving": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalSavingPercent": {
+            "type": "number",
+            "format": "double"
+          },
+          "itemWiseSummary": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SavingsItemDto"
+            },
+            "nullable": true
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SavingsDetailsDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SupplierDetails": {
+        "type": "object",
+        "properties": {
+          "suppliername": {
+            "type": "string",
+            "nullable": true
+          },
+          "enqId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "supplierID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SupplierInfo": {
+        "type": "object",
+        "properties": {
+          "selectedSuppliers": {
+            "type": "string",
+            "nullable": true
+          },
+          "enqId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "modifiedBy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateJobSummary": {
+        "type": "object",
+        "properties": {
+          "invoiceNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "actualdeliverydate": {
+            "type": "string",
+            "nullable": true
+          },
+          "raisedDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "poNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "projectNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "projectDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "estdate": {
+            "type": "string",
+            "nullable": true
+          },
+          "briefdate": {
+            "type": "string",
+            "nullable": true
+          },
+          "modifiedBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "createdBy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientContactId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "action": {
+            "type": "string",
+            "nullable": true
+          },
+          "enqId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "statusId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "invoiceDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "managementFee": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserRequest": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "lang": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeOfJob": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "savingstype": {
+            "type": "string",
+            "nullable": true
+          },
+          "divisionid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "enquiryid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "subitemid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "countryId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "ApiKey": {
+        "type": "apiKey",
+        "name": "PMG-API-KEY",
+        "in": "header"
+      },
+      "SecretKey": {
+        "type": "apiKey",
+        "name": "PMG-Secret-KEY",
+        "in": "header"
+      },
+      "Account": {
+        "type": "apiKey",
+        "name": "PMG-Account",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "ApiKey": [ ],
+      "SecretKey": [ ],
+      "Account": [ ]
+    }
+  ]
+}

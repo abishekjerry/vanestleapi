@@ -1,0 +1,3849 @@
+17-03-2026 17:44:23 GET /swagger/index.html 
+
+17-03-2026 17:44:23 GET /swagger/swagger-ui-bundle.js 
+
+17-03-2026 17:46:42 GET /swagger/index.html 
+
+17-03-2026 17:46:42 GET /swagger/swagger-ui.css 
+
+17-03-2026 17:46:42 GET /swagger/swagger-ui-standalone-preset.js 
+
+17-03-2026 17:46:43 GET /swagger/v1/swagger.json 
+
+17-03-2026 17:46:44 GET /swagger/favicon-32x32.png 
+
+17-03-2026 17:47:00 GET /swagger/index.html 
+
+17-03-2026 17:47:01 GET /swagger/v1/swagger.json 
+
+17-03-2026 17:47:23 GET /swagger/index.html 
+
+17-03-2026 17:47:23 GET /swagger/v1/swagger.json 
+
+17-03-2026 17:48:33 GET /swagger/index.html 
+
+17-03-2026 17:48:33 GET /swagger/v1/swagger.json 
+
+17-03-2026 17:49:50 POST /api/VA/UserSignon 
+{
+ 
+  "username": "demouser.sg",
+  "password": "Demosg@001",
+ }
+17-03-2026 17:50:12 POST /api/VA/UserSignon 
+{
+ 
+  "username": "demouser.sg",
+  "password": "Demosg@001"
+ }
+17-03-2026 17:50:50 GET /swagger/index.html 
+
+17-03-2026 17:50:51 GET /swagger/v1/swagger.json 
+
+17-03-2026 17:53:28 POST /api/VA/UserSignon 
+{
+ 
+  "username": "demouser.sg",
+  "password": "Demosg@001"}
+17-03-2026 17:54:26 GET /swagger/index.html 
+
+17-03-2026 17:54:26 GET /swagger/v1/swagger.json 
+
+17-03-2026 17:54:56 GET /swagger/index.html 
+
+17-03-2026 17:54:56 GET /swagger/v1/swagger.json 
+
+17-03-2026 17:55:06 GET /swagger/index.html 
+
+17-03-2026 17:55:07 GET /swagger/v1/swagger.json 
+
+17-03-2026 17:55:25 GET /swagger/index.html 
+
+17-03-2026 17:55:26 GET /swagger/v1/swagger.json 
+
+17-03-2026 17:55:48 GET /swagger/index.html 
+
+17-03-2026 17:55:48 GET /swagger/v1/swagger.json 
+
+17-03-2026 17:56:31 POST /api/VA/UserSignon 
+{
+
+  "username": "demouser.sg",
+ 
+  "password": "Demosg@001"
+}
+17-03-2026 17:57:59 GET /swagger/index.html 
+
+17-03-2026 17:57:59 GET /swagger/v1/swagger.json 
+
+17-03-2026 17:58:19 POST /api/VA/UserSignon 
+{
+  "username": "demouser.sg",
+  "password": "Demosg@001"
+}
+17-03-2026 18:00:16 POST /api/VA/UserSignon 
+{
+  "username": "demouser.sg",
+  "password": "Demosg@001"
+}
+17-03-2026 18:00:49 POST /api/VA/Language 
+{
+  "lang": "english"
+}
+17-03-2026 18:01:21 POST /api/VA/Language 
+{
+  "lang": "English"
+}
+17-03-2026 18:02:23 GET /swagger/index.html 
+
+17-03-2026 18:02:23 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:36:03 GET /swagger/index.html 
+
+17-03-2026 18:36:04 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:42:03 GET /swagger/index.html 
+
+17-03-2026 18:42:04 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:42:15 GET /swagger/index.html 
+
+17-03-2026 18:42:16 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:43:30 GET /swagger/index.html 
+
+17-03-2026 18:43:30 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:44:32 GET /swagger/index.html 
+
+17-03-2026 18:44:32 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:45:16 GET /swagger/index.html 
+
+17-03-2026 18:45:16 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:46:16 GET /swagger/index.html 
+
+17-03-2026 18:46:16 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:50:59 GET /swagger/index.html 
+
+17-03-2026 18:51:00 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:53:13 GET /swagger/index.html 
+
+17-03-2026 18:53:13 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:53:42 GET /swagger/index.html 
+
+17-03-2026 18:53:43 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:53:53 GET /swagger/index.html 
+
+17-03-2026 18:53:53 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:54:29 GET /swagger/index.html 
+
+17-03-2026 18:54:29 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:55:36 GET /swagger/index.html 
+
+17-03-2026 18:55:37 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:56:03 GET /swagger/index.html 
+
+17-03-2026 18:56:03 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:56:21 GET /swagger/index.html 
+
+17-03-2026 18:56:50 GET /swagger/index.html 
+
+17-03-2026 18:56:50 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:57:38 GET /swagger/index.html 
+
+17-03-2026 18:57:38 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:58:01 GET /swagger/index.html 
+
+17-03-2026 18:58:02 GET /swagger/v1/swagger.json 
+
+17-03-2026 18:58:41 GET /swagger/index.html 
+
+17-03-2026 18:58:41 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:00:20 GET /swagger/index.html 
+
+17-03-2026 19:00:20 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:02:39 GET /swagger/index.html 
+
+17-03-2026 19:02:39 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:03:35 GET /swagger/index.html 
+
+17-03-2026 19:03:35 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:06:56 GET /swagger/index.html 
+
+17-03-2026 19:06:56 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:07:13 GET /swagger/index.html 
+
+17-03-2026 19:07:13 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:07:50 GET /swagger/index.html 
+
+17-03-2026 19:07:51 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:08:27 GET /swagger/index.html 
+
+17-03-2026 19:08:28 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:10:57 GET /swagger/index.html 
+
+17-03-2026 19:10:57 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:11:21 GET /swagger/index.html 
+
+17-03-2026 19:11:21 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:12:50 GET /swagger/index.html 
+
+17-03-2026 19:12:51 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:13:45 POST /api/VA/ViewDashboard 
+{
+  "userCountryId": 12,
+  "createdName": 0,
+  "enqUId": "",
+  "projectNo": "",
+  "startDate": "",
+  "endDate": "",
+  "statusId": "",
+  "role": "Admin",
+  "jobposition": "",
+  "client": "",
+  "username": "demouser.sg"
+}
+17-03-2026 19:16:00 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+17-03-2026 19:30:34 GET /swagger/index.html 
+
+17-03-2026 19:30:35 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:36:08 GET /swagger/index.html 
+
+17-03-2026 19:36:08 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:37:40 GET /swagger/index.html 
+
+17-03-2026 19:37:40 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:38:53 GET /swagger/index.html 
+
+17-03-2026 19:38:53 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:39:59 GET /swagger/index.html 
+
+17-03-2026 19:39:59 GET /swagger/v1/swagger.json 
+
+17-03-2026 19:40:19 POST /api/VA/Usersignon 
+{
+    "Username": "demouser.sg",
+    "password":"Demosg@001",
+    "Lang":"English"
+}
+17-03-2026 19:40:24 POST /api/VA/Usersignon 
+{
+    "Username": "demouser.sg",
+    "password":"Demosg@001",
+    "Lang":"English"
+}
+17-03-2026 19:40:44 POST /api/VA/Usersignon 
+{
+    "Username": "demouser.sg",
+    "password":"Demosg@001",
+    "Lang":"English"
+}
+17-03-2026 19:40:49 POST /api/VA/Usersignon 
+{
+    "Username": "demouser.sg",
+    "password":"Demosg@001",
+    "Lang":"English"
+}
+17-03-2026 19:40:54 POST /api/VA/Usersignon 
+{
+    "Username": "demouser.sg",
+    "password":"Demosg@001",
+    "Lang":"English"
+}
+17-03-2026 21:16:39 GET /swagger/index.html 
+
+17-03-2026 21:16:39 GET /swagger/v1/swagger.json 
+
+17-03-2026 21:16:53 GET /WeatherForecast 
+
+17-03-2026 21:17:57 GET /WeatherForecast 
+
+17-03-2026 21:19:04 GET /swagger/index.html 
+
+17-03-2026 21:19:05 GET /swagger/v1/swagger.json 
+
+17-03-2026 21:19:36 GET /swagger/index.html 
+
+17-03-2026 21:19:36 GET /swagger/v1/swagger.json 
+
+17-03-2026 21:20:42 GET /WeatherForecast 
+
+17-03-2026 21:24:46 GET /swagger/index.html 
+
+17-03-2026 21:24:46 GET /swagger/v1/swagger.json 
+
+17-03-2026 21:25:06 POST /api/VA/ViewDashboard 
+{
+  "userCountryId": 0,
+  "createdName": 0,
+  "enqUId": "string",
+  "projectNo": "string",
+  "startDate": "string",
+  "endDate": "string",
+  "statusId": "string",
+  "role": "string",
+  "jobposition": "string",
+  "client": "string",
+  "username": "string"
+}
+18-03-2026 12:33:54 GET /swagger/index.html 
+
+18-03-2026 12:33:54 GET /swagger/v1/swagger.json 
+
+18-03-2026 12:34:32 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+18-03-2026 12:43:51 GET /swagger/index.html 
+
+18-03-2026 12:43:52 GET /swagger/v1/swagger.json 
+
+18-03-2026 12:43:57 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+18-03-2026 12:46:29 GET /swagger/index.html 
+
+18-03-2026 12:46:29 GET /swagger/v1/swagger.json 
+
+18-03-2026 12:46:32 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+18-03-2026 12:47:08 GET /swagger/index.html 
+
+18-03-2026 12:47:08 GET /swagger/v1/swagger.json 
+
+18-03-2026 12:49:46 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+18-03-2026 12:55:11 GET /swagger/index.html 
+
+18-03-2026 12:55:11 GET /swagger/v1/swagger.json 
+
+18-03-2026 12:57:21 GET /swagger/index.html 
+
+18-03-2026 12:57:21 GET /swagger/v1/swagger.json 
+
+18-03-2026 12:57:56 GET /swagger/index.html 
+
+18-03-2026 12:57:56 GET /swagger/v1/swagger.json 
+
+18-03-2026 12:58:13 GET /swagger/index.html 
+
+18-03-2026 12:58:14 GET /swagger/v1/swagger.json 
+
+18-03-2026 13:09:33 GET /swagger/index.html 
+
+18-03-2026 13:09:33 GET /swagger/v1/swagger.json 
+
+18-03-2026 13:10:46 GET /swagger/index.html 
+
+18-03-2026 13:10:47 GET /swagger/v1/swagger.json 
+
+18-03-2026 13:11:11 POST /api/VA/MasterDropdowns 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+18-03-2026 13:11:23 GET /api/VA/MasterDropdowns 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+18-03-2026 13:20:50 GET /swagger/index.html 
+
+18-03-2026 13:20:50 GET /swagger/v1/swagger.json 
+
+18-03-2026 13:20:56 GET /api/VA/MasterDropdowns 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+20-03-2026 12:56:16 GET /swagger/index.html 
+
+20-03-2026 12:56:17 GET /swagger/v1/swagger.json 
+
+20-03-2026 12:56:26 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+20-03-2026 12:58:13 GET /swagger/index.html 
+
+20-03-2026 12:58:14 GET /swagger/v1/swagger.json 
+
+20-03-2026 13:13:32 GET /swagger/index.html 
+
+20-03-2026 13:13:32 GET /swagger/v1/swagger.json 
+
+20-03-2026 13:13:45 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+20-03-2026 13:14:27 GET /swagger/index.html 
+
+20-03-2026 13:14:27 GET /swagger/v1/swagger.json 
+
+20-03-2026 13:14:33 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+20-03-2026 13:15:06 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+20-03-2026 13:15:43 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+20-03-2026 13:24:50 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+20-03-2026 13:25:12 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+20-03-2026 13:26:49 GET /swagger/index.html 
+
+20-03-2026 13:26:49 GET /swagger/v1/swagger.json 
+
+20-03-2026 13:27:05 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+24-03-2026 16:37:13 GET /swagger/index.html 
+
+24-03-2026 16:37:14 GET /swagger/v1/swagger.json 
+
+24-03-2026 16:48:11 GET /swagger/index.html 
+
+24-03-2026 16:48:11 GET /swagger/v1/swagger.json 
+
+24-03-2026 16:48:26 GET /swagger/index.html 
+
+24-03-2026 16:48:26 GET /swagger/v1/swagger.json 
+
+24-03-2026 16:48:30 GET /swagger/index.html 
+
+24-03-2026 16:48:30 GET /swagger/v1/swagger.json 
+
+24-03-2026 17:14:49 POST /api/VA/EnqClientinfoDropdowns 
+{
+    "Divisionid": 1
+}
+24-03-2026 17:16:53 POST /api/VA/EnqClientinfoDropdowns 
+{
+    "Divisionid": 1
+}
+25-03-2026 01:19:34 GET /swagger/index.html 
+
+25-03-2026 01:19:35 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:24:02 GET /swagger/index.html 
+
+25-03-2026 01:24:02 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:24:31 POST /api/VA/EnqClientinfoDropdowns 
+
+25-03-2026 01:25:22 POST /api/VA/AddnewBrands 
+{
+    "Divisionid": 10009,
+    "Brand":""
+}
+25-03-2026 01:25:36 POST /api/VA/AddnewBrands 
+{
+    "Divisionid": ,
+    "Brand":""
+}
+25-03-2026 01:26:05 POST /api/VA/AddnewBrands 
+{
+    "Divisionid": 1,
+    "Brand":""
+}
+25-03-2026 01:27:27 POST /api/VA/AddnewBrands 
+{
+    "Divisionid": 1,
+    "Brand":""
+}
+25-03-2026 01:29:06 GET /swagger/index.html 
+
+25-03-2026 01:29:06 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:30:30 GET /swagger/index.html 
+
+25-03-2026 01:30:30 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:32:31 GET /swagger/index.html 
+
+25-03-2026 01:32:31 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:35:45 GET /swagger/index.html 
+
+25-03-2026 01:35:45 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:36:45 GET /swagger/index.html 
+
+25-03-2026 01:36:45 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:37:36 GET /swagger/index.html 
+
+25-03-2026 01:37:36 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:37:52 GET /swagger/index.html 
+
+25-03-2026 01:37:52 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:40:44 GET /swagger/index.html 
+
+25-03-2026 01:40:45 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:41:12 GET /swagger/index.html 
+
+25-03-2026 01:41:12 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:41:40 GET /swagger/index.html 
+
+25-03-2026 01:41:40 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:42:10 POST /api/VA/AddnewBrands 
+{
+    "Divisionid": 1,
+    "Brand":""
+}
+25-03-2026 01:44:54 GET /swagger/index.html 
+
+25-03-2026 01:44:54 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:44:59 POST /api/VA/AddnewBrands 
+{
+    "Divisionid": 1,
+    "Brand":""
+}
+25-03-2026 01:45:24 POST /api/VA/AddnewBrands 
+{
+    "Divisionid": 1,
+    "Brand":""
+}
+25-03-2026 01:45:39 POST /api/VA/AddnewBrands 
+{
+    "Divisionid": 1,
+    "Brand":"Test Brands"
+}
+25-03-2026 01:49:23 GET /swagger/index.html 
+
+25-03-2026 01:49:23 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:49:53 GET /swagger/index.html 
+
+25-03-2026 01:49:53 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:52:13 GET /swagger/index.html 
+
+25-03-2026 01:52:14 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:53:01 GET /swagger/index.html 
+
+25-03-2026 01:53:01 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:54:09 GET /swagger/index.html 
+
+25-03-2026 01:54:09 GET /swagger/v1/swagger.json 
+
+25-03-2026 01:54:11 POST /api/VA/AddnewBrands 
+{
+    "Divisionid": 1,
+    "Brand":"Test Brands"
+}
+25-03-2026 01:54:33 POST /api/VA/AddnewBrands 
+{
+    "Divisionid": 1,
+    "Brand":"Test Brands"
+}
+25-03-2026 01:57:14 POST /api/VA/AddnewClient 
+{
+  "firstName": "Sai",
+  "lastName": "Ram",
+  "logonid": "sairam123",
+  "jobtitle": "Marketing & Sales",
+  "email": "sairam@example.com",
+  "phone": "9876543210",
+  "jobposition": "Marketing & Sales",
+  "receivenotification": false,
+  "divisionid": 1
+}
+25-03-2026 01:59:42 POST /api/VA/AddnewClient 
+{
+  "FirstName": "Sai",
+  "LastName": "Ram",
+  "Logonid": "sairam123",
+  "Jobtitle": "Marketing & Sales",
+  "Email": "sairam@example.com",
+  "Phone": "9876543210",
+  "Jobposition": "Marketing & Sales",
+  "Receivenotification": false,
+  "Divisionid": 1
+}
+25-03-2026 02:00:06 POST /api/VA/AddnewClient 
+{
+  "FirstName": "Sai",
+  "LastName": "Ram",
+  "Logonid": "sairam123",
+  "Jobtitle": "Marketing & Sales",
+  "Email": "sairam@example.com",
+  "Phone": "9876543210",
+  "Jobposition": "Marketing & Sales",
+  "Receivenotification": false,
+  "Divisionid": 1
+}
+25-03-2026 02:01:28 GET /swagger/index.html 
+
+25-03-2026 02:01:29 GET /swagger/v1/swagger.json 
+
+25-03-2026 02:01:37 POST /api/VA/AddnewClient 
+{
+  "FirstName": "Sai",
+  "LastName": "Ram",
+  "Logonid": "sairam123",
+  "Jobtitle": "Marketing & Sales",
+  "Email": "sairam@example.com",
+  "Phone": "9876543210",
+  "Jobposition": "Marketing & Sales",
+  "Receivenotification": false,
+  "Divisionid": 1
+}
+25-03-2026 02:04:11 GET /swagger/index.html 
+
+25-03-2026 02:04:12 GET /swagger/v1/swagger.json 
+
+25-03-2026 02:04:16 POST /api/VA/AddnewClient 
+{
+  "FirstName": "Sai",
+  "LastName": "Ram",
+  "Logonid": "sairam123",
+  "Jobtitle": "Marketing & Sales",
+  "Email": "sairam@example.com",
+  "Phone": "9876543210",
+  "JobPosition": "Marketing & Sales",
+  "Receivenotification": false,
+  "Divisionid": 1
+}
+25-03-2026 02:04:42 POST /api/VA/AddnewClient 
+{
+  "FirstName": "Sai",
+  "LastName": "Ram",
+  "Logonid": "sairam123",
+  "Jobtitle": "Marketing & Sales",
+  "Email": "sairam@example.com",
+  "Phone": "9876543210",
+  "JobPosition": "Marketing & Sales",
+  "Receivenotification": false,
+  "Divisionid": 1
+}
+25-03-2026 02:05:00 POST /api/VA/AddnewClient 
+{
+  "FirstName": "Sai",
+  "LastName": "Ram",
+  "Logonid": "sairam123",
+  "Jobtitle": "Marketing & Sales",
+  "Email": "sairam@example.com",
+  "Phone": "9876543210",
+  "JobPosition": "Marketing & Sales",
+  "Receivenotification": false,
+  "Divisionid": 1
+}
+25-03-2026 02:05:12 GET /swagger/index.html 
+
+25-03-2026 02:05:12 GET /swagger/v1/swagger.json 
+
+25-03-2026 02:05:16 POST /api/VA/AddnewClient 
+{
+  "FirstName": "Sai",
+  "LastName": "Ram",
+  "Logonid": "sairam123",
+  "Jobtitle": "Marketing & Sales",
+  "Email": "sairam@example.com",
+  "Phone": "9876543210",
+  "JobPosition": "Marketing & Sales",
+  "Receivenotification": false,
+  "Divisionid": 1
+}
+25-03-2026 02:06:29 POST /api/VA/AddnewClient 
+{
+  "FirstName": "Sai",
+  "LastName": "Ram",
+  "Logonid": "sairam123",
+  "Jobtitle": "Marketing & Sales",
+  "Email": "sairam@example.com",
+  "Phone": "9876543210",
+  "JobPosition": "Marketing & Sales",
+  "Receivenotification": false,
+  "Divisionid": 1
+}
+25-03-2026 02:35:26 GET /swagger/index.html 
+
+25-03-2026 02:35:26 GET /swagger/v1/swagger.json 
+
+25-03-2026 02:35:36 POST /api/VA/EnqClientinfo 
+{
+  "divisionid": 1,
+  "clientContactId": 101,
+  "createdBy": 1,
+  "modifiedBy": 1,
+  "brand": "Nestle",
+  "deliveryCountryId": 91,
+  "pMGEntity": 5,
+  "aboveorAtmarket": "Above Market"
+}
+25-03-2026 02:46:06 POST /api/VA/EnqClientinfo 
+{
+  "divisionid": 1,
+  "clientContactId": 101,
+  "createdBy": 1,
+  "modifiedBy": 1,
+  "brand": "Nestle",
+  "deliveryCountryId": 91,
+  "pMGEntity": 5,
+  "aboveorAtmarket": "Above Market"
+}
+25-03-2026 02:49:54 POST /api/VA/EnqClientinfo 
+{
+  "divisionid": 1,
+  "clientContactId": 101,
+  "createdBy": 3,
+  "modifiedBy": 3,
+  "brand": "Nestle",
+  "deliveryCountryId": 12,
+  "pMGEntity": 12,
+  "aboveorAtmarket": "Above Market"
+}
+25-03-2026 02:51:48 GET /swagger/index.html 
+
+25-03-2026 02:51:50 GET /swagger/v1/swagger.json 
+
+25-03-2026 02:57:05 GET /swagger/index.html 
+
+25-03-2026 02:57:06 GET /swagger/v1/swagger.json 
+
+25-03-2026 02:57:44 POST /api/VA/EnqClientinfo 
+{
+  "divisionid": 4,
+  "clientContactId": 72,
+  "createdBy": 3,
+  "modifiedBy": 3,
+  "brand": "Everyday",
+  "deliveryCountryId": 12,
+  "pMGEntity": 12,
+  "aboveorAtmarket": "Above Market"
+}
+25-03-2026 02:58:04 POST /api/VA/EnqClientinfo 
+{
+  "divisionid": 4,
+  "clientContactId": 72,
+  "createdBy": 3,
+  "modifiedBy": 3,
+  "brand": "Everyday",
+  "deliveryCountryId": 12,
+  "pMGEntity": 12,
+  "aboveorAtmarket": "Above Market"
+}
+25-03-2026 02:58:51 GET /swagger/index.html 
+
+25-03-2026 02:58:51 GET /swagger/v1/swagger.json 
+
+25-03-2026 02:58:54 POST /api/VA/EnqClientinfo 
+{
+  "divisionid": 4,
+  "clientContactId": 72,
+  "createdBy": 3,
+  "modifiedBy": 3,
+  "brand": "Everyday",
+  "deliveryCountryId": 12,
+  "pMGEntity": 12,
+  "aboveorAtmarket": "Above Market"
+}
+25-03-2026 03:05:45 GET /swagger/index.html 
+
+25-03-2026 03:05:46 GET /swagger/v1/swagger.json 
+
+25-03-2026 03:05:56 GET /swagger/v1/swagger.json 
+
+25-03-2026 03:05:56 GET /favicon.ico 
+
+25-03-2026 03:23:45 GET /swagger/index.html 
+
+25-03-2026 03:23:46 GET /swagger/v1/swagger.json 
+
+25-03-2026 03:24:02 POST /api/VA/CheckforUsername 
+{
+
+    "Username":"demouser.sg"
+}
+
+
+25-03-2026 11:56:49 GET /swagger/index.html 
+
+25-03-2026 11:56:49 GET /swagger/v1/swagger.json 
+
+25-03-2026 11:57:09 POST /api/VA/EnqClientinfoDropdowns 
+{
+    "Divisionid":12
+}
+25-03-2026 11:59:37 GET /swagger/index.html 
+
+25-03-2026 11:59:37 GET /swagger/v1/swagger.json 
+
+25-03-2026 11:59:49 GET /swagger/index.html 
+
+25-03-2026 11:59:49 GET /swagger/v1/swagger.json 
+
+25-03-2026 12:00:12 GET /swagger/index.html 
+
+25-03-2026 12:00:12 GET /swagger/v1/swagger.json 
+
+25-03-2026 12:00:32 GET /swagger/index.html 
+
+25-03-2026 12:00:32 GET /swagger/v1/swagger.json 
+
+25-03-2026 12:00:45 POST /api/VA/EnqClientinfoDropdowns 
+{
+    "Divisionid":12
+}
+25-03-2026 12:01:51 POST /api/VA/EnqClientinfoDropdowns 
+{
+    "Divisionid":12
+}
+25-03-2026 12:02:23 POST /api/VA/EnqClientinfoDropdowns 
+{
+    "Divisionid":12
+}
+25-03-2026 12:03:08 POST /api/VA/EnqClientinfoDropdowns 
+{
+    "Divisionid":1
+}
+25-03-2026 20:10:29 GET /swagger/index.html 
+
+25-03-2026 20:10:29 GET /swagger/v1/swagger.json 
+
+25-03-2026 20:11:02 POST /api/VA/EnqClientinfo 
+{
+  "divisionid": 4,
+  "clientContactId": 72,
+  "createdBy": 3, 
+  "modifiedBy": 3,
+  "brand": "Everyday",
+  "deliveryCountryId": 12,
+  "pMGEntity": 12,
+  "aboveorAtmarket": "Above Market"
+}
+25-03-2026 20:11:23 POST /api/VA/EnqClientinfo 
+{
+  "divisionid": 4,
+  "clientContactId": 72,
+  "createdBy": 3, 
+  "modifiedBy": 3,
+  "brand": "Everyday",
+  "deliveryCountryId": 12,
+  "pMGEntity": 12,
+  "aboveorAtmarket": "Above Market",
+  "Action":"Insert"
+}
+25-03-2026 20:12:13 POST /api/VA/EnqClientinfo 
+{
+  "divisionid": 4,
+  "clientContactId": 72,
+  "createdBy": 3, 
+  "modifiedBy": 3,
+  "brand": "Brands",
+  "deliveryCountryId": 12,
+  "pMGEntity": 12,
+  "aboveorAtmarket": "Above Market",
+  "Action":"Update",
+  "Enqid":"2903"
+}
+25-03-2026 20:12:29 POST /api/VA/EnqClientinfo 
+{
+  "divisionid": 4,
+  "clientContactId": 72,
+  "createdBy": 3, 
+  "modifiedBy": 3,
+  "brand": "Everyday",
+  "deliveryCountryId": 12,
+  "pMGEntity": 12,
+  "aboveorAtmarket": "Above Market",
+  "Action":"Update",
+  "Enqid":"2903"
+}
+27-03-2026 12:59:57 GET /swagger/index.html 
+
+27-03-2026 12:59:57 GET /swagger/v1/swagger.json 
+
+27-03-2026 13:01:03 POST /api/VA/MasterDropdowns 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Administration",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+27-03-2026 13:01:46 POST /api/VA/MasterDropdowns 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "client",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+27-03-2026 13:02:56 GET /swagger/index.html 
+
+27-03-2026 13:02:57 GET /swagger/v1/swagger.json 
+
+27-03-2026 13:04:37 GET /swagger/index.html 
+
+27-03-2026 13:04:37 GET /swagger/v1/swagger.json 
+
+27-03-2026 13:04:58 GET /swagger/index.html 
+
+27-03-2026 13:04:58 GET /swagger/v1/swagger.json 
+
+27-03-2026 13:06:10 POST /api/VA/MasterDropdowns 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "client",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+27-03-2026 13:06:50 GET /swagger/index.html 
+
+27-03-2026 13:06:50 GET /swagger/v1/swagger.json 
+
+27-03-2026 13:12:21 GET /swagger/index.html 
+
+27-03-2026 13:12:21 GET /swagger/v1/swagger.json 
+
+27-03-2026 13:21:25 GET /swagger/index.html 
+
+27-03-2026 13:21:25 GET /swagger/v1/swagger.json 
+
+27-03-2026 13:24:16 GET /swagger/index.html 
+
+27-03-2026 13:24:16 GET /swagger/v1/swagger.json 
+
+27-03-2026 13:25:22 POST /api/VA/GetSlatemplate 
+{
+    "slaid": 12
+}
+27-03-2026 13:26:22 GET /swagger/index.html 
+
+27-03-2026 13:26:22 GET /swagger/v1/swagger.json 
+
+27-03-2026 13:26:26 POST /api/VA/GetSlatemplate 
+{
+    "slaid": 12
+}
+27-03-2026 13:27:05 POST /api/VA/GetSlatemplate 
+{
+    "SlaId": 12
+}
+27-03-2026 13:33:14 GET /swagger/index.html 
+
+27-03-2026 13:33:15 GET /swagger/v1/swagger.json 
+
+27-03-2026 13:33:21 POST /api/VA/GetSlatemplate 
+{
+    "SlaId": 12
+}
+27-03-2026 13:34:04 POST /api/VA/GetSlatemplate 
+{
+    "SlaId": 22
+}
+27-03-2026 17:58:06 GET /swagger/index.html 
+
+27-03-2026 17:58:06 GET /swagger/v1/swagger.json 
+
+27-03-2026 17:58:54 POST /api/VA/EnqProjectinfo 
+{
+  "enqId": 2906,
+  "projectNo": "PRJ001",
+  "projectDesc": "Sample Project Description",
+  "estdate": "27/03/2026", 
+  "briefdate": "27/03/2026",
+  "modifiedBy": 3,
+  "quoteBy": 1,
+  "slaId": 22,
+  "managementfeetypeId": 2,
+  "hybridModel": "Yes",
+  "quotestartdate": "2026-03-29",
+  "quoteenddate": "2026-03-30",
+  "proofstartdate": "2026-03-31",
+  "proofenddate": "2026-04-01",
+  "productionstartdate": "2026-04-02",
+  "productionenddate": "2026-04-03",
+  "filecopiesstartdate": "2026-04-04",
+  "filecopiesenddate": "2026-04-05",
+  "invoicestartdate": "2026-04-06",
+  "invoiceenddate": "2026-04-07",
+  "modifiedQuote": 3,
+  "modifiedProof": 5,
+  "modifiedProduction": 7,
+  "modifiedFilecopies": 9,
+  "modifiedInvoice": 11
+}
+30-03-2026 11:45:43 GET /swagger/index.html 
+
+30-03-2026 11:45:44 GET /swagger/v1/swagger.json 
+
+30-03-2026 11:48:10 POST /api/VA/GetSlatemplate 
+{
+    "SlaId": 22
+}
+31-03-2026 13:15:05 GET /swagger/index.html 
+
+31-03-2026 13:15:06 GET /swagger/v1/swagger.json 
+
+31-03-2026 13:16:24 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2912"
+}
+31-03-2026 13:18:43 GET /swagger/index.html 
+
+31-03-2026 13:18:44 GET /swagger/v1/swagger.json 
+
+31-03-2026 13:19:05 GET /swagger/index.html 
+
+31-03-2026 13:19:05 GET /swagger/v1/swagger.json 
+
+31-03-2026 13:19:09 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2912"
+}
+31-03-2026 13:21:55 GET /swagger/index.html 
+
+31-03-2026 13:21:55 GET /swagger/v1/swagger.json 
+
+31-03-2026 13:22:29 GET /swagger/index.html 
+
+31-03-2026 13:22:29 GET /swagger/v1/swagger.json 
+
+31-03-2026 13:23:08 GET /swagger/index.html 
+
+31-03-2026 13:23:08 GET /swagger/v1/swagger.json 
+
+31-03-2026 13:23:30 GET /swagger/index.html 
+
+31-03-2026 13:23:30 GET /swagger/v1/swagger.json 
+
+31-03-2026 13:23:50 GET /swagger/index.html 
+
+31-03-2026 13:23:50 GET /swagger/v1/swagger.json 
+
+31-03-2026 13:23:57 GET /swagger/index.html 
+
+31-03-2026 13:23:57 GET /swagger/v1/swagger.json 
+
+31-03-2026 13:24:01 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2912"
+}
+31-03-2026 13:26:55 GET /swagger/index.html 
+
+31-03-2026 13:26:56 GET /swagger/v1/swagger.json 
+
+31-03-2026 13:27:00 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2912"
+}
+02-04-2026 17:10:41 GET /swagger/index.html 
+
+02-04-2026 17:10:42 GET /swagger/v1/swagger.json 
+
+02-04-2026 17:10:44 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+}
+02-04-2026 17:11:27 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print",
+    "subitemid":100
+}
+02-04-2026 17:11:47 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print",
+    "subitemid":100
+}
+02-04-2026 17:13:47 GET /swagger/index.html 
+
+02-04-2026 17:13:47 GET /swagger/v1/swagger.json 
+
+02-04-2026 17:13:50 GET /swagger/index.html 
+
+02-04-2026 17:13:50 GET /swagger/v1/swagger.json 
+
+02-04-2026 17:13:54 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print",
+    "subitemid":100
+}
+02-04-2026 17:14:23 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print",
+    "subitemid":98
+}
+02-04-2026 17:23:02 GET /swagger/index.html 
+
+02-04-2026 17:23:02 GET /swagger/v1/swagger.json 
+
+02-04-2026 17:23:05 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print",
+    "subitemid":98
+}
+02-04-2026 17:24:55 GET /swagger/index.html 
+
+02-04-2026 17:24:55 GET /swagger/v1/swagger.json 
+
+02-04-2026 17:24:59 GET /swagger/index.html 
+
+02-04-2026 17:24:59 GET /swagger/v1/swagger.json 
+
+02-04-2026 17:25:02 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print",
+    "subitemid":98
+}
+02-04-2026 17:25:47 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print",
+    "subitemid":98 
+}
+02-04-2026 17:26:04 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    
+}
+10-04-2026 12:36:49 GET /swagger/index.html 
+
+10-04-2026 12:36:50 GET /swagger/v1/swagger.json 
+
+10-04-2026 12:39:25 GET /swagger/index.html 
+
+10-04-2026 12:39:26 GET /swagger/v1/swagger.json 
+
+10-04-2026 12:43:33 GET /swagger/index.html 
+
+10-04-2026 12:43:33 GET /swagger/v1/swagger.json 
+
+10-04-2026 12:45:01 POST /api/Master/EnqLineItemDetails 
+{
+  "EnqId": 1001,
+  "ItemNumber": 1,
+  "ItemName": "Display Stand",
+  "ItemDescription": "Promotional display stand for retail",
+  "ProductCategoryId": 10,
+  "ProductionMethod": "Offset Printing",
+  "QuoteType": "Quantity",
+  "QuoteQtyOrSize": 500,
+  "FlatSizeDandH": "LxW",
+  "FlatSizeLength": 120.5,
+  "FlatSizeWidth": 60.0,
+  "TotalFlatSize": 7230.0,
+  "TotalQtySize": 500,
+  "QuoteFileList": "file1.pdf,file2.ai",
+  "ModifiedBy": "12",
+  "ItemSellPrice": 150.75,
+  "BaseLinePrice": 130.50,
+  "Status": true,
+  "QuoteTypeindex": 1,
+  "SubCategory": "POSM",
+  "SubcatID": 5,
+  "Recycled": true,
+  "ContainPlastic": true,
+  "RecycledPlastic": false,
+  "SustainableMaterial": true,
+  "LocalRateCard": "Standard",
+  "PromoOSSOrderWindows": "Yes",
+  "SpecNote": "High quality finish",
+  "SNote": "Urgent requirement",
+  "Version": 1,
+  "printedorproducedonFSCmeterial": true,
+  "SustainableOptionthatwasrejected": "None",
+  "WasthisitemdesignedtoreducedPlastic": true,
+  "Isthisitemdesignedtobereused": true,
+  "HarmonizedOrder": "HO123",
+  "CatalogueUsage": "Retail",
+  "DigitalInnovation": "QR Code",
+  "Innovation": "Eco Design",
+  "Sourcinglocation": "India",
+  "Typeofitem": "Display",
+  "Eauction": false,
+  "SMETAorEquivalentDocuments": "smeta.pdf",
+  "GMPorEquivalentDocuments": "gmp.pdf",
+  "usingFSCMaterial": true,
+  "OEKOTEXCertification": false,
+  "designedforrecycling": true,
+  "plasticapartfromPLA": false,
+  "Plastictonnageweight": 2.5,
+  "proposedwithsustainabilityoption": true,
+  "containrecycledmaterial": true,
+  "containrecycledplastic": false,
+  "Weightageofrecycledmaterial": 60,
+  "RateCard": "RC2026",
+  "VolumeAggregation": "High",
+  "CATABC": "A",
+  "OWlink": "http://example.com/item",
+  "TOJABC": "B",
+  "Competbidmandate": true,
+  "Competbidcomplaint": false,
+  "Competbidexception": false,
+  "Simplex": true,
+  "TCOapproval": true,
+  "TCOapproved": true,
+  "Exceptionreason": "",
+  "Regionalname": "APAC",
+  "savingstype": "Cost Reduction",
+  "savingsreason": "Bulk order discount",
+  "CompetetiveWinningSupplier": "4543",
+  "Noofmaterials": 3
+}
+10-04-2026 12:45:19 POST /api/Master/EnqLineItemDetails 
+{
+  "EnqId": 1001,
+  "ItemNumber": 1,
+  "ItemName": "Display Stand",
+  "ItemDescription": "Promotional display stand for retail",
+  "ProductCategoryId": 10,
+  "ProductionMethod": "Offset Printing",
+  "QuoteType": "Quantity",
+  "QuoteQtyOrSize": 500,
+  "FlatSizeDandH": "LxW",
+  "FlatSizeLength": 120.5,
+  "FlatSizeWidth": 60.0,
+  "TotalFlatSize": 7230.0,
+  "TotalQtySize": 500,
+  "QuoteFileList": "file1.pdf,file2.ai",
+  "ModifiedBy": "12",
+  "ItemSellPrice": 150.75,
+  "BaseLinePrice": 130.50,
+  "Status": true,
+  "QuoteTypeindex": 1,
+  "SubCategory": "POSM",
+  "SubcatID": 5,
+  "Recycled": true,
+  "ContainPlastic": true,
+  "RecycledPlastic": false,
+  "SustainableMaterial": true,
+  "LocalRateCard": "Standard",
+  "PromoOSSOrderWindows": "Yes",
+  "SpecNote": "High quality finish",
+  "SNote": "Urgent requirement",
+  "Version": 1,
+  "printedorproducedonFSCmeterial": true,
+  "SustainableOptionthatwasrejected": "None",
+  "WasthisitemdesignedtoreducedPlastic": true,
+  "Isthisitemdesignedtobereused": true,
+  "HarmonizedOrder": "HO123",
+  "CatalogueUsage": "Retail",
+  "DigitalInnovation": "QR Code",
+  "Innovation": "Eco Design",
+  "Sourcinglocation": "India",
+  "Typeofitem": "Display",
+  "Eauction": false,
+  "SMETAorEquivalentDocuments": "smeta.pdf",
+  "GMPorEquivalentDocuments": "gmp.pdf",
+  "usingFSCMaterial": true,
+  "OEKOTEXCertification": false,
+  "designedforrecycling": true,
+  "plasticapartfromPLA": false,
+  "Plastictonnageweight": 2.5,
+  "proposedwithsustainabilityoption": true,
+  "containrecycledmaterial": true,
+  "containrecycledplastic": false,
+  "Weightageofrecycledmaterial": 60,
+  "RateCard": "RC2026",
+  "VolumeAggregation": "High",
+  "CATABC": "A",
+  "OWlink": "http://example.com/item",
+  "TOJABC": "B",
+  "Competbidmandate": true,
+  "Competbidcomplaint": false,
+  "Competbidexception": false,
+  "Simplex": true,
+  "TCOapproval": true,
+  "TCOapproved": true,
+  "Exceptionreason": "",
+  "Regionalname": "APAC",
+  "savingstype": "Cost Reduction",
+  "savingsreason": "Bulk order discount",
+  "CompetetiveWinningSupplier": "4543",
+  "Noofmaterials": 3
+}
+10-04-2026 12:45:35 POST /api/Master/EnqLineItemDetails 
+{
+  "EnqId": 1001,
+  "ItemNumber": 1,
+  "ItemName": "Display Stand",
+  "ItemDescription": "Promotional display stand for retail",
+  "ProductCategoryId": 10,
+  "ProductionMethod": "Offset Printing",
+  "QuoteType": "Quantity",
+  "QuoteQtyOrSize": 500,
+  "FlatSizeDandH": "LxW",
+  "FlatSizeLength": 120.5,
+  "FlatSizeWidth": 60.0,
+  "TotalFlatSize": 7230.0,
+  "TotalQtySize": 500,
+  "QuoteFileList": "file1.pdf,file2.ai",
+  "ModifiedBy": "12",
+  "ItemSellPrice": 150.75,
+  "BaseLinePrice": 130.50,
+  "Status": true,
+  "QuoteTypeindex": 1,
+  "SubCategory": "POSM",
+  "SubcatID": 5,
+  "Recycled": true,
+  "ContainPlastic": true,
+  "RecycledPlastic": false,
+  "SustainableMaterial": true,
+  "LocalRateCard": "Standard",
+  "PromoOSSOrderWindows": "Yes",
+  "SpecNote": "High quality finish",
+  "SNote": "Urgent requirement",
+  "Version": 1,
+  "printedorproducedonFSCmeterial": true,
+  "SustainableOptionthatwasrejected": "None",
+  "WasthisitemdesignedtoreducedPlastic": true,
+  "Isthisitemdesignedtobereused": true,
+  "HarmonizedOrder": "HO123",
+  "CatalogueUsage": "Retail",
+  "DigitalInnovation": "QR Code",
+  "Innovation": "Eco Design",
+  "Sourcinglocation": "India",
+  "Typeofitem": "Display",
+  "Eauction": false,
+  "SMETAorEquivalentDocuments": "smeta.pdf",
+  "GMPorEquivalentDocuments": "gmp.pdf",
+  "usingFSCMaterial": true,
+  "OEKOTEXCertification": false,
+  "designedforrecycling": true,
+  "plasticapartfromPLA": false,
+  "Plastictonnageweight": 2.5,
+  "proposedwithsustainabilityoption": true,
+  "containrecycledmaterial": true,
+  "containrecycledplastic": false,
+  "Weightageofrecycledmaterial": 60,
+  "RateCard": "RC2026",
+  "VolumeAggregation": "High",
+  "CATABC": "A",
+  "OWlink": "http://example.com/item",
+  "TOJABC": "B",
+  "Competbidmandate": true,
+  "Competbidcomplaint": false,
+  "Competbidexception": false,
+  "Simplex": true,
+  "TCOapproval": true,
+  "TCOapproved": true,
+  "Exceptionreason": "",
+  "Regionalname": "APAC",
+  "savingstype": "Cost Reduction",
+  "savingsreason": "Bulk order discount",
+  "CompetetiveWinningSupplier": "4543",
+  "Noofmaterials": 3
+}
+10-04-2026 12:45:56 POST /api/Master/EnqLineItemDetails 
+{
+  "EnqId": 1001,
+  "ItemNumber": 1,
+  "ItemName": "Display Stand",
+  "ItemDescription": "Promotional display stand for retail",
+  "ProductCategoryId": 10,
+  "ProductionMethod": "Offset Printing",
+  "QuoteType": "Quantity",
+  "QuoteQtyOrSize": 500,
+  "FlatSizeDandH": "LxW",
+  "FlatSizeLength": 120.5,
+  "FlatSizeWidth": 60.0,
+  "TotalFlatSize": 7230.0,
+  "TotalQtySize": 500,
+  "QuoteFileList": "file1.pdf,file2.ai",
+  "ModifiedBy": "12",
+  "ItemSellPrice": 150.75,
+  "BaseLinePrice": 130.50,
+  "Status": true,
+  "QuoteTypeindex": 1,
+  "SubCategory": "POSM",
+  "SubcatID": 5,
+  "Recycled": true,
+  "ContainPlastic": true,
+  "RecycledPlastic": false,
+  "SustainableMaterial": true,
+  "LocalRateCard": "Standard",
+  "PromoOSSOrderWindows": "Yes",
+  "SpecNote": "High quality finish",
+  "SNote": "Urgent requirement",
+  "Version": 1,
+  "printedorproducedonFSCmeterial": true,
+  "SustainableOptionthatwasrejected": "None",
+  "WasthisitemdesignedtoreducedPlastic": true,
+  "Isthisitemdesignedtobereused": true,
+  "HarmonizedOrder": "HO123",
+  "CatalogueUsage": "Retail",
+  "DigitalInnovation": "QR Code",
+  "Innovation": "Eco Design",
+  "Sourcinglocation": "India",
+  "Typeofitem": "Display",
+  "Eauction": false,
+  "SMETAorEquivalentDocuments": "smeta.pdf",
+  "GMPorEquivalentDocuments": "gmp.pdf",
+  "usingFSCMaterial": true,
+  "OEKOTEXCertification": false,
+  "designedforrecycling": true,
+  "plasticapartfromPLA": false,
+  "Plastictonnageweight": 2.5,
+  "proposedwithsustainabilityoption": true,
+  "containrecycledmaterial": true,
+  "containrecycledplastic": false,
+  "Weightageofrecycledmaterial": 60,
+  "RateCard": "RC2026",
+  "VolumeAggregation": "High",
+  "CATABC": "A",
+  "OWlink": "http://example.com/item",
+  "TOJABC": "B",
+  "Competbidmandate": true,
+  "Competbidcomplaint": false,
+  "Competbidexception": false,
+  "Simplex": true,
+  "TCOapproval": true,
+  "TCOapproved": true,
+  "Exceptionreason": "",
+  "Regionalname": "APAC",
+  "savingstype": "Cost Reduction",
+  "savingsreason": "Bulk order discount",
+  "CompetetiveWinningSupplier": "4543",
+  "Noofmaterials": 3
+}
+10-04-2026 12:46:34 POST /api/Master/EnqLineItemDetails 
+{
+  "EnqId": 1001,
+  "ItemNumber": 1,
+  "ItemName": "Display Stand",
+  "ItemDescription": "Promotional display stand for retail",
+  "ProductCategoryId": 10,
+  "ProductionMethod": "Offset Printing",
+  "QuoteType": "Quantity",
+  "QuoteQtyOrSize": 500,
+  "FlatSizeDandH": "LxW",
+  "FlatSizeLength": 120.5,
+  "FlatSizeWidth": 60.0,
+  "TotalFlatSize": 7230.0,
+  "TotalQtySize": 500,
+  "QuoteFileList": "file1.pdf,file2.ai",
+  "ModifiedBy": "12",
+  "ItemSellPrice": 150.75,
+  "BaseLinePrice": 130.50,
+  "Status": true,
+  "QuoteTypeindex": 1,
+  "SubCategory": "POSM",
+  "SubcatID": 5,
+  "Recycled": true,
+  "ContainPlastic": true,
+  "RecycledPlastic": false,
+  "SustainableMaterial": true,
+  "LocalRateCard": "Standard",
+  "PromoOSSOrderWindows": "Yes",
+  "SpecNote": "High quality finish",
+  "SNote": "Urgent requirement",
+  "Version": 1,
+  "printedorproducedonFSCmeterial": true,
+  "SustainableOptionthatwasrejected": "None",
+  "WasthisitemdesignedtoreducedPlastic": true,
+  "Isthisitemdesignedtobereused": true,
+  "HarmonizedOrder": "HO123",
+  "CatalogueUsage": "Retail",
+  "DigitalInnovation": "QR Code",
+  "Innovation": "Eco Design",
+  "Sourcinglocation": "India",
+  "Typeofitem": "Display",
+  "Eauction": false,
+  "SMETAorEquivalentDocuments": "smeta.pdf",
+  "GMPorEquivalentDocuments": "gmp.pdf",
+  "usingFSCMaterial": true,
+  "OEKOTEXCertification": false,
+  "designedforrecycling": true,
+  "plasticapartfromPLA": false,
+  "Plastictonnageweight": 2.5,
+  "proposedwithsustainabilityoption": true,
+  "containrecycledmaterial": true,
+  "containrecycledplastic": false,
+  "Weightageofrecycledmaterial": 60,
+  "RateCard": "RC2026",
+  "VolumeAggregation": "High",
+  "CATABC": "A",
+  "OWlink": "http://example.com/item",
+  "TOJABC": "B",
+  "Competbidmandate": true,
+  "Competbidcomplaint": false,
+  "Competbidexception": false,
+  "Simplex": true,
+  "TCOapproval": true,
+  "TCOapproved": true,
+  "Exceptionreason": "",
+  "Regionalname": "APAC",
+  "savingstype": "Cost Reduction",
+  "savingsreason": "Bulk order discount",
+  "CompetetiveWinningSupplier": "4543",
+  "Noofmaterials": 3
+}
+10-04-2026 12:47:23 POST /api/Master/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    
+}
+10-04-2026 12:47:48 POST /api/VA/EnqLineItemsDropdowns 
+{
+  "username": "string",
+  "lang": "string",
+  "password": "string",
+  "typeOfJob": "Print",
+  "country": "string",
+  "divisionid": 0,
+  "enquiryid": 0,
+  "subitemid": 0
+}
+10-04-2026 12:48:07 POST /api/Master/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    
+}
+10-04-2026 12:48:30 POST /api/Master/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    
+}
+10-04-2026 13:02:37 GET /swagger/index.html 
+
+10-04-2026 13:02:37 GET /swagger/v1/swagger.json 
+
+10-04-2026 13:12:12 GET /swagger/index.html 
+
+10-04-2026 13:12:12 GET /swagger/v1/swagger.json 
+
+10-04-2026 13:12:20 POST /api/Master/EnqLineItemDetails 
+{
+    "EnqId": 1001,
+    "ItemNumber": 1,
+    "ItemName": "Display Stand",
+    "ItemDescription": "Promotional display stand for retail",
+    "ProductCategoryId": 10,
+    "ProductionMethod": "Offset Printing",
+    "QuoteType": "Quantity",
+    "QuoteQtyOrSize": "500",
+    "FlatSizeDandH": "LxW",
+    "FlatSizeLength": "120.5",
+    "FlatSizeWidth": "60.0",
+    "TotalFlatSize": "7230.0",
+    "TotalQtySize": "500",
+    "QuoteFileList": "file1.pdf,file2.ai",
+    "ModifiedBy": "12",
+    "ItemSellPrice": "150.75",
+    "BaseLinePrice": "130.50",
+    "QuoteTypeindex": 1,
+    "SubCategory": "POSM",
+    "SubcatID": 5,
+    "Recycled": "Yes",
+    "ContainPlastic": "Yes",
+    "RecycledPlastic": "Yes",
+    "SustainableMaterial": "Yes",
+    "LocalRateCard": "Yes",
+    "PromoOSSOrderWindows": "Yes",
+    "SpecNote": "High quality finish",
+    "SNote": "Urgent requirement",
+    "Version": 1,
+    "printedorproducedonFSCmeterial": "Yes",
+    "SustainableOptionthatwasrejected": "Yes",
+    "WasthisitemdesignedtoreducedPlastic": "Yes",
+    "Isthisitemdesignedtobereused": "Yes",
+    "HarmonizedOrder": "HO123",
+    "CatalogueUsage": "Retail",
+    "DigitalInnovation": "QR Code",
+    "Innovation": "Eco Design",
+    "Sourcinglocation": "India",
+    "Typeofitem": "Display",
+    "Eauction": "Yes",
+    "SMETAorEquivalentDocuments": "smeta.pdf",
+    "GMPorEquivalentDocuments": "gmp.pdf",
+    "usingFSCMaterial": "Yes",
+    "OEKOTEXCertification": "Yes",
+    "designedforrecycling": "Yes",
+    "plasticapartfromPLA": "Yes",
+    "Plastictonnageweight": "2.5",
+    "proposedwithsustainabilityoption": "Yes",
+    "containrecycledmaterial": "Yes",
+    "containrecycledplastic": "Yes",
+    "Weightageofrecycledmaterial": "60",
+    "RateCard": "Yes",
+    "VolumeAggregation": "Yes",
+    "CATABC": "A",
+    "OWlink": "Yes",
+    "TOJABC": "B",
+    "Competbidmandate": "Yes",
+    "Competbidcomplaint": "Yes",
+    "Competbidexception": "Yes",
+    "Simplex": "Yes",
+    "TCOapproval": "Yes",
+    "TCOapproved": "Yes",
+    "Exceptionreason": "",
+    "Regionalname": "APAC",
+    "savingstype": "Cost Reduction",
+    "savingsreason": "Bulk order discount",
+    "CompetetiveWinningSupplier": "4543",
+    "Noofmaterials": 3
+}
+10-04-2026 13:14:09 POST /api/Master/EnqLineItemDetails 
+{
+    "EnqId": 1001,
+    "ItemNumber": 1,
+    "ItemName": "Display Stand",
+    "ItemDescription": "Promotional display stand for retail",
+    "ProductCategoryId": 10,
+    "ProductionMethod": "Offset Printing",
+    "QuoteType": "Quantity",
+    "QuoteQtyOrSize": "500",
+    "FlatSizeDandH": "LxW",
+    "FlatSizeLength": "120.5",
+    "FlatSizeWidth": "60.0",
+    "TotalFlatSize": "7230.0",
+    "TotalQtySize": "500",
+    "QuoteFileList": "file1.pdf,file2.ai",
+    "ModifiedBy": "12",
+    "ItemSellPrice": "150.75",
+    "BaseLinePrice": "130.50",
+    "QuoteTypeindex": 1,
+    "SubCategory": "POSM",
+    "SubcatID": 5,
+    "Recycled": "Yes",
+    "ContainPlastic": "Yes",
+    "RecycledPlastic": "Yes",
+    "SustainableMaterial": "Yes",
+    "LocalRateCard": "Yes",
+    "PromoOSSOrderWindows": "Yes",
+    "SpecNote": "High quality finish",
+    "SNote": "Urgent requirement",
+    "Version": 1,
+    "printedorproducedonFSCmeterial": "Yes",
+    "SustainableOptionthatwasrejected": "Yes",
+    "WasthisitemdesignedtoreducedPlastic": "Yes",
+    "Isthisitemdesignedtobereused": "Yes",
+    "HarmonizedOrder": "HO123",
+    "CatalogueUsage": "Retail",
+    "DigitalInnovation": "QR Code",
+    "Innovation": "Eco Design",
+    "Sourcinglocation": "India",
+    "Typeofitem": "Display",
+    "Eauction": "Yes",
+    "SMETAorEquivalentDocuments": "smeta.pdf",
+    "GMPorEquivalentDocuments": "gmp.pdf",
+    "usingFSCMaterial": "Yes",
+    "OEKOTEXCertification": "Yes",
+    "designedforrecycling": "Yes",
+    "plasticapartfromPLA": "Yes",
+    "Plastictonnageweight": "2.5",
+    "proposedwithsustainabilityoption": "Yes",
+    "containrecycledmaterial": "Yes",
+    "containrecycledplastic": "Yes",
+    "Weightageofrecycledmaterial": "60",
+    "RateCard": "Yes",
+    "VolumeAggregation": "Yes",
+    "CATABC": "A",
+    "OWlink": "Yes",
+    "TOJABC": "B",
+    "Competbidmandate": "Yes",
+    "Competbidcomplaint": "Yes",
+    "Competbidexception": "Yes",
+    "Simplex": "Yes",
+    "TCOapproval": "Yes",
+    "TCOapproved": "Yes",
+    "Exceptionreason": "",
+    "Regionalname": "APAC",
+    "savingstype": "Cost Reduction",
+    "savingsreason": "Bulk order discount",
+    "CompetetiveWinningSupplier": "4543",
+    "Noofmaterials": 3
+}
+10-04-2026 13:15:09 POST /api/VA/EnqLineItemDetails 
+{
+    "EnqId": 1001,
+    "ItemNumber": 1,
+    "ItemName": "Display Stand",
+    "ItemDescription": "Promotional display stand for retail",
+    "ProductCategoryId": 10,
+    "ProductionMethod": "Offset Printing",
+    "QuoteType": "Quantity",
+    "QuoteQtyOrSize": "500",
+    "FlatSizeDandH": "LxW",
+    "FlatSizeLength": "120.5",
+    "FlatSizeWidth": "60.0",
+    "TotalFlatSize": "7230.0",
+    "TotalQtySize": "500",
+    "QuoteFileList": "file1.pdf,file2.ai",
+    "ModifiedBy": "12",
+    "ItemSellPrice": "150.75",
+    "BaseLinePrice": "130.50",
+    "QuoteTypeindex": 1,
+    "SubCategory": "POSM",
+    "SubcatID": 5,
+    "Recycled": "Yes",
+    "ContainPlastic": "Yes",
+    "RecycledPlastic": "Yes",
+    "SustainableMaterial": "Yes",
+    "LocalRateCard": "Yes",
+    "PromoOSSOrderWindows": "Yes",
+    "SpecNote": "High quality finish",
+    "SNote": "Urgent requirement",
+    "Version": 1,
+    "printedorproducedonFSCmeterial": "Yes",
+    "SustainableOptionthatwasrejected": "Yes",
+    "WasthisitemdesignedtoreducedPlastic": "Yes",
+    "Isthisitemdesignedtobereused": "Yes",
+    "HarmonizedOrder": "HO123",
+    "CatalogueUsage": "Retail",
+    "DigitalInnovation": "QR Code",
+    "Innovation": "Eco Design",
+    "Sourcinglocation": "India",
+    "Typeofitem": "Display",
+    "Eauction": "Yes",
+    "SMETAorEquivalentDocuments": "smeta.pdf",
+    "GMPorEquivalentDocuments": "gmp.pdf",
+    "usingFSCMaterial": "Yes",
+    "OEKOTEXCertification": "Yes",
+    "designedforrecycling": "Yes",
+    "plasticapartfromPLA": "Yes",
+    "Plastictonnageweight": "2.5",
+    "proposedwithsustainabilityoption": "Yes",
+    "containrecycledmaterial": "Yes",
+    "containrecycledplastic": "Yes",
+    "Weightageofrecycledmaterial": "60",
+    "RateCard": "Yes",
+    "VolumeAggregation": "Yes",
+    "CATABC": "A",
+    "OWlink": "Yes",
+    "TOJABC": "B",
+    "Competbidmandate": "Yes",
+    "Competbidcomplaint": "Yes",
+    "Competbidexception": "Yes",
+    "Simplex": "Yes",
+    "TCOapproval": "Yes",
+    "TCOapproved": "Yes",
+    "Exceptionreason": "",
+    "Regionalname": "APAC",
+    "savingstype": "Cost Reduction",
+    "savingsreason": "Bulk order discount",
+    "CompetetiveWinningSupplier": "4543",
+    "Noofmaterials": 3
+}
+10-04-2026 13:27:45 GET /swagger/index.html 
+
+10-04-2026 13:27:45 GET /swagger/v1/swagger.json 
+
+10-04-2026 13:28:43 GET /swagger/index.html 
+
+10-04-2026 13:28:44 GET /swagger/v1/swagger.json 
+
+10-04-2026 13:29:07 GET /swagger/index.html 
+
+10-04-2026 13:29:07 GET /swagger/v1/swagger.json 
+
+10-04-2026 13:29:12 GET /swagger/index.html 
+
+10-04-2026 13:29:12 GET /swagger/v1/swagger.json 
+
+10-04-2026 13:29:50 POST /api/VA/EnqLineItemDetails 
+{
+    "EnqId": 1001,
+    "ItemNumber": 1,
+    "ItemName": "Display Stand",
+    "ItemDescription": "Promotional display stand for retail",
+    "ProductCategoryId": 10,
+    "ProductionMethod": "Offset Printing",
+    "QuoteType": "Quantity",
+    "QuoteQtyOrSize": "500",
+    "FlatSizeDandH": "LxW",
+    "FlatSizeLength": "120.5",
+    "FlatSizeWidth": "60.0",
+    "TotalFlatSize": "7230.0",
+    "TotalQtySize": "500",
+    "QuoteFileList": "file1.pdf,file2.ai",
+    "ModifiedBy": "12",
+    "ItemSellPrice": "150.75",
+    "BaseLinePrice": "130.50",
+    "QuoteTypeindex": 1,
+    "SubCategory": "POSM",
+    "SubcatID": 5,
+    "Recycled": "Yes",
+    "ContainPlastic": "Yes",
+    "RecycledPlastic": "Yes",
+    "SustainableMaterial": "Yes",
+    "LocalRateCard": "Yes",
+    "PromoOSSOrderWindows": "Yes",
+    "SpecNote": "High quality finish",
+    "SNote": "Urgent requirement",
+    "Version": 1,
+    "printedorproducedonFSCmeterial": "Yes",
+    "SustainableOptionthatwasrejected": "Yes",
+    "WasthisitemdesignedtoreducedPlastic": "Yes",
+    "Isthisitemdesignedtobereused": "Yes",
+    "HarmonizedOrder": "HO123",
+    "CatalogueUsage": "Retail",
+    "DigitalInnovation": "QR Code",
+    "Innovation": "Eco Design",
+    "Sourcinglocation": "India",
+    "Typeofitem": "Display",
+    "Eauction": "Yes",
+    "SMETAorEquivalentDocuments": "smeta.pdf",
+    "GMPorEquivalentDocuments": "gmp.pdf",
+    "usingFSCMaterial": "Yes",
+    "OEKOTEXCertification": "Yes",
+    "designedforrecycling": "Yes",
+    "plasticapartfromPLA": "Yes",
+    "Plastictonnageweight": "2.5",
+    "proposedwithsustainabilityoption": "Yes",
+    "containrecycledmaterial": "Yes",
+    "containrecycledplastic": "Yes",
+    "Weightageofrecycledmaterial": "60",
+    "RateCard": "Yes",
+    "VolumeAggregation": "Yes",
+    "CATABC": "A",
+    "OWlink": "Yes",
+    "TOJABC": "B",
+    "Competbidmandate": "Yes",
+    "Competbidcomplaint": "Yes",
+    "Competbidexception": "Yes",
+    "Simplex": "Yes",
+    "TCOapproval": "Yes",
+    "TCOapproved": "Yes",
+    "Exceptionreason": "",
+    "Regionalname": "APAC",
+    "savingstype": "Cost Reduction",
+    "savingsreason": "Bulk order discount",
+    "CompetetiveWinningSupplier": "4543",
+    "Noofmaterials": 3
+}
+13-04-2026 10:52:43 GET /swagger/index.html 
+
+13-04-2026 10:52:48 GET /swagger/v1/swagger.json 
+
+13-04-2026 10:55:36 GET /swagger/index.html 
+
+13-04-2026 10:55:36 GET /swagger/v1/swagger.json 
+
+13-04-2026 10:55:46 GET /swagger/index.html 
+
+13-04-2026 10:55:46 GET /swagger/v1/swagger.json 
+
+13-04-2026 10:56:00 GET /swagger/index.html 
+
+13-04-2026 10:56:00 GET /swagger/v1/swagger.json 
+
+13-04-2026 10:56:04 GET /swagger/index.html 
+
+13-04-2026 10:56:04 GET /swagger/v1/swagger.json 
+
+13-04-2026 10:56:21 GET /swagger/index.html 
+
+13-04-2026 10:56:21 GET /swagger/v1/swagger.json 
+
+13-04-2026 10:57:14 POST /api/VA/Usersignon 
+{
+    "Username": "demouser.sg",
+    "password":"Demosg@001",
+    "Lang":"English"
+}
+13-04-2026 11:19:28 GET /swagger/index.html 
+
+13-04-2026 11:19:29 GET /swagger/v1/swagger.json 
+
+13-04-2026 11:28:31 POST /api/VA/Usersignon 
+{
+    "Username": "demouser.sg",
+    "password":"Demosg@001",
+    "Lang":"English"
+}
+13-04-2026 12:27:03 POST /api/VA/Usersignon 
+{
+    "Username": "agency",
+    "password":"Agency@002",
+    "Lang":"English"
+}
+13-04-2026 12:27:28 POST /api/VA/Usersignon 
+{
+    "Username": "demouser.sg",
+    "password":"Demosg@002",
+    "Lang":"English"
+}
+13-04-2026 14:03:54 POST /api/VA/Usersignon 
+{
+    "Username": "agency",
+    "password":"Agency@002",
+    "Lang":"English"
+}
+13-04-2026 16:05:38 GET /swagger/index.html 
+
+13-04-2026 16:05:39 GET /swagger/v1/swagger.json 
+
+13-04-2026 16:07:36 GET /swagger/index.html 
+
+13-04-2026 16:07:36 GET /swagger/v1/swagger.json 
+
+13-04-2026 16:08:25 POST /api/VA/UserSignon 
+{
+  "username": "agency",
+  "lang": "string",
+  "password": "agency@002",
+  "typeOfJob": "string",
+  "country": "string",
+  "savingstype": "string",
+  "divisionid": 0,
+  "enquiryid": 0,
+  "subitemid": 0
+}
+13-04-2026 16:09:11 POST /api/VA/UserSignon 
+{
+  "username": "agency",
+  "lang": "english",
+  "password": "Agency@003"
+ 
+}
+13-04-2026 16:11:48 POST /api/VA/UserSignon 
+{
+  "username": "agency",
+  "Lang": "English",
+  "password": "Agency@003"
+ 
+}
+13-04-2026 16:12:26 POST /api/VA/UserSignon 
+{
+  "username": "agency",
+  "Lang": "English",
+  "password": "Agency@002"
+ 
+}
+15-04-2026 13:06:13 GET /swagger/index.html 
+
+15-04-2026 13:06:14 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:06:52 GET /swagger/index.html 
+
+15-04-2026 13:06:52 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:07:03 GET /swagger/index.html 
+
+15-04-2026 13:07:03 GET /swagger/swagger-ui.css 
+
+15-04-2026 13:07:03 GET /swagger/swagger-ui-standalone-preset.js 
+
+15-04-2026 13:07:04 GET /swagger/favicon-32x32.png 
+
+15-04-2026 13:07:04 GET /swagger/index.html 
+
+15-04-2026 13:07:05 GET /swagger/swagger-ui-bundle.js 
+
+15-04-2026 13:07:05 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:07:07 GET /swagger/index.html 
+
+15-04-2026 13:07:07 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:07:39 GET /swagger/index.html 
+
+15-04-2026 13:07:39 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:07:40 GET /swagger/index.html 
+
+15-04-2026 13:07:40 GET /swagger/swagger-ui.css 
+
+15-04-2026 13:07:40 GET /swagger/favicon-32x32.png 
+
+15-04-2026 13:07:45 GET /swagger/index.html 
+
+15-04-2026 13:07:45 GET /swagger/swagger-ui-bundle.js 
+
+15-04-2026 13:07:45 GET /swagger/swagger-ui-standalone-preset.js 
+
+15-04-2026 13:07:45 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:07:55 GET /swagger/index.html 
+
+15-04-2026 13:07:56 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:09:56 GET /swagger/index.html 
+
+15-04-2026 13:09:56 GET /swagger/swagger-ui-bundle.js 
+
+15-04-2026 13:09:57 GET /swagger/swagger-ui.css 
+
+15-04-2026 13:09:57 GET /swagger/favicon-32x32.png 
+
+15-04-2026 13:10:11 POST /api/VA/GetSupplier 
+{
+
+    "currency":"SGD",
+    "Country":"Singapore"
+}
+15-04-2026 13:10:45 GET /swagger/index.html 
+
+15-04-2026 13:10:45 GET /swagger/swagger-ui-standalone-preset.js 
+
+15-04-2026 13:10:45 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:10:50 GET /swagger/index.html 
+
+15-04-2026 13:10:50 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:10:54 POST /api/VA/GetSupplier 
+{
+
+    "currency":"SGD",
+    "Country":"Singapore"
+}
+15-04-2026 13:11:48 POST /api/VA/GetSupplier 
+{
+
+    "currency":"SGD",
+    "Country":"Singapore"
+}
+15-04-2026 13:12:20 GET /swagger/index.html 
+
+15-04-2026 13:12:21 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:13:11 GET /swagger/index.html 
+
+15-04-2026 13:13:11 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:29:06 GET /swagger/index.html 
+
+15-04-2026 13:29:06 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:30:33 GET /swagger/index.html 
+
+15-04-2026 13:30:33 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:30:53 POST /api/VA/EnqSupplierInfo 
+{
+    "EnqId": 1231,
+    "SelectedSuppliers": "12,31,41", 
+    "ModifiedBy": "12" 
+}
+15-04-2026 13:31:51 POST /api/VA/EnqSupplierInfo 
+{
+    "EnqId": 1231,
+    "SelectedSuppliers": "12,31,41", 
+    "ModifiedBy": "12" 
+}
+15-04-2026 13:32:59 GET /swagger/index.html 
+
+15-04-2026 13:32:59 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:33:32 GET /swagger/index.html 
+
+15-04-2026 13:33:33 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:33:46 GET /swagger/index.html 
+
+15-04-2026 13:33:47 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:33:57 GET /swagger/index.html 
+
+15-04-2026 13:33:57 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:35:10 GET /swagger/index.html 
+
+15-04-2026 13:35:10 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:35:16 POST /api/VA/EnqSupplierInfo 
+{
+    "EnqId": 1231,
+    "SelectedSuppliers": "12,31,41", 
+    "ModifiedBy": "12" 
+}
+15-04-2026 13:36:24 GET /swagger/index.html 
+
+15-04-2026 13:36:25 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:36:41 GET /swagger/index.html 
+
+15-04-2026 13:36:42 GET /swagger/v1/swagger.json 
+
+15-04-2026 13:37:45 POST /api/VA/EnqSupplierInfo 
+{
+    "EnqId": 2967,
+    "SelectedSuppliers": "12,31,41", 
+    "ModifiedBy": "12" 
+}
+15-04-2026 15:37:08 GET /swagger/index.html 
+
+15-04-2026 15:37:09 GET /swagger/v1/swagger.json 
+
+15-04-2026 15:37:29 POST /api/VA/GetSupplier 
+{
+
+    "currency":"SGD",
+    "Country":"Singapore"
+}
+15-04-2026 15:44:27 GET /swagger/index.html 
+
+15-04-2026 15:44:27 GET /swagger/v1/swagger.json 
+
+15-04-2026 15:44:41 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2907"
+}
+15-04-2026 15:46:33 GET /swagger/index.html 
+
+15-04-2026 15:46:33 GET /swagger/v1/swagger.json 
+
+15-04-2026 15:46:38 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2907"
+}
+15-04-2026 15:47:08 GET /swagger/index.html 
+
+15-04-2026 15:47:09 GET /swagger/v1/swagger.json 
+
+15-04-2026 15:47:15 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2907"
+}
+15-04-2026 15:49:20 GET /swagger/index.html 
+
+15-04-2026 15:49:20 GET /swagger/v1/swagger.json 
+
+15-04-2026 15:49:24 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2908"
+}
+15-04-2026 15:49:34 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2908"
+}
+15-04-2026 15:50:57 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2908"
+}
+15-04-2026 15:51:31 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2908"
+}
+15-04-2026 15:52:28 GET /swagger/index.html 
+
+15-04-2026 15:52:28 GET /swagger/v1/swagger.json 
+
+15-04-2026 15:52:39 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2908"
+}
+15-04-2026 15:53:15 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2908"
+}
+16-04-2026 12:43:40 GET /swagger/index.html 
+
+16-04-2026 12:43:41 GET /swagger/v1/swagger.json 
+
+16-04-2026 12:45:56 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2961"
+}
+16-04-2026 13:04:07 GET /swagger/index.html 
+
+16-04-2026 13:04:08 GET /swagger/v1/swagger.json 
+
+16-04-2026 13:05:32 GET /swagger/index.html 
+
+16-04-2026 13:05:32 GET /swagger/v1/swagger.json 
+
+16-04-2026 13:05:37 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2961"
+}
+16-04-2026 13:06:24 POST /api/VA/GetDetails 
+{
+
+    "Enquiryid":"2961"
+}
+20-04-2026 15:34:53 GET /swagger/index.html 
+
+20-04-2026 15:34:54 GET /swagger/v1/swagger.json 
+
+20-04-2026 15:35:19 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    ,"Savingstype":"cost Reduction"
+    
+}
+20-04-2026 15:37:17 GET /swagger/index.html 
+
+20-04-2026 15:37:17 GET /swagger/v1/swagger.json 
+
+20-04-2026 15:37:20 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    ,"Savingstype":"cost Reduction"
+    
+}
+20-04-2026 15:37:35 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    ,"Savingstype":"cost Reduction"
+    
+}
+20-04-2026 15:38:45 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    ,"Savingstype":"cost Reduction"
+    
+}
+27-04-2026 16:30:25 GET /swagger/index.html 
+
+27-04-2026 16:30:26 GET /swagger/v1/swagger.json 
+
+27-04-2026 16:30:29 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    ,"Savingstype":"cost Reduction"
+    
+}
+27-04-2026 16:30:59 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    ,"Savingstype":"cost Reduction"
+    
+}
+27-04-2026 16:33:12 GET /swagger/index.html 
+
+27-04-2026 16:33:12 GET /swagger/v1/swagger.json 
+
+27-04-2026 16:33:18 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    ,"Savingstype":"cost Reduction"
+    
+}
+27-04-2026 16:44:29 GET /swagger/index.html 
+
+27-04-2026 16:44:29 GET /swagger/v1/swagger.json 
+
+27-04-2026 16:44:38 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    ,"Savingstype":"cost Reduction"
+    
+}
+27-04-2026 16:46:51 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    ,"Savingstype":"cost Reduction"
+    
+}
+27-04-2026 16:47:03 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    ,"Savingstype":"cost Reduction"
+    
+}
+27-04-2026 16:48:57 GET /swagger/index.html 
+
+27-04-2026 16:48:57 GET /swagger/v1/swagger.json 
+
+27-04-2026 16:50:10 POST /api/VA/EnqLineItemsDropdowns 
+{
+
+    "TypeOfJob":"Print"
+    ,"Savingstype":"cost Reduction"
+    
+}
+29-04-2026 10:51:44 GET /swagger/index.html 
+
+29-04-2026 10:51:44 GET /swagger/v1/swagger.json 
+
+29-04-2026 11:11:06 GET /swagger/index.html 
+
+29-04-2026 11:11:07 GET /swagger/v1/swagger.json 
+
+29-04-2026 11:11:28 POST /api/VA/EnqLineItemDetails 
+{
+    "EnqdetailsId": 3985,
+    "EnqId": 2988,
+    "ItemName": "iname edit",
+    "ItemDescription": "idesc",
+    "PromoOSSOrderWindows": "N/A",
+    "CatalogueUsage": "N/A",
+    "printingmethod": "Digital",
+    "DigitalInnovation": "Yes",
+    "Innovation": "N/A",
+    "Sourcinglocation": "OW\r\n",
+    "Version": "3",
+    "SpecNote": "TestSpec",
+    "SNote": "TestNotes",
+    "QuoteQtyOrSize": "28",
+    "ModifiedBy": 3
+}
+29-04-2026 11:11:52 GET /swagger/index.html 
+
+29-04-2026 11:11:52 GET /swagger/v1/swagger.json 
+
+29-04-2026 11:11:55 POST /api/VA/EnqLineItemDetails 
+{
+    "EnqdetailsId": 3985,
+    "EnqId": 2988,
+    "ItemName": "iname edit",
+    "ItemDescription": "idesc",
+    "PromoOSSOrderWindows": "N/A",
+    "CatalogueUsage": "N/A",
+    "printingmethod": "Digital",
+    "DigitalInnovation": "Yes",
+    "Innovation": "N/A",
+    "Sourcinglocation": "OW\r\n",
+    "Version": "3",
+    "SpecNote": "TestSpec",
+    "SNote": "TestNotes",
+    "QuoteQtyOrSize": "28",
+    "ModifiedBy": 3
+}
+29-04-2026 11:13:17 GET /swagger/index.html 
+
+29-04-2026 11:13:17 GET /swagger/v1/swagger.json 
+
+29-04-2026 11:13:24 POST /api/VA/EnqLineItemDetails 
+{
+    "EnqdetailsId": 3985,
+    "EnqId": 2988,
+    "ItemName": "iname edit",
+    "ItemDescription": "idesc",
+    "PromoOSSOrderWindows": "N/A",
+    "CatalogueUsage": "N/A",
+    "printingmethod": "Digital",
+    "DigitalInnovation": "Yes",
+    "Innovation": "N/A",
+    "Sourcinglocation": "OW\r\n",
+    "Version": "3",
+    "SpecNote": "TestSpec",
+    "SNote": "TestNotes",
+    "QuoteQtyOrSize": "28",
+    "ModifiedBy": 3
+}
+29-04-2026 11:14:22 GET /swagger/index.html 
+
+29-04-2026 11:14:22 GET /swagger/v1/swagger.json 
+
+29-04-2026 11:14:24 GET /swagger/index.html 
+
+29-04-2026 11:14:24 GET /swagger/v1/swagger.json 
+
+29-04-2026 11:14:35 POST /api/VA/EnqLineItemDetails 
+{
+    "EnqdetailsId": 3985,
+    "EnqId": 2988,
+    "ItemName": "iname edit",
+    "ItemDescription": "idesc",
+    "PromoOSSOrderWindows": "N/A",
+    "CatalogueUsage": "N/A",
+    "printingmethod": "Digital",
+    "DigitalInnovation": "Yes",
+    "Innovation": "N/A",
+    "Sourcinglocation": "OW\r\n",
+    "Version": "3",
+    "SpecNote": "TestSpec",
+    "SNote": "TestNotes",
+    "QuoteQtyOrSize": "28",
+    "ModifiedBy": 3
+}
+29-04-2026 11:14:45 POST /api/VA/EnqLineItemDetails 
+{
+    
+    "EnqId": 2988,
+    "ItemName": "iname edit",
+    "ItemDescription": "idesc",
+    "PromoOSSOrderWindows": "N/A",
+    "CatalogueUsage": "N/A",
+    "printingmethod": "Digital",
+    "DigitalInnovation": "Yes",
+    "Innovation": "N/A",
+    "Sourcinglocation": "OW\r\n",
+    "Version": "3",
+    "SpecNote": "TestSpec",
+    "SNote": "TestNotes",
+    "QuoteQtyOrSize": "28",
+    "ModifiedBy": 3
+}
+29-04-2026 13:19:34 GET /swagger/index.html 
+
+29-04-2026 13:19:34 GET /swagger/v1/swagger.json 
+
+29-04-2026 13:20:42 POST /api/VA/Getdetails 
+{
+
+    "Enquiryid":"22"
+}
+29-04-2026 13:25:14 GET /swagger/index.html 
+
+29-04-2026 13:25:15 GET /swagger/v1/swagger.json 
+
+29-04-2026 13:25:22 POST /api/VA/Getdetails 
+{
+
+    "Enquiryid":"22"
+}
+29-04-2026 13:32:20 POST /api/VA/EnqLineItemDetails 
+{
+    "EnqdetailsId": 3985,
+    "EnqId": 2988,
+    "ItemName": "iname edit",
+    "ItemDescription": "idesc",
+    "PromoOSSOrderWindows": "N/A",
+    "CatalogueUsage": "N/A",
+    "printingmethod": "Digital",
+    "DigitalInnovation": "Yes",
+    "Innovation": "N/A",
+    "Sourcinglocation": "OW\r\n",
+    "Version": "3",
+    "SpecNote": "TestSpec",
+    "SNote": "TestNotes",
+    "QuoteQtyOrSize": "28",
+    "ModifiedBy": 3
+}
+29-04-2026 13:32:30 POST /api/VA/EnqLineItemDetails 
+{
+   
+    "EnqId": 2988,
+    "ItemName": "iname edit",
+    "ItemDescription": "idesc",
+    "PromoOSSOrderWindows": "N/A",
+    "CatalogueUsage": "N/A",
+    "printingmethod": "Digital",
+    "DigitalInnovation": "Yes",
+    "Innovation": "N/A",
+    "Sourcinglocation": "OW\r\n",
+    "Version": "3",
+    "SpecNote": "TestSpec",
+    "SNote": "TestNotes",
+    "QuoteQtyOrSize": "28",
+    "ModifiedBy": 3
+}
+29-04-2026 13:37:37 GET /swagger/index.html 
+
+29-04-2026 13:37:37 GET /swagger/v1/swagger.json 
+
+29-04-2026 13:37:50 POST /api/VA/EnqLineItemDetails 
+{
+   
+    "EnqId": 2988,
+    "ItemName": "iname edit",
+    "ItemDescription": "idesc",
+    "PromoOSSOrderWindows": "N/A",
+    "CatalogueUsage": "N/A",
+    "printingmethod": "Digital",
+    "DigitalInnovation": "Yes",
+    "Innovation": "N/A",
+    "Sourcinglocation": "OW\r\n",
+    "Version": "3",
+    "SpecNote": "TestSpec",
+    "SNote": "TestNotes",
+    "QuoteQtyOrSize": "28",
+    "ModifiedBy": 3
+}
+29-04-2026 13:38:05 POST /api/VA/Getdetails 
+{
+
+    "Enquiryid":"22"
+}
+29-04-2026 13:39:15 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 12,
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "role": "Admin",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+29-04-2026 14:01:31 GET /swagger/index.html 
+
+29-04-2026 14:01:31 GET /swagger/v1/swagger.json 
+
+29-04-2026 14:01:46 POST /api/VA/GetSlatemplate 
+{
+    "SlaId": 56
+   
+}
+29-04-2026 14:07:34 GET /swagger/index.html 
+
+29-04-2026 14:07:35 GET /swagger/v1/swagger.json 
+
+29-04-2026 14:07:52 GET /swagger/index.html 
+
+29-04-2026 14:07:53 GET /swagger/v1/swagger.json 
+
+29-04-2026 14:08:01 POST /api/VA/GetSlatemplate 
+{
+    "SlaId": 56
+   
+}
+29-04-2026 14:08:36 GET /swagger/index.html 
+
+29-04-2026 14:08:37 GET /swagger/v1/swagger.json 
+
+29-04-2026 14:08:39 GET /swagger/index.html 
+
+29-04-2026 14:08:39 GET /swagger/v1/swagger.json 
+
+29-04-2026 14:08:55 GET /swagger/index.html 
+
+29-04-2026 14:08:55 GET /swagger/v1/swagger.json 
+
+29-04-2026 14:09:01 GET /swagger/index.html 
+
+29-04-2026 14:09:01 GET /swagger/v1/swagger.json 
+
+29-04-2026 14:09:08 POST /api/VA/GetSlatemplate 
+{
+    "SlaId": 56
+   
+}
+29-04-2026 14:09:15 POST /api/VA/GetSlatemplate 
+{
+    "SlaId": 56
+    ,"Enqid":"2991"
+}
+29-04-2026 14:11:22 POST /api/VA/EB_Duplicate 
+{
+    "Enqid": 2881,
+    "EnqdetailsId": 3895,
+    "modifiedBy": 3
+}
+29-04-2026 14:12:21 GET /swagger/index.html 
+
+29-04-2026 14:12:21 GET /swagger/v1/swagger.json 
+
+29-04-2026 14:13:56 GET /swagger/index.html 
+
+29-04-2026 14:13:56 GET /swagger/v1/swagger.json 
+
+29-04-2026 14:14:02 POST /api/VA/EB_Duplicate 
+{
+    "Enqid": 2881,
+    "EnqdetailsId": 3895,
+    "modifiedBy": 3
+}
+29-04-2026 14:14:57 POST /api/VA/EB_Duplicate 
+{
+    "Enqid": 2988,
+    "EnqdetailsId": 3989,
+    "modifiedBy": 3
+}
+29-04-2026 14:15:35 POST /api/VA/EB_Duplicate 
+{
+    "Enqid": 2988,
+    "EnqdetailsId": 3989,
+    "modifiedBy": 3
+}
+29-04-2026 14:16:13 POST /api/VA/EB_Duplicate 
+{
+    "Enqid": 2988,
+    "EnqdetailsId": 3989,
+    "modifiedBy": 3
+}
+29-04-2026 15:01:24 POST /api/VA/EB_Duplicate 
+{
+    "Enqid": 2988,
+    "EnqdetailsId": 3989,
+    "modifiedBy": 3
+}
+11-06-2026 16:50:46 GET /swagger 
+
+11-06-2026 16:50:46 GET /swagger/index.html 
+
+11-06-2026 16:50:47 GET /swagger/swagger-ui-standalone-preset.js 
+
+11-06-2026 16:50:47 GET /swagger/favicon-32x32.png 
+
+11-06-2026 16:50:57 GET /swagger/swagger-ui.css 
+
+11-06-2026 16:50:57 GET /.well-known/appspecific/com.chrome.devtools.json 
+
+11-06-2026 16:53:47 GET /swagger/index.html 
+
+11-06-2026 16:53:47 GET /swagger/swagger-ui-bundle.js 
+
+11-06-2026 16:53:48 GET /swagger/v1/swagger.json 
+
+11-06-2026 16:54:56 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3031
+}
+11-06-2026 17:02:52 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3031
+}
+11-06-2026 17:09:30 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3031
+}
+11-06-2026 17:09:48 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3031
+}
+11-06-2026 17:09:48 GET /swagger/index.html 
+
+11-06-2026 17:09:48 GET /swagger/v1/swagger.json 
+
+11-06-2026 17:10:30 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3031
+}
+11-06-2026 17:11:20 POST /api/VA/GetDetails 
+{
+  "enquiryid": 3031
+}
+11-06-2026 17:12:58 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3031
+}
+11-06-2026 17:29:01 OPTIONS /api/VA/GetLogDetails 
+
+11-06-2026 17:29:01 POST /api/VA/GetLogDetails 
+{"enquiryid":3030}
+11-06-2026 17:29:50 OPTIONS /api/VA/GetLogDetails 
+
+11-06-2026 17:29:50 POST /api/VA/GetLogDetails 
+{"enquiryid":3030}
+11-06-2026 17:30:12 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3030
+}
+11-06-2026 17:34:47 OPTIONS /api/VA/GetLogDetails 
+
+11-06-2026 17:34:47 POST /api/VA/GetLogDetails 
+{"enquiryid":3030}
+11-06-2026 17:35:25 OPTIONS /api/VA/GetLogDetails 
+
+11-06-2026 17:35:25 POST /api/VA/GetLogDetails 
+{"enquiryid":3031}
+11-06-2026 17:36:37 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3031
+}
+11-06-2026 17:47:39 GET /swagger/index.html 
+
+11-06-2026 17:47:39 GET /swagger/v1/swagger.json 
+
+11-06-2026 17:48:51 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3031
+}
+11-06-2026 17:55:04 GET /swagger/index.html 
+
+11-06-2026 17:55:04 GET /swagger/v1/swagger.json 
+
+11-06-2026 17:55:06 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3031
+}
+11-06-2026 17:58:30 OPTIONS /api/VA/GetLogDetails 
+
+11-06-2026 17:58:30 POST /api/VA/GetLogDetails 
+{"enquiryid":3030}
+12-06-2026 11:40:42 GET /swagger/index.html 
+
+12-06-2026 11:40:42 GET /swagger/v1/swagger.json 
+
+12-06-2026 11:41:47 OPTIONS /api/VA/GetLogDetails 
+
+12-06-2026 11:41:47 POST /api/VA/GetLogDetails 
+{"enquiryid":3031}
+12-06-2026 13:02:02 GET /swagger/index.html 
+
+12-06-2026 13:02:02 GET /swagger/v1/swagger.json 
+
+12-06-2026 13:05:39 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3031
+}
+12-06-2026 13:06:04 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 3000
+}
+12-06-2026 13:06:15 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 2999
+}
+12-06-2026 13:09:08 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 546
+}
+12-06-2026 13:09:36 POST /api/VA/GetLogDetails 
+{
+  "enquiryid": 506
+}
+12-06-2026 13:20:21 GET /swagger/index.html 
+
+12-06-2026 13:20:22 GET /swagger/v1/swagger.json 
+
+12-06-2026 13:20:34 POST /api/VA/GetProjectDetails 
+{
+  "enquiryid": 506
+}
+12-06-2026 13:20:51 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 13:20:51 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 13:26:50 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 13:26:50 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 13:27:18 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 13:27:18 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 13:29:17 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 13:29:17 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 13:29:18 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 13:29:29 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 13:29:29 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 13:30:17 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 13:30:17 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 13:40:12 GET /swagger/index.html 
+
+12-06-2026 13:40:13 GET /swagger/v1/swagger.json 
+
+12-06-2026 13:40:15 POST /api/VA/GetProjectDetails 
+{
+  "enquiryid": 506
+}
+12-06-2026 13:40:28 POST /api/VA/GetProjectDetails 
+{
+  "enquiryid": 506
+}
+12-06-2026 13:41:26 GET /swagger/index.html 
+
+12-06-2026 13:41:27 GET /swagger/v1/swagger.json 
+
+12-06-2026 13:43:07 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 13:43:07 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 16:53:22 GET /swagger/index.html 
+
+12-06-2026 16:53:23 GET /swagger/v1/swagger.json 
+
+12-06-2026 16:54:08 POST /api/VA/GetProjectDetails 
+{
+  "enquiryid": 506,
+  "Currency" : "SGD",
+  "Country" : "Singapore"
+}
+12-06-2026 16:54:25 POST /api/VA/GetProjectDetails 
+{
+  "enquiryid": 506,
+  "Currency" : "SGD",
+  "Country" : "Singapore"
+}
+12-06-2026 16:54:50 POST /api/VA/GetProjectDetails 
+{
+  "enquiryid": 506,
+  "Currency" : "SGD",
+  "Country" : "Singapore"
+}
+12-06-2026 17:01:19 GET /swagger/index.html 
+
+12-06-2026 17:01:19 GET /swagger/v1/swagger.json 
+
+12-06-2026 17:01:24 POST /api/VA/GetProjectDetails 
+{
+  "enquiryid": 506,
+  "Currency" : "SGD",
+  "Country" : "Singapore"
+}
+12-06-2026 17:08:49 GET /swagger/index.html 
+
+12-06-2026 17:08:50 GET /swagger/v1/swagger.json 
+
+12-06-2026 17:08:54 POST /api/VA/GetProjectDetails 
+{
+  "enquiryid": 506,
+  "Currency" : "SGD",
+  "Country" : "Singapore"
+}
+12-06-2026 17:10:29 GET /swagger/index.html 
+
+12-06-2026 17:10:29 GET /swagger/v1/swagger.json 
+
+12-06-2026 17:10:36 POST /api/VA/GetProjectDetails 
+{
+  "enquiryid": 506,
+  "Currency" : "SGD",
+  "Country" : "Singapore"
+}
+12-06-2026 17:14:43 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:14:43 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 17:16:09 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:16:09 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 17:18:10 POST /api/VA/GetProjectDetails 
+{
+  "enquiryid": 506,
+  "Currency" : "SGD",
+  "Country" : "Singapore"
+}
+12-06-2026 17:19:17 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:19:17 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 17:19:19 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 17:20:16 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:20:16 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 17:20:42 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:20:42 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031}
+12-06-2026 17:21:23 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:21:23 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031,"Currency":"SGD","Country":"Singapore"}
+12-06-2026 17:21:25 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031,"Currency":"SGD","Country":"Singapore"}
+12-06-2026 17:37:33 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:37:33 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031,"Currency":"SGD","Country":"Singapore"}
+12-06-2026 17:37:52 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:37:52 POST /api/VA/GetProjectDetails 
+{"enquiryid":3031,"Currency":"SGD","Country":"Singapore"}
+12-06-2026 17:42:00 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:42:00 POST /api/VA/GetProjectDetails 
+{"enquiryid":3030,"Currency":"SGD","Country":"Singapore"}
+12-06-2026 17:42:09 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:42:09 POST /api/VA/GetProjectDetails 
+{"enquiryid":3030,"Currency":"SGD","Country":"Singapore"}
+12-06-2026 17:43:03 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:43:03 POST /api/VA/GetProjectDetails 
+{"enquiryid":3030,"Currency":"SGD","Country":"Singapore"}
+12-06-2026 17:43:16 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:43:16 POST /api/VA/GetProjectDetails 
+{"enquiryid":3030,"Currency":"SGD","Country":"Singapore"}
+12-06-2026 17:44:31 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:44:31 POST /api/VA/GetProjectDetails 
+{"enquiryid":3030,"Currency":"SGD","Country":"Singapore"}
+12-06-2026 17:46:02 OPTIONS /api/VA/GetProjectDetails 
+
+12-06-2026 17:46:02 POST /api/VA/GetProjectDetails 
+{"enquiryid":3030,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 12:59:31 GET /swagger 
+
+22-07-2026 12:59:32 GET /swagger/index.html 
+
+22-07-2026 12:59:32 GET /swagger/swagger-ui.css 
+
+22-07-2026 12:59:32 GET /swagger/swagger-ui-standalone-preset.js 
+
+22-07-2026 12:59:44 GET /swagger/favicon-32x32.png 
+
+22-07-2026 13:01:16 GET /swagger/index.html 
+
+22-07-2026 13:01:17 GET /swagger/swagger-ui-bundle.js 
+
+22-07-2026 13:01:18 GET /swagger/v1/swagger.json 
+
+22-07-2026 13:11:09 GET /api/VA/GetProjectStatus 
+
+22-07-2026 13:21:11 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3078,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+22-07-2026 13:22:22 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3078,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+22-07-2026 13:27:20 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 2982,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+22-07-2026 13:35:50 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 2374,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+22-07-2026 13:44:43 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 13:44:43 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 13:48:32 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 13:48:33 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 13:55:27 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 13:55:27 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 13:56:04 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 13:56:04 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 13:58:43 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 13:58:43 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:00:14 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:00:14 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:03:24 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:03:24 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:04:09 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:04:09 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:05:41 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:05:41 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:06:11 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:06:11 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:06:58 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:06:58 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:14:35 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:14:35 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:14:48 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:14:49 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:15:11 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:15:12 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:15:18 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:15:18 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:15:23 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:15:23 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+22-07-2026 14:16:15 OPTIONS /api/VA/GetProjectDetails 
+
+22-07-2026 14:16:15 POST /api/VA/GetProjectDetails 
+{"enquiryid":2374,"Currency":"SGD","Country":"Singapore"}
+28-07-2026 13:59:53 GET /swagger/index.html 
+
+28-07-2026 13:59:53 GET /swagger/v1/swagger.json 
+
+28-07-2026 14:22:54 OPTIONS /api/VA/UpdateJobSummary 
+
+28-07-2026 14:22:54 POST /api/VA/UpdateJobSummary 
+{"enqId":3123,"modifiedBy":3,"clientContactId":1269,"projectNo":"projectno1","projectDesc":"project name 1","estdate":"11/03/2026","briefdate":"10/03/2026","Action":"Update","invoiceNumber":"","poNumber":"","raisedDate":"","status":2}
+28-07-2026 14:24:09 OPTIONS /api/VA/UpdateJobSummary 
+
+28-07-2026 14:24:10 POST /api/VA/UpdateJobSummary 
+{"enqId":3123,"modifiedBy":3,"clientContactId":1269,"projectNo":"projectno1","projectDesc":"project name 1","estdate":"11/03/2026","briefdate":"11/03/2026","Action":"Update","invoiceNumber":"","poNumber":"","raisedDate":"","status":2}
+28-07-2026 15:44:47 OPTIONS /api/VA/UpdateJobSummary 
+
+28-07-2026 15:44:47 POST /api/VA/UpdateJobSummary 
+{"enqId":3123,"modifiedBy":3,"createdBy":3,"clientContactId":1269,"projectNo":"projectno1","projectDesc":"project name 1234","estdate":"11/03/2026","briefdate":"11/03/2026","Action":"Update","invoiceNumber":"","poNumber":"","raisedDate":"","status":0}
+28-07-2026 15:45:26 OPTIONS /api/VA/UpdateJobSummary 
+
+28-07-2026 15:45:26 POST /api/VA/UpdateJobSummary 
+{"enqId":3123,"modifiedBy":3,"createdBy":3,"clientContactId":1269,"projectNo":"projectno1","projectDesc":"project name 1234","estdate":"11/03/2026","briefdate":"10/03/2026","Action":"Update","invoiceNumber":"","poNumber":"","raisedDate":"","status":0}
+28-07-2026 15:52:18 OPTIONS /api/VA/UpdateJobSummary 
+
+28-07-2026 15:52:18 POST /api/VA/UpdateJobSummary 
+{"enqId":249,"modifiedBy":3,"createdBy":3,"clientContactId":9,"projectNo":"Test_OrderExistingwith21LineItems","projectDesc":"Test_OrderExistingwith21LineItems","estdate":"09/01/2021","briefdate":"06/01/2021","Action":"Update","invoiceNumber":"","poNumber":"","raisedDate":"","status":16}
+28-07-2026 16:36:05 OPTIONS /api/VA/UpdateJobSummary 
+
+28-07-2026 16:36:05 POST /api/VA/UpdateJobSummary 
+{"enqId":249,"modifiedBy":3,"createdBy":3,"clientContactId":9,"projectNo":"Test_OrderExistingwith21LineItems","projectDesc":"Test_OrderExistingwith21LineItems","estdate":"09/01/2021","briefdate":"06/01/2021","Action":"Update","invoiceNumber":"","poNumber":"","raisedDate":"","status":0}
+28-07-2026 16:37:43 OPTIONS /api/VA/UpdateJobSummary 
+
+28-07-2026 16:37:43 POST /api/VA/UpdateJobSummary 
+{"enqId":249,"modifiedBy":3,"createdBy":3,"clientContactId":9,"projectNo":"Test_OrderExistingwith21LineItems","projectDesc":"Test_OrderExistingwith21LineItems","estdate":"09/01/2021","briefdate":"06/01/2021","Action":"Update","invoiceNumber":"","poNumber":"","raisedDate":"","status":0}
+28-07-2026 16:38:11 OPTIONS /api/VA/UpdateJobSummary 
+
+28-07-2026 16:38:11 POST /api/VA/UpdateJobSummary 
+{"enqId":249,"modifiedBy":3,"createdBy":3,"clientContactId":9,"projectNo":"Test_OrderExistingwith21LineItems","projectDesc":"Test_OrderExistingwith21LineItems","estdate":"09/01/2021","briefdate":"06/01/2021","Action":"Update","invoiceNumber":"","poNumber":"","raisedDate":"","status":0}
+28-07-2026 16:38:47 OPTIONS /api/VA/UpdateJobSummary 
+
+28-07-2026 16:38:47 POST /api/VA/UpdateJobSummary 
+{"enqId":249,"modifiedBy":3,"createdBy":3,"clientContactId":9,"projectNo":"Test_OrderExistingwith21LineItems","projectDesc":"Test_OrderExistingwith21LineItems","estdate":"09/01/2021","briefdate":"06/01/2021","Action":"Update","invoiceNumber":"","poNumber":"","raisedDate":"","status":0}
+28-07-2026 16:39:19 OPTIONS /api/VA/UpdateJobSummary 
+
+28-07-2026 16:39:19 POST /api/VA/UpdateJobSummary 
+{"enqId":249,"modifiedBy":3,"createdBy":3,"clientContactId":9,"projectNo":"Test_OrderExistingwith21LineItems","projectDesc":"Test_OrderExistingwith21LineItems","estdate":"09/01/2021","briefdate":"06/01/2021","Action":"Update","invoiceNumber":"","poNumber":"","raisedDate":"","status":0}
+28-07-2026 17:16:35 GET /swagger/index.html 
+
+28-07-2026 17:16:36 GET /swagger/v1/swagger.json 
+
+30-07-2026 11:21:32 GET /swagger/index.html 
+
+30-07-2026 11:21:35 GET /swagger/v1/swagger.json 
+
+30-07-2026 11:21:38 GET /swagger/favicon-32x32.png 
+
+30-07-2026 11:22:31 GET /swagger/index.html 
+
+30-07-2026 11:22:32 GET /swagger/v1/swagger.json 
+
+30-07-2026 11:39:20 OPTIONS /api/VA/UpdateSavingsReasons 
+
+30-07-2026 11:39:21 POST /api/VA/UpdateSavingsReasons 
+[{"Id":0,"savingsReason":"NES CA - Limited Market","savingsType":"Cost Avoidance","enquiryId":3129}]
+30-07-2026 11:39:21 GET /swagger/index.html 
+
+30-07-2026 11:39:34 GET /swagger/v1/swagger.json 
+
+30-07-2026 12:24:48 GET /swagger/index.html 
+
+30-07-2026 12:24:49 GET /swagger/v1/swagger.json 
+
+30-07-2026 12:41:41 POST /api/VA/GetProjectDetails 
+{
+    "Enquiryid": 3129
+}
+30-07-2026 13:02:16 GET /swagger/index.html 
+
+30-07-2026 13:02:16 GET /swagger/v1/swagger.json 
+
+30-07-2026 13:02:32 POST /api/VA/GetProjectDetails 
+{
+    "Enquiryid": 3129
+}
+30-07-2026 13:03:44 POST /api/VA/GetProjectDetails 
+{
+    "Enquiryid": 3129
+}
+30-07-2026 13:04:02 POST /api/VA/GetDetails 
+{
+    "Enquiryid": 3129
+}
+30-07-2026 13:06:06 POST /api/VA/GetDetails 
+{
+    "Enquiryid": 2121
+}
+30-07-2026 13:41:36 GET /swagger/index.html 
+
+30-07-2026 13:41:39 GET /swagger/v1/swagger.json 
+
+30-07-2026 13:43:22 OPTIONS /api/VA/GetDetails 
+
+30-07-2026 13:43:22 POST /api/VA/GetDetails 
+{"Enquiryid":3129}
+30-07-2026 13:44:21 OPTIONS /api/VA/GetDetails 
+
+30-07-2026 13:44:21 POST /api/VA/GetDetails 
+{"Enquiryid":3109}
+30-07-2026 13:44:49 OPTIONS /api/VA/GetDetails 
+
+30-07-2026 13:44:49 POST /api/VA/GetDetails 
+{"Enquiryid":3101}
+30-07-2026 13:45:29 OPTIONS /api/VA/UpdateJobSummary 
+
+30-07-2026 13:45:29 POST /api/VA/UpdateJobSummary 
+{"enqId":3101,"modifiedBy":3,"createdBy":3,"managementFee":"8","Action":"fee","statusId":1}
+30-07-2026 13:48:10 OPTIONS /api/VA/GetDetails 
+
+30-07-2026 13:48:10 POST /api/VA/GetDetails 
+{"Enquiryid":3101}
+30-07-2026 13:48:16 OPTIONS /api/VA/GetDetails 
+
+30-07-2026 13:48:16 POST /api/VA/GetDetails 
+{"Enquiryid":3101}
+30-07-2026 13:48:26 OPTIONS /api/VA/GetDetails 
+
+30-07-2026 13:48:27 POST /api/VA/GetDetails 
+{"Enquiryid":3101}
+30-07-2026 13:48:32 OPTIONS /api/VA/UpdateJobSummary 
+
+30-07-2026 13:48:32 POST /api/VA/UpdateJobSummary 
+{"enqId":3101,"modifiedBy":3,"createdBy":3,"managementFee":8,"Action":"fee","statusId":1}
+30-07-2026 13:48:35 OPTIONS /api/VA/GetDetails 
+
+30-07-2026 13:48:35 POST /api/VA/GetDetails 
+{"Enquiryid":3101}
+30-07-2026 13:53:02 OPTIONS /api/VA/GetDetails 
+
+30-07-2026 13:53:02 POST /api/VA/GetDetails 
+{"Enquiryid":3101}
+30-07-2026 13:53:11 OPTIONS /api/VA/UpdateJobSummary 
+
+30-07-2026 13:53:11 POST /api/VA/UpdateJobSummary 
+{"enqId":3101,"modifiedBy":3,"createdBy":3,"clientContactId":1268,"projectNo":"SPOT_Demo_23072026","projectDesc":"SPOT_Demo_23072026","estdate":"23/07/2026","briefdate":"08/07/2026","Action":"Update","invoiceNumber":"","poNumber":"","actualdeliverydate":"23/07/2026","raisedDate":"","invoiceDate":"","statusId":1}
+30-07-2026 13:53:16 OPTIONS /api/VA/GetDetails 
+
+30-07-2026 13:53:16 POST /api/VA/GetDetails 
+{"Enquiryid":3101}
+30-07-2026 16:26:14 GET /swagger/index.html 
+
+30-07-2026 16:26:19 GET /swagger/v1/swagger.json 
+
+31-07-2026 17:07:40 GET /swagger/index.html 
+
+31-07-2026 17:07:40 GET /swagger/v1/swagger.json 
+
+31-07-2026 17:12:45 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3138,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+05-08-2026 17:03:16 GET /swagger/index.html 
+
+05-08-2026 17:03:17 GET /swagger/v1/swagger.json 
+
+05-08-2026 17:11:46 POST /api/VA/Viewdashboard 
+{
+    "userCountryId": 8,
+    "role": "ClientServices",
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.my"
+}
+05-08-2026 17:21:56 GET /swagger/index.html 
+
+05-08-2026 17:21:58 GET /swagger/v1/swagger.json 
+
+05-08-2026 17:24:32 POST /api/VA/Viewdashboard 
+{
+    "userCountryId": 12,
+    "role": "ClientServices",
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.sg"
+}
+05-08-2026 17:24:52 POST /api/VA/Viewdashboard 
+{
+    "userCountryId": 12,
+    "role": "ClientServices",
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.my"
+}
+05-08-2026 17:32:54 GET /swagger/v1/swagger.json 
+
+05-08-2026 17:32:55 GET /favicon.ico 
+
+05-08-2026 18:36:20 POST //api/VA/ViewDashboard 
+{
+    "userCountryId": 14,
+    "role": "ClientServices",
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.th"
+}
+05-08-2026 18:36:34 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 14,
+    "role": "ClientServices",
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.th"
+}
+05-08-2026 18:37:46 POST /api/VA/UserSignon 
+{
+  "username": "string",
+  "lang": "string",
+  "password": "string",
+  "typeOfJob": "string",
+  "country": "string",
+  "currency": "string",
+  "savingstype": "string",
+  "divisionid": 0,
+  "enquiryid": 0,
+  "subitemid": 0,
+  "countryId": 8826
+}
+05-08-2026 18:40:20 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 14,
+    "role": "ClientServices",
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.th"
+}
+05-08-2026 18:41:27 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 14,
+    "role": "ClientServices",
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.th"
+}
+05-08-2026 18:42:37 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 14,
+    "role": "ClientServices",
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.th"
+}
+06-08-2026 10:25:55 GET /swagger/index.html 
+
+06-08-2026 10:26:07 GET /swagger/v1/swagger.json 
+
+06-08-2026 10:29:28 POST /api/VA/EnqLineItemsDropdowns 
+{
+  "typeOfJob": "print"
+  
+}
+06-08-2026 10:29:55 POST /api/VA/EnqLineItemsDropdowns 
+{
+  "typeOfJob": "print"
+  
+}
+06-08-2026 10:31:17 POST /api/VA/EnqLineItemsDropdowns 
+{
+    "TypeOfJob": "Print"
+}
+06-08-2026 10:31:25 POST /api/VA/EnqLineItemsDropdowns 
+{
+    "TypeOfJob": "Print"
+}
+06-08-2026 11:15:29 POST /api/VA/ViewDashboard 
+{
+    "userCountryId": 14,
+    "role": "ClientServices",
+    "createdName": 0,
+    "enqUId": "",
+    "projectNo": "",
+    "startDate": "",
+    "endDate": "",
+    "statusId": "",
+    "jobposition": "",
+    "client": "",
+    "username": "demouser.th"
+}
+06-08-2026 16:19:37 GET /swagger/favicon-32x32.png 
+
+06-08-2026 16:36:56 GET /swagger/index.html 
+
+06-08-2026 16:36:57 GET /swagger/v1/swagger.json 
+
+06-08-2026 16:40:20 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3144,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+06-08-2026 16:41:17 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3144,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+07-08-2026 10:50:30 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3144,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+07-08-2026 10:50:35 GET /swagger/index.html 
+
+07-08-2026 10:51:10 GET /swagger/v1/swagger.json 
+
+07-08-2026 10:51:35 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3149,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+17-08-2026 14:13:39 GET /swagger/index.html 
+
+17-08-2026 14:13:51 GET /swagger/v1/swagger.json 
+
+17-08-2026 14:14:04 GET /swagger/favicon-32x32.png 
+
+17-08-2026 14:33:44 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3149,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+18-08-2026 10:42:59 GET /swagger/index.html 
+
+18-08-2026 10:43:02 GET /swagger/v1/swagger.json 
+
+18-08-2026 10:46:32 OPTIONS /api/VA/UpdatePreviewQuotes 
+
+18-08-2026 10:46:32 POST /api/VA/UpdatePreviewQuotes 
+{"SupplierB":"Advance Printing ","SupplierBNegAmount":560,"SupplierBInitAmount":1120}
+18-08-2026 11:53:05 OPTIONS /api/VA/UpdatePreviewQuotes 
+
+18-08-2026 11:53:05 POST /api/VA/UpdatePreviewQuotes 
+{"Id":4273,"SupplierB":"Test Supplier SG3","SupplierBNegAmount":"300","SupplierBInitAmount":"300","SupplierC":"Test Supplier SG1","SupplierCNegAmount":"100","SupplierCInitAmount":"100"}
+18-08-2026 11:53:17 OPTIONS /api/VA/UpdatePreviewQuotes 
+
+18-08-2026 11:53:17 POST /api/VA/UpdatePreviewQuotes 
+{"Id":4273,"SupplierB":"Test Supplier SG3","SupplierBNegAmount":"300","SupplierBInitAmount":"300","SupplierC":"Test Supplier SG1","SupplierCNegAmount":"100","SupplierCInitAmount":"100"}
+18-08-2026 11:54:20 OPTIONS /api/VA/UpdatePreviewQuotes 
+
+18-08-2026 11:54:20 POST /api/VA/UpdatePreviewQuotes 
+{"Id":4273,"SupplierB":"Test Supplier SG3","SupplierBNegAmount":"300","SupplierBInitAmount":"300","SupplierC":"Test Supplier SG1","SupplierCNegAmount":"100","SupplierCInitAmount":"100"}
+18-08-2026 11:55:33 OPTIONS /api/VA/UpdatePreviewQuotes 
+
+18-08-2026 11:55:33 POST /api/VA/UpdatePreviewQuotes 
+{"Id":4273,"SupplierB":"Test Supplier SG3","SupplierBNegAmount":"300","SupplierBInitAmount":"300","SupplierC":"Test Supplier SG1","SupplierCNegAmount":"100","SupplierCInitAmount":"100"}
+18-08-2026 12:03:27 OPTIONS /api/VA/UpdatePreviewQuotes 
+
+18-08-2026 12:03:28 POST /api/VA/UpdatePreviewQuotes 
+{"Id":4273,"SupplierB":"Test Supplier SG1","SupplierBNegAmount":"100","SupplierBInitAmount":"100","SupplierC":"Test Supplier SG3","SupplierCNegAmount":"300","SupplierCInitAmount":"300"}
+18-08-2026 12:04:08 OPTIONS /api/VA/UpdatePreviewQuotes 
+
+18-08-2026 12:04:08 POST /api/VA/UpdatePreviewQuotes 
+{"Id":4273,"SupplierB":"Test Supplier SG1","SupplierBNegAmount":"100","SupplierBInitAmount":"100","SupplierC":"Test Supplier SG3","SupplierCNegAmount":"300","SupplierCInitAmount":"300"}
+18-08-2026 12:08:28 OPTIONS /api/VA/UpdatePreviewQuotes 
+
+18-08-2026 12:08:28 POST /api/VA/UpdatePreviewQuotes 
+{"Id":4273,"SupplierB":"Test Supplier SG1","SupplierBNegAmount":"100","SupplierBInitAmount":"100","SupplierC":"Test Supplier SG3","SupplierCNegAmount":"300","SupplierCInitAmount":"300"}
+18-08-2026 12:08:50 OPTIONS /api/VA/UpdatePreviewQuotes 
+
+18-08-2026 12:08:50 POST /api/VA/UpdatePreviewQuotes 
+{"Id":4273,"SupplierB":"Test Supplier SG1","SupplierBNegAmount":"100","SupplierBInitAmount":"100","SupplierC":"Test Supplier SG3","SupplierCNegAmount":"300","SupplierCInitAmount":"300"}
+18-08-2026 12:15:49 OPTIONS /api/VA/UpdatePreviewQuotes 
+
+18-08-2026 12:15:49 POST /api/VA/UpdatePreviewQuotes 
+{"Id":4273,"SupplierB":"Test Supplier SG3","SupplierBNegAmount":"300","SupplierBInitAmount":"300","SupplierC":"Test Supplier SG1","SupplierCNegAmount":"100","SupplierCInitAmount":"100"}
+21-08-2026 15:35:44 GET /swagger/index.html 
+
+21-08-2026 15:35:53 GET /swagger/v1/swagger.json 
+
+21-08-2026 15:39:25 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3192,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+21-08-2026 16:11:43 GET /swagger/index.html 
+
+21-08-2026 16:11:44 GET /swagger/v1/swagger.json 
+
+21-08-2026 16:12:25 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3192,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+21-08-2026 16:13:47 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3192,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+21-08-2026 16:14:33 GET /swagger/index.html 
+
+21-08-2026 16:14:34 GET /swagger/v1/swagger.json 
+
+21-08-2026 16:14:39 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3192,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+21-08-2026 16:15:44 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3192,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+21-08-2026 16:16:22 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3192,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+21-08-2026 16:21:58 GET /swagger/index.html 
+
+21-08-2026 16:22:00 GET /swagger/v1/swagger.json 
+
+21-08-2026 16:22:44 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3192,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+21-08-2026 16:33:04 GET /swagger/index.html 
+
+21-08-2026 16:33:10 GET /swagger/v1/swagger.json 
+
+21-08-2026 16:33:43 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3192,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+21-08-2026 16:34:23 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3192,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+21-08-2026 16:40:49 GET /swagger/index.html 
+
+21-08-2026 16:40:49 GET /swagger/v1/swagger.json 
+
+21-08-2026 16:41:09 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3192,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+24-08-2026 13:37:42 GET /swagger/index.html 
+
+24-08-2026 13:40:29 GET /swagger/v1/swagger.json 
+
+24-08-2026 13:41:11 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3202,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+15-09-2026 10:32:39 GET /swagger/index.html 
+
+15-09-2026 10:32:40 GET /swagger/v1/swagger.json 
+
+15-09-2026 10:32:40 GET /swagger/favicon-32x32.png 
+
+15-09-2026 10:42:14 GET /swagger/index.html 
+
+15-09-2026 10:42:15 GET /swagger/v1/swagger.json 
+
+15-09-2026 10:46:25 POST /api/VA/MasterDropdowns 
+{
+  "userCountryId": 12,
+  "role": "ClientServices",
+  "userid": 1
+}
+15-09-2026 16:00:03 GET /swagger/index.html 
+
+15-09-2026 16:00:04 GET /swagger/v1/swagger.json 
+
+15-09-2026 16:00:14 POST /api/VA/GetDetails 
+{"Enquiryid": 3244}
+15-09-2026 16:05:56 POST /api/VA/GetDetails 
+{
+    "Enquiryid": 3244
+}
+15-09-2026 16:15:33 GET /swagger/index.html 
+
+15-09-2026 16:15:36 GET /swagger/v1/swagger.json 
+
+15-09-2026 16:15:39 GET /swagger/favicon-32x32.png 
+
+15-09-2026 16:22:07 POST /api/VA/GetDetails 
+{
+    "Enquiryid": 3244
+}
+15-09-2026 16:25:33 GET /swagger/index.html 
+
+15-09-2026 16:25:34 GET /swagger/v1/swagger.json 
+
+15-09-2026 16:30:03 POST /api/VA/GetDetails 
+{
+    "Enquiryid": 3244
+}
+15-09-2026 16:42:17 GET /swagger/index.html 
+
+15-09-2026 16:42:18 GET /swagger/v1/swagger.json 
+
+15-09-2026 16:42:40 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3244,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+15-09-2026 16:43:24 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3244,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+15-09-2026 17:13:06 GET /swagger/index.html 
+
+15-09-2026 17:13:07 GET /swagger/v1/swagger.json 
+
+15-09-2026 17:30:06 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3244,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+15-09-2026 17:32:04 GET /swagger/index.html 
+
+15-09-2026 17:32:05 GET /swagger/v1/swagger.json 
+
+15-09-2026 17:34:54 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3244,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+15-09-2026 17:45:52 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3244,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+15-09-2026 17:49:56 GET /swagger/index.html 
+
+15-09-2026 17:49:57 GET /swagger/v1/swagger.json 
+
+15-09-2026 17:51:02 POST /api/VA/GetProjectDetails 
+{
+    "enquiryid": 3244,
+    "Currency": "SGD",
+    "Country": "Singapore"
+}
+06-10-2026 15:48:46 GET /swagger 
+
+06-10-2026 15:48:53 GET /swagger/index.html 
+
+06-10-2026 15:48:54 GET /swagger/swagger-ui-standalone-preset.js 
+
+06-10-2026 15:48:54 GET /swagger/swagger-ui-bundle.js 
+
+06-10-2026 15:49:19 GET /swagger/v1/swagger.json 
+
+06-10-2026 15:49:20 GET /swagger/favicon-16x16.png 
+
+06-10-2026 15:49:59 POST /api/VA/EnqLineItemsDropdowns 
+{
+    "TypeOfJob": "POSM"
+}
+06-10-2026 15:50:59 POST /api/VA/EnqLineItemsDropdowns 
+{
+    "TypeOfJob": "POSM"
+}
