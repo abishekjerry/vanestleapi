@@ -1,0 +1,621 @@
+2026-10-06 21:03:30.312 +05:30 [INF] Now listening on: http://localhost:5116
+2026-10-06 21:03:30.407 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-06 21:03:30.409 +05:30 [INF] Hosting environment: Development
+2026-10-06 21:03:30.409 +05:30 [INF] Content root path: D:\LocalSource\VA_API\VAapiNestle
+2026-10-06 21:03:30.854 +05:30 [INF] HTTP GET /health responded 200 in 136.0939 ms
+2026-10-06 21:03:40.731 +05:30 [INF] HTTP GET /health responded 200 in 12.6643 ms
+2026-10-06 21:03:45.534 +05:30 [INF] HTTP GET /health/ready responded 200 in 4666.6787 ms
+2026-10-06 21:03:46.154 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 394.2396 ms
+2026-10-06 21:03:46.397 +05:30 [INF] POST /api/VA/CheckforUsername body: {}
+2026-10-06 21:03:46.448 +05:30 [INF] HTTP POST /api/VA/CheckforUsername responded 401 in 63.1488 ms
+2026-10-06 21:03:46.594 +05:30 [INF] POST /api/VA/CheckforUsername body: {}
+2026-10-06 21:03:46.597 +05:30 [INF] HTTP POST /api/VA/CheckforUsername responded 401 in 4.1898 ms
+2026-10-06 21:03:46.734 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:03:48.125 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 1396.5943 ms
+2026-10-06 21:03:48.330 +05:30 [INF] POST /api/VA/Language body: {"lang":"Japanese"}
+2026-10-06 21:03:49.141 +05:30 [INF] HTTP POST /api/VA/Language responded 200 in 811.7739 ms
+2026-10-06 21:03:49.360 +05:30 [INF] POST /api/VA/Language body: {"lang":"ResourceKey"}
+2026-10-06 21:03:49.536 +05:30 [INF] HTTP POST /api/VA/Language responded 200 in 178.0327 ms
+2026-10-06 21:04:03.939 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 76.1545 ms
+2026-10-06 21:04:04.112 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:04:04.191 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 79.4913 ms
+2026-10-06 21:04:04.269 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:04:04.347 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 78.2234 ms
+2026-10-06 21:04:04.384 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:04:04.455 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 71.8810 ms
+2026-10-06 21:04:04.494 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:04:04.565 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 71.4505 ms
+2026-10-06 21:04:04.608 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:04:04.677 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 69.9560 ms
+2026-10-06 21:04:04.724 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:04:04.793 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 68.7452 ms
+2026-10-06 21:04:04.848 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:04:04.921 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 73.3605 ms
+2026-10-06 21:04:04.957 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:04:05.026 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 69.0358 ms
+2026-10-06 21:04:05.070 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:04:05.140 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 69.7110 ms
+2026-10-06 21:04:05.168 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:04:05.178 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 429 in 10.0499 ms
+2026-10-06 21:04:05.399 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":1,"username":"x"}
+2026-10-06 21:04:05.994 +05:30 [WRN] The query uses the 'Distinct' operator after applying an ordering. If there are any row limiting operation used before 'Distinct' and after ordering then ordering will be used for it. Ordering(s) will be erased after 'Distinct' and results afterwards would be unordered.
+2026-10-06 21:04:06.217 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 817.7136 ms
+2026-10-06 21:04:06.232 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":1,"username":"x","startDate":"","endDate":""}
+2026-10-06 21:04:06.392 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 160.0604 ms
+2026-10-06 21:04:06.396 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:04:06.685 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 289.0825 ms
+2026-10-06 21:04:17.107 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":1,"username":"x"}
+2026-10-06 21:04:17.249 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 157.7210 ms
+2026-10-06 21:04:17.287 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":1,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:17.430 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 144.9472 ms
+2026-10-06 21:04:17.435 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":2,"username":"x"}
+2026-10-06 21:04:17.571 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 137.3769 ms
+2026-10-06 21:04:17.574 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":2,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:17.712 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 138.4520 ms
+2026-10-06 21:04:17.717 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":3,"username":"x"}
+2026-10-06 21:04:17.855 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 138.2160 ms
+2026-10-06 21:04:17.858 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":3,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:17.999 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 141.7928 ms
+2026-10-06 21:04:18.003 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":4,"username":"x"}
+2026-10-06 21:04:18.138 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 136.1129 ms
+2026-10-06 21:04:18.142 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":4,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:18.277 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 135.9516 ms
+2026-10-06 21:04:18.281 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":5,"username":"x"}
+2026-10-06 21:04:18.420 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 139.6892 ms
+2026-10-06 21:04:18.423 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":5,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:18.562 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 139.6854 ms
+2026-10-06 21:04:18.567 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":6,"username":"x"}
+2026-10-06 21:04:18.705 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 139.1748 ms
+2026-10-06 21:04:18.709 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":6,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:18.851 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 142.3109 ms
+2026-10-06 21:04:18.855 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":7,"username":"x"}
+2026-10-06 21:04:18.999 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 144.1614 ms
+2026-10-06 21:04:19.004 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":7,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:19.143 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 140.5894 ms
+2026-10-06 21:04:19.146 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":8,"username":"x"}
+2026-10-06 21:04:19.287 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 141.5055 ms
+2026-10-06 21:04:19.290 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":8,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:19.431 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 142.1097 ms
+2026-10-06 21:04:19.436 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":9,"username":"x"}
+2026-10-06 21:04:19.576 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 140.9164 ms
+2026-10-06 21:04:19.581 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":9,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:19.719 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 139.2132 ms
+2026-10-06 21:04:19.750 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":10,"username":"x"}
+2026-10-06 21:04:19.892 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 142.1416 ms
+2026-10-06 21:04:19.896 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":10,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:20.044 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 149.0096 ms
+2026-10-06 21:04:20.049 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":11,"username":"x"}
+2026-10-06 21:04:20.188 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 140.1434 ms
+2026-10-06 21:04:20.192 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":11,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:20.327 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 135.9543 ms
+2026-10-06 21:04:20.331 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:04:21.146 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 815.6122 ms
+2026-10-06 21:04:21.180 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:23.833 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2654.2433 ms
+2026-10-06 21:04:23.902 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":13,"username":"x"}
+2026-10-06 21:04:24.042 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 140.7445 ms
+2026-10-06 21:04:24.046 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":13,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:24.212 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 166.6887 ms
+2026-10-06 21:04:24.215 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":14,"username":"x"}
+2026-10-06 21:04:24.352 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 137.4201 ms
+2026-10-06 21:04:24.355 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":14,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:24.493 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 139.1661 ms
+2026-10-06 21:04:24.497 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":15,"username":"x"}
+2026-10-06 21:04:24.631 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 134.6688 ms
+2026-10-06 21:04:24.635 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":15,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:24.773 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 138.3531 ms
+2026-10-06 21:04:24.777 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":16,"username":"x"}
+2026-10-06 21:04:24.919 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 141.8261 ms
+2026-10-06 21:04:24.921 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":16,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:25.058 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 137.2414 ms
+2026-10-06 21:04:25.063 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":17,"username":"x"}
+2026-10-06 21:04:25.201 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 138.8107 ms
+2026-10-06 21:04:25.204 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":17,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:25.342 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 138.6900 ms
+2026-10-06 21:04:25.346 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":18,"username":"x"}
+2026-10-06 21:04:25.486 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 140.5958 ms
+2026-10-06 21:04:25.489 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":18,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:25.626 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 137.3157 ms
+2026-10-06 21:04:25.629 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":19,"username":"x"}
+2026-10-06 21:04:25.766 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 137.5800 ms
+2026-10-06 21:04:25.770 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":19,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:25.907 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 137.9737 ms
+2026-10-06 21:04:25.910 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":20,"username":"x"}
+2026-10-06 21:04:26.050 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 140.2208 ms
+2026-10-06 21:04:26.053 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":20,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:26.184 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 131.9243 ms
+2026-10-06 21:04:39.313 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:04:41.343 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 2030.6717 ms
+2026-10-06 21:04:41.389 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3326,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:04:42.546 +05:30 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2026-10-06 21:04:43.442 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 2053.4636 ms
+2026-10-06 21:04:43.549 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:04:46.216 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2667.9156 ms
+2026-10-06 21:04:46.377 +05:30 [INF] POST /api/VA/GetPreviewQuotes body: {"enquiryid":3196}
+2026-10-06 21:04:51.484 +05:30 [INF] HTTP POST /api/VA/GetPreviewQuotes responded 200 in 5107.3084 ms
+2026-10-06 21:04:51.639 +05:30 [INF] POST /api/VA/GetPreviewQuotes body: {"enquiryid":999999999}
+2026-10-06 21:04:51.718 +05:30 [INF] HTTP POST /api/VA/GetPreviewQuotes responded 404 in 79.2568 ms
+2026-10-06 21:14:29.610 +05:30 [INF] Now listening on: http://localhost:5116
+2026-10-06 21:14:29.642 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-06 21:14:29.642 +05:30 [INF] Hosting environment: Development
+2026-10-06 21:14:29.642 +05:30 [INF] Content root path: D:\LocalSource\VA_API\VAapiNestle
+2026-10-06 21:14:52.207 +05:30 [INF] HTTP GET /health responded 200 in 70.2429 ms
+2026-10-06 21:14:52.459 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:14:58.458 +05:30 [WRN] The query uses the 'Distinct' operator after applying an ordering. If there are any row limiting operation used before 'Distinct' and after ordering then ordering will be used for it. Ordering(s) will be erased after 'Distinct' and results afterwards would be unordered.
+2026-10-06 21:15:01.065 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 8618.0873 ms
+2026-10-06 21:15:02.306 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:15:05.014 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2707.6410 ms
+2026-10-06 21:15:05.205 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"","endDate":""}
+2026-10-06 21:15:06.028 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 822.7614 ms
+2026-10-06 21:15:06.073 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:15:06.313 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 239.4890 ms
+2026-10-06 21:15:06.335 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:15:07.662 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 1326.7942 ms
+2026-10-06 21:15:07.683 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":999999999}
+2026-10-06 21:15:07.757 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 74.8864 ms
+2026-10-06 21:15:07.804 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3326,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:15:08.710 +05:30 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2026-10-06 21:15:09.494 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 1690.3720 ms
+2026-10-06 21:15:09.752 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:15:11.321 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 1569.3939 ms
+2026-10-06 21:15:11.859 +05:30 [INF] HTTP GET /api/VA/GetSavings responded 200 in 229.5762 ms
+2026-10-06 21:15:12.035 +05:30 [INF] HTTP GET /api/VA/GetProjectStatus responded 200 in 149.7868 ms
+2026-10-06 21:15:12.045 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:15:12.811 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 765.9391 ms
+2026-10-06 21:15:12.857 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Buyer","userId":1}
+2026-10-06 21:15:13.519 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 662.8843 ms
+2026-10-06 21:15:13.550 +05:30 [INF] POST /api/VA/EnqLineItemsDropdowns body: {"lang":"English","typeOfJob":"Print","savingstype":"Cost Reduction"}
+2026-10-06 21:15:14.382 +05:30 [INF] HTTP POST /api/VA/EnqLineItemsDropdowns responded 200 in 832.4398 ms
+2026-10-06 21:15:14.424 +05:30 [INF] POST /api/VA/EnqLineItemsDropdowns body: {"lang":"Japanese","typeOfJob":"POSM","subitemid":5}
+2026-10-06 21:15:15.176 +05:30 [INF] HTTP POST /api/VA/EnqLineItemsDropdowns responded 200 in 752.9121 ms
+2026-10-06 21:15:15.212 +05:30 [INF] POST /api/VA/Language body: {"lang":"English"}
+2026-10-06 21:15:15.773 +05:30 [INF] HTTP POST /api/VA/Language responded 200 in 561.7261 ms
+2026-10-06 21:15:15.799 +05:30 [INF] POST /api/VA/CheckforUsername body: {"username":"demouser.sg"}
+2026-10-06 21:15:15.875 +05:30 [INF] HTTP POST /api/VA/CheckforUsername responded 200 in 76.1106 ms
+2026-10-06 21:15:15.890 +05:30 [INF] POST /api/VA/CheckDeliveryAddress body: {"companyName":"zz-no-such-company"}
+2026-10-06 21:15:15.967 +05:30 [INF] HTTP POST /api/VA/CheckDeliveryAddress responded 200 in 77.2923 ms
+2026-10-06 21:15:15.996 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:15:16.089 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 94.1395 ms
+2026-10-06 21:15:16.131 +05:30 [INF] POST /api/VA/EnqClientinfoDropdowns body: {"divisionid":1166}
+2026-10-06 21:15:16.453 +05:30 [INF] HTTP POST /api/VA/EnqClientinfoDropdowns responded 200 in 321.6672 ms
+2026-10-06 21:15:16.497 +05:30 [INF] POST /api/VA/EnqClientinfoDropdowns body: {"divisionid":999999999}
+2026-10-06 21:15:16.564 +05:30 [INF] HTTP POST /api/VA/EnqClientinfoDropdowns responded 200 in 66.9739 ms
+2026-10-06 21:15:16.586 +05:30 [INF] POST /api/VA/GetSlatemplate body: {"slaId":24}
+2026-10-06 21:15:16.675 +05:30 [INF] HTTP POST /api/VA/GetSlatemplate responded 200 in 89.2642 ms
+2026-10-06 21:15:16.699 +05:30 [INF] POST /api/VA/GetSlatemplate body: {"enqId":3326,"slaId":24}
+2026-10-06 21:15:16.866 +05:30 [INF] HTTP POST /api/VA/GetSlatemplate responded 200 in 167.2318 ms
+2026-10-06 21:15:16.890 +05:30 [INF] POST /api/VA/GetPreviewQuotes body: {"enquiryid":3196}
+2026-10-06 21:15:19.121 +05:30 [INF] HTTP POST /api/VA/GetPreviewQuotes responded 200 in 2230.6354 ms
+2026-10-06 21:15:19.164 +05:30 [INF] POST /api/VA/GetReport body: {"startDate":"2025-01-01","endDate":"2026-12-31","role":"Administration","clientName":"All","reportType":"All","countryId":12}
+2026-10-06 21:15:20.341 +05:30 [ERR] GetReport failed (All, All)
+Microsoft.Data.SqlClient.SqlException (0x80131904): @clientname is not a parameter for procedure EB_NewGenerateReport.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at VAapiNestle.Controllers.VAController.GetReport(GetReport request) in D:\LocalSource\VA_API\VAapiNestle\Controllers\VAController.cs:line 2866
+ClientConnectionId:dfc2d980-7204-4f77-b5f8-782bd126ce2e
+Error Number:8145,State:1,Class:16
+2026-10-06 21:15:20.383 +05:30 [ERR] HTTP POST /api/VA/GetReport responded 500 in 1219.0067 ms
+2026-10-06 21:31:13.654 +05:30 [INF] Now listening on: http://localhost:5116
+2026-10-06 21:31:13.700 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-06 21:31:13.703 +05:30 [INF] Hosting environment: Development
+2026-10-06 21:31:13.705 +05:30 [INF] Content root path: D:\LocalSource\VA_API\VAapiNestle
+2026-10-06 21:31:13.844 +05:30 [INF] HTTP GET /health responded 200 in 54.1636 ms
+2026-10-06 21:31:20.900 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:31:23.849 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2958.9528 ms
+2026-10-06 21:31:23.977 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:31:26.663 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2690.9547 ms
+2026-10-06 21:31:26.996 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"","endDate":""}
+2026-10-06 21:31:27.868 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 872.0565 ms
+2026-10-06 21:31:27.920 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:31:28.125 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 205.1578 ms
+2026-10-06 21:31:28.163 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:31:29.248 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 1085.1508 ms
+2026-10-06 21:31:29.267 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":999999999}
+2026-10-06 21:31:29.339 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 72.1842 ms
+2026-10-06 21:31:29.357 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3326,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:31:30.303 +05:30 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2026-10-06 21:31:31.161 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 1803.8868 ms
+2026-10-06 21:31:31.572 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:31:33.009 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 1437.6991 ms
+2026-10-06 21:31:33.513 +05:30 [INF] HTTP GET /api/VA/GetSavings responded 200 in 216.4442 ms
+2026-10-06 21:31:33.680 +05:30 [INF] HTTP GET /api/VA/GetProjectStatus responded 200 in 140.5482 ms
+2026-10-06 21:31:33.696 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:31:34.477 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 781.2010 ms
+2026-10-06 21:31:34.515 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Buyer","userId":1}
+2026-10-06 21:31:35.143 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 628.0605 ms
+2026-10-06 21:31:35.159 +05:30 [INF] POST /api/VA/EnqLineItemsDropdowns body: {"lang":"English","typeOfJob":"Print","savingstype":"Cost Reduction"}
+2026-10-06 21:31:36.056 +05:30 [INF] HTTP POST /api/VA/EnqLineItemsDropdowns responded 200 in 899.6010 ms
+2026-10-06 21:31:36.098 +05:30 [INF] POST /api/VA/EnqLineItemsDropdowns body: {"lang":"Japanese","typeOfJob":"POSM","subitemid":5}
+2026-10-06 21:31:36.936 +05:30 [INF] HTTP POST /api/VA/EnqLineItemsDropdowns responded 200 in 837.7679 ms
+2026-10-06 21:31:36.979 +05:30 [INF] POST /api/VA/Language body: {"lang":"English"}
+2026-10-06 21:31:37.541 +05:30 [INF] HTTP POST /api/VA/Language responded 200 in 562.1337 ms
+2026-10-06 21:31:37.573 +05:30 [INF] POST /api/VA/CheckforUsername body: {"username":"demouser.sg"}
+2026-10-06 21:31:37.663 +05:30 [INF] HTTP POST /api/VA/CheckforUsername responded 200 in 90.5047 ms
+2026-10-06 21:31:37.684 +05:30 [INF] POST /api/VA/CheckDeliveryAddress body: {"companyName":"zz-no-such-company"}
+2026-10-06 21:31:37.805 +05:30 [INF] HTTP POST /api/VA/CheckDeliveryAddress responded 200 in 120.7413 ms
+2026-10-06 21:31:37.830 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:31:37.928 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 98.6471 ms
+2026-10-06 21:31:37.985 +05:30 [INF] POST /api/VA/EnqClientinfoDropdowns body: {"divisionid":1166}
+2026-10-06 21:31:38.334 +05:30 [INF] HTTP POST /api/VA/EnqClientinfoDropdowns responded 200 in 349.2953 ms
+2026-10-06 21:31:38.365 +05:30 [INF] POST /api/VA/EnqClientinfoDropdowns body: {"divisionid":999999999}
+2026-10-06 21:31:38.432 +05:30 [INF] HTTP POST /api/VA/EnqClientinfoDropdowns responded 200 in 66.5651 ms
+2026-10-06 21:31:38.444 +05:30 [INF] POST /api/VA/GetSlatemplate body: {"slaId":24}
+2026-10-06 21:31:38.561 +05:30 [INF] HTTP POST /api/VA/GetSlatemplate responded 200 in 117.9074 ms
+2026-10-06 21:31:38.584 +05:30 [INF] POST /api/VA/GetSlatemplate body: {"enqId":3326,"slaId":24}
+2026-10-06 21:31:38.773 +05:30 [INF] HTTP POST /api/VA/GetSlatemplate responded 200 in 189.9910 ms
+2026-10-06 21:31:38.813 +05:30 [INF] POST /api/VA/GetPreviewQuotes body: {"enquiryid":3196}
+2026-10-06 21:31:41.462 +05:30 [INF] HTTP POST /api/VA/GetPreviewQuotes responded 200 in 2662.5026 ms
+2026-10-06 21:31:41.522 +05:30 [INF] POST /api/VA/GetReport body: {"startDate":"2025-01-01","endDate":"2026-12-31","role":"Administration","clientName":"All","reportType":"All","countryId":12}
+2026-10-06 21:31:58.489 +05:30 [INF] HTTP POST /api/VA/GetReport responded 200 in 16967.6221 ms
+2026-10-06 21:32:58.856 +05:30 [INF] Now listening on: http://localhost:5116
+2026-10-06 21:32:58.887 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-06 21:32:58.888 +05:30 [INF] Hosting environment: Development
+2026-10-06 21:32:58.889 +05:30 [INF] Content root path: D:\LocalSource\VA_API\VAapiNestle
+2026-10-06 21:32:59.266 +05:30 [INF] HTTP GET /health responded 200 in 45.0005 ms
+2026-10-06 21:32:59.476 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:33:03.728 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 4259.7426 ms
+2026-10-06 21:33:03.851 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:33:06.528 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2678.0262 ms
+2026-10-06 21:33:06.760 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"","endDate":""}
+2026-10-06 21:33:07.529 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 768.8223 ms
+2026-10-06 21:33:07.581 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:33:07.794 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 212.9541 ms
+2026-10-06 21:33:07.835 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:33:08.854 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 1018.5121 ms
+2026-10-06 21:33:08.869 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":999999999}
+2026-10-06 21:33:08.941 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 72.2101 ms
+2026-10-06 21:33:08.957 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3326,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:33:09.870 +05:30 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2026-10-06 21:33:10.675 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 1717.9506 ms
+2026-10-06 21:33:10.980 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:33:12.434 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 1454.2215 ms
+2026-10-06 21:33:12.981 +05:30 [INF] HTTP GET /api/VA/GetSavings responded 200 in 239.2905 ms
+2026-10-06 21:33:13.141 +05:30 [INF] HTTP GET /api/VA/GetProjectStatus responded 200 in 145.2827 ms
+2026-10-06 21:33:13.156 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:33:13.913 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 757.9148 ms
+2026-10-06 21:33:13.957 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Buyer","userId":1}
+2026-10-06 21:33:14.582 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 624.4337 ms
+2026-10-06 21:33:14.603 +05:30 [INF] POST /api/VA/EnqLineItemsDropdowns body: {"lang":"English","typeOfJob":"Print","savingstype":"Cost Reduction"}
+2026-10-06 21:33:15.460 +05:30 [INF] HTTP POST /api/VA/EnqLineItemsDropdowns responded 200 in 856.9088 ms
+2026-10-06 21:33:15.500 +05:30 [INF] POST /api/VA/EnqLineItemsDropdowns body: {"lang":"Japanese","typeOfJob":"POSM","subitemid":5}
+2026-10-06 21:33:16.289 +05:30 [INF] HTTP POST /api/VA/EnqLineItemsDropdowns responded 200 in 789.8179 ms
+2026-10-06 21:33:16.322 +05:30 [INF] POST /api/VA/Language body: {"lang":"English"}
+2026-10-06 21:33:16.899 +05:30 [INF] HTTP POST /api/VA/Language responded 200 in 576.7065 ms
+2026-10-06 21:33:16.929 +05:30 [INF] POST /api/VA/CheckforUsername body: {"username":"demouser.sg"}
+2026-10-06 21:33:17.030 +05:30 [INF] HTTP POST /api/VA/CheckforUsername responded 200 in 100.5535 ms
+2026-10-06 21:33:17.047 +05:30 [INF] POST /api/VA/CheckDeliveryAddress body: {"companyName":"zz-no-such-company"}
+2026-10-06 21:33:17.164 +05:30 [INF] HTTP POST /api/VA/CheckDeliveryAddress responded 200 in 117.5841 ms
+2026-10-06 21:33:17.180 +05:30 [INF] POST /api/VA/UserSignon body: {"username":"smoketest.nouser","password":"***"}
+2026-10-06 21:33:17.272 +05:30 [INF] HTTP POST /api/VA/UserSignon responded 200 in 93.2678 ms
+2026-10-06 21:33:17.297 +05:30 [INF] POST /api/VA/EnqClientinfoDropdowns body: {"divisionid":1166}
+2026-10-06 21:33:17.625 +05:30 [INF] HTTP POST /api/VA/EnqClientinfoDropdowns responded 200 in 327.4107 ms
+2026-10-06 21:33:17.644 +05:30 [INF] POST /api/VA/EnqClientinfoDropdowns body: {"divisionid":999999999}
+2026-10-06 21:33:17.715 +05:30 [INF] HTTP POST /api/VA/EnqClientinfoDropdowns responded 200 in 71.4148 ms
+2026-10-06 21:33:17.732 +05:30 [INF] POST /api/VA/GetSlatemplate body: {"slaId":24}
+2026-10-06 21:33:17.854 +05:30 [INF] HTTP POST /api/VA/GetSlatemplate responded 200 in 122.3595 ms
+2026-10-06 21:33:17.869 +05:30 [INF] POST /api/VA/GetSlatemplate body: {"enqId":3326,"slaId":24}
+2026-10-06 21:33:18.037 +05:30 [INF] HTTP POST /api/VA/GetSlatemplate responded 200 in 167.9180 ms
+2026-10-06 21:33:18.053 +05:30 [INF] POST /api/VA/GetPreviewQuotes body: {"enquiryid":3196}
+2026-10-06 21:33:19.985 +05:30 [INF] HTTP POST /api/VA/GetPreviewQuotes responded 200 in 1933.0234 ms
+2026-10-06 21:33:20.043 +05:30 [INF] POST /api/VA/GetReport body: {"startDate":"2025-01-01","endDate":"2026-12-31","role":"Administration","clientName":"All","reportType":"All","countryId":12}
+2026-10-06 21:33:34.491 +05:30 [INF] HTTP POST /api/VA/GetReport responded 200 in 14448.0010 ms
+2026-10-06 21:34:00.938 +05:30 [INF] POST /api/VA/GetReport body: {"startDate":"2025-01-01","endDate":"2026-12-31","role":"Administration","clientName":"All","reportType":"All","countryId":12}
+2026-10-06 21:34:07.856 +05:30 [INF] HTTP POST /api/VA/GetReport responded 200 in 6929.2047 ms
+2026-10-06 21:34:08.946 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:11.625 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2680.1329 ms
+2026-10-06 21:34:12.228 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:14.970 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2742.0312 ms
+2026-10-06 21:34:15.064 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:17.671 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2607.8331 ms
+2026-10-06 21:34:17.705 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:20.456 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2750.7322 ms
+2026-10-06 21:34:20.484 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:23.095 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2612.2717 ms
+2026-10-06 21:34:23.141 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:25.769 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2627.6646 ms
+2026-10-06 21:34:25.811 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:28.498 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2687.8412 ms
+2026-10-06 21:34:28.524 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:31.192 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2668.8777 ms
+2026-10-06 21:34:31.221 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:33.883 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2662.4731 ms
+2026-10-06 21:34:33.931 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:36.617 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2686.9218 ms
+2026-10-06 21:34:36.639 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:39.286 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2647.5627 ms
+2026-10-06 21:34:39.315 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:41.966 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2651.7204 ms
+2026-10-06 21:34:41.993 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:44.642 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2649.0560 ms
+2026-10-06 21:34:44.667 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:47.289 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2622.3874 ms
+2026-10-06 21:34:47.314 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:49.902 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2588.2705 ms
+2026-10-06 21:34:49.952 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:52.540 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2588.5109 ms
+2026-10-06 21:34:52.565 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:55.183 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2618.0765 ms
+2026-10-06 21:34:55.212 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:34:57.871 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2658.7977 ms
+2026-10-06 21:34:57.906 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:35:00.555 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2649.2397 ms
+2026-10-06 21:35:00.581 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:35:03.245 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2663.4484 ms
+2026-10-06 21:35:03.274 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:35:05.929 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2655.4820 ms
+2026-10-06 21:35:05.956 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:35:08.574 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2618.3326 ms
+2026-10-06 21:35:08.595 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:35:11.174 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2579.4075 ms
+2026-10-06 21:35:11.202 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x","startDate":"2020-01-01","endDate":"2026-12-31"}
+2026-10-06 21:35:13.923 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2721.3844 ms
+2026-10-06 21:35:13.980 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:35:14.120 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 140.3915 ms
+2026-10-06 21:35:14.152 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:35:14.409 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 257.7240 ms
+2026-10-06 21:35:14.437 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:35:14.672 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 234.3082 ms
+2026-10-06 21:35:14.698 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:35:14.900 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 202.2543 ms
+2026-10-06 21:35:14.909 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:35:15.110 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 200.9256 ms
+2026-10-06 21:35:15.120 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:35:15.323 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 203.1276 ms
+2026-10-06 21:35:15.366 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3326,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:16.582 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 1215.8734 ms
+2026-10-06 21:35:16.605 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3326,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:17.853 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 1247.8345 ms
+2026-10-06 21:35:18.155 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:35:18.355 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 199.9612 ms
+2026-10-06 21:35:18.373 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:19.075 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 702.2182 ms
+2026-10-06 21:35:28.314 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:35:28.524 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 211.3341 ms
+2026-10-06 21:35:28.562 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:35:28.759 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 197.1147 ms
+2026-10-06 21:35:28.778 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:35:28.976 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 197.9273 ms
+2026-10-06 21:35:28.994 +05:30 [INF] POST /api/VA/GetSupplier body: {"currency":"SGD"}
+2026-10-06 21:35:29.202 +05:30 [INF] HTTP POST /api/VA/GetSupplier responded 200 in 207.9180 ms
+2026-10-06 21:35:41.207 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:41.301 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:41.301 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:41.301 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:41.331 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:41.378 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:41.382 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:41.384 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:41.387 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:41.388 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:41.417 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:41.420 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:41.425 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:41.430 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:41.480 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:41.488 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:41.533 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:41.572 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:41.619 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:41.671 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:41.697 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:41.744 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:41.782 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:41.832 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:41.879 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:41.930 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:41.980 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:42.032 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:42.069 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:42.120 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:42.148 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:42.199 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:42.240 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:42.288 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:42.329 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:42.372 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:42.410 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:42.437 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 1136.1286 ms
+2026-10-06 21:35:42.453 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:42.493 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:42.547 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:42.590 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:42.632 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:42.676 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:42.680 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 1379.4994 ms
+2026-10-06 21:35:42.699 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 1492.3018 ms
+2026-10-06 21:35:42.709 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:42.764 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:42.798 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:42.838 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:42.878 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:42.914 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:42.929 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 1628.0205 ms
+2026-10-06 21:35:42.969 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:42.998 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:43.044 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:43.058 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 604.6179 ms
+2026-10-06 21:35:43.089 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:43.135 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:43.176 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:43.227 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:43.267 +05:30 [INF] POST /api/VA/ViewDashboard body: {"menuid":1,"userCountryId":12,"username":"x"}
+2026-10-06 21:35:43.309 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 599.1911 ms
+2026-10-06 21:35:43.331 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 1953.0219 ms
+2026-10-06 21:35:43.343 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3326}
+2026-10-06 21:35:43.385 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"enquiryid":3196,"currency":"SGD","country":"Singapore"}
+2026-10-06 21:35:43.427 +05:30 [INF] POST /api/VA/MasterDropdowns body: {"userCountryId":12,"role":"Administration","userId":1}
+2026-10-06 21:35:43.563 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 593.9601 ms
+2026-10-06 21:35:43.875 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 2543.3306 ms
+2026-10-06 21:35:44.008 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 665.5497 ms
+2026-10-06 21:35:44.013 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 1337.0745 ms
+2026-10-06 21:35:44.138 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 2751.9874 ms
+2026-10-06 21:35:44.247 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 2865.0827 ms
+2026-10-06 21:35:44.278 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 1188.4306 ms
+2026-10-06 21:35:44.651 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 3267.0317 ms
+2026-10-06 21:35:44.714 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 3284.1566 ms
+2026-10-06 21:35:44.720 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 3300.6082 ms
+2026-10-06 21:35:44.733 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 3253.5949 ms
+2026-10-06 21:35:44.743 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 1357.8658 ms
+2026-10-06 21:35:44.780 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 3363.0127 ms
+2026-10-06 21:35:45.062 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 3490.0976 ms
+2026-10-06 21:35:45.184 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 3796.2778 ms
+2026-10-06 21:35:45.310 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 3639.0072 ms
+2026-10-06 21:35:45.479 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 4053.9245 ms
+2026-10-06 21:35:45.505 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 3971.8285 ms
+2026-10-06 21:35:45.577 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 3647.0396 ms
+2026-10-06 21:35:45.602 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 3769.6695 ms
+2026-10-06 21:35:45.702 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 3958.6562 ms
+2026-10-06 21:35:45.770 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 4150.8007 ms
+2026-10-06 21:35:45.793 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 4305.6005 ms
+2026-10-06 21:35:45.870 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 4173.0263 ms
+2026-10-06 21:35:45.906 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 3785.5975 ms
+2026-10-06 21:35:46.160 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 3961.1494 ms
+2026-10-06 21:35:46.211 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 3923.3085 ms
+2026-10-06 21:35:46.328 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 4348.1949 ms
+2026-10-06 21:35:46.407 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 4529.1473 ms
+2026-10-06 21:35:46.409 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 4627.3580 ms
+2026-10-06 21:35:46.446 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 3814.5412 ms
+2026-10-06 21:35:46.458 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 4086.7616 ms
+2026-10-06 21:35:46.476 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 3929.5116 ms
+2026-10-06 21:35:46.738 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 3940.1085 ms
+2026-10-06 21:35:47.003 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 4855.1627 ms
+2026-10-06 21:35:47.017 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 4688.6433 ms
+2026-10-06 21:35:47.036 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 4796.2001 ms
+2026-10-06 21:35:47.060 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 4182.6708 ms
+2026-10-06 21:35:47.069 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 3933.9884 ms
+2026-10-06 21:35:47.086 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 4041.9702 ms
+2026-10-06 21:35:47.087 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 5017.5106 ms
+2026-10-06 21:35:47.111 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 5079.2127 ms
+2026-10-06 21:35:47.159 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 4394.9702 ms
+2026-10-06 21:35:47.221 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 4727.5586 ms
+2026-10-06 21:35:47.304 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 4894.4070 ms
+2026-10-06 21:35:47.321 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 4730.7384 ms
+2026-10-06 21:35:47.363 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 3935.6386 ms
+2026-10-06 21:35:47.374 +05:30 [INF] HTTP POST /api/VA/MasterDropdowns responded 200 in 4147.0120 ms
+2026-10-06 21:35:47.519 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 4681.2371 ms
+2026-10-06 21:35:47.635 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 4721.5671 ms
+2026-10-06 21:35:47.836 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 4660.6565 ms
+2026-10-06 21:35:47.871 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 4872.6689 ms
+2026-10-06 21:35:47.930 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 4662.9604 ms
+2026-10-06 21:59:58.204 +05:30 [INF] Now listening on: http://localhost:5117
+2026-10-06 21:59:58.480 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-06 21:59:58.487 +05:30 [INF] Hosting environment: Development
+2026-10-06 21:59:58.491 +05:30 [INF] Content root path: D:\LocalSource\VA_API\VAapiNestle
+2026-10-06 22:00:06.678 +05:30 [INF] HTTP GET /health/ready responded 200 in 7556.7490 ms
+2026-10-06 22:01:08.310 +05:30 [INF] POST /api/VA/EnqClientinfo body: {"deliveryCountryId":12,"menuid":1,"createdBy":1,"clientContactId":1282,"aboveorAtmarket":"At Market","modifiedBy":1,"divisionid":1284,"brand":"ENERCAL","pmgEntity":12,"action":"Create"}
+2026-10-06 22:01:14.892 +05:30 [INF] HTTP POST /api/VA/EnqClientinfo responded 200 in 6615.7943 ms
+2026-10-06 22:01:15.292 +05:30 [INF] POST /api/VA/EnqClientinfo body: {"enqId":3332,"deliveryCountryId":12,"menuid":1,"createdBy":1,"clientContactId":1282,"aboveorAtmarket":"Above Market","modifiedBy":1,"divisionid":1284,"brand":"ENERCAL","pmgEntity":12,"action":"Update"}
+2026-10-06 22:01:16.239 +05:30 [INF] HTTP POST /api/VA/EnqClientinfo responded 200 in 974.5710 ms
+2026-10-06 22:01:16.328 +05:30 [INF] POST /api/VA/EnqProjectinfo body: {"modifiedBy":1,"hybridModel":"No","proofstartdate":"2026-10-10","filecopiesenddate":"2026-10-10","enqId":3332,"quoteBy":2,"attribute":"Regular Job","slaId":22,"invoiceenddate":"2026-10-10","projectDesc":"E2E constraint test","proofenddate":"2026-10-10","productionenddate":"2026-10-10","filecopiesstartdate":"2026-10-10","briefdate":"2026-10-10","quoteenddate":"2026-10-10","estdate":"2026-10-10","quotestartdate":"2026-10-10","productionstartdate":"2026-10-10","invoicestartdate":"2026-10-10","projectNo":"E2E-001","year":"Year 1"}
+2026-10-06 22:01:18.363 +05:30 [INF] HTTP POST /api/VA/EnqProjectinfo responded 200 in 2037.6942 ms
+2026-10-06 22:01:18.484 +05:30 [INF] POST /api/VA/EnqLineItemDetails body: {"enqId":3332,"printornonprint":"Print","modifiedBy":1,"quoteQtyOrSize":"1000","productCategoryId":1,"itemDescription":"Line item 1","itemSellPrice":0,"subcatID":97,"itemName":"Item 1"}
+2026-10-06 22:01:21.132 +05:30 [INF] HTTP POST /api/VA/EnqLineItemDetails responded 200 in 2649.4263 ms
+2026-10-06 22:01:21.244 +05:30 [INF] POST /api/VA/EnqLineItemDetails body: {"enqId":3332,"printornonprint":"Print","modifiedBy":1,"quoteQtyOrSize":"1000","productCategoryId":1,"itemDescription":"Line item 2","itemSellPrice":0,"subcatID":97,"itemName":"Item 2"}
+2026-10-06 22:01:22.609 +05:30 [INF] HTTP POST /api/VA/EnqLineItemDetails responded 200 in 1367.2698 ms
+2026-10-06 22:01:22.703 +05:30 [INF] POST /api/VA/EnqLineItemDetails body: {"enqId":3332,"printornonprint":"Print","modifiedBy":1,"quoteQtyOrSize":"1000","productCategoryId":1,"itemDescription":"Line item 3","itemSellPrice":0,"subcatID":97,"itemName":"Item 3"}
+2026-10-06 22:01:23.755 +05:30 [INF] HTTP POST /api/VA/EnqLineItemDetails responded 200 in 1053.3732 ms
+2026-10-06 22:01:24.112 +05:30 [INF] POST /api/VA/EnqLineItemDetails body: {"enqId":3332,"printornonprint":"Print","modifiedBy":1,"quoteQtyOrSize":"500","productCategoryId":1,"itemDescription":"Added after delete","itemSellPrice":0,"subcatID":97,"itemName":"Item 4"}
+2026-10-06 22:01:25.141 +05:30 [INF] HTTP POST /api/VA/EnqLineItemDetails responded 200 in 1030.4533 ms
+2026-10-06 22:01:25.218 +05:30 [INF] POST /api/VA/EnqLineItemDetails body: {"quoteQtyOrSize":"1200","modifiedBy":1,"enqId":3332,"enqdetailsId":4505,"itemName":"Item 1 (edited)","itemDescription":"Edited"}
+2026-10-06 22:01:26.676 +05:30 [INF] HTTP POST /api/VA/EnqLineItemDetails responded 200 in 1458.9012 ms
+2026-10-06 22:01:26.885 +05:30 [INF] POST /api/VA/EnqSupplierInfo body: {"selectedSuppliers":"1,2","modifiedBy":1,"enqId":3332}
+2026-10-06 22:01:28.457 +05:30 [INF] HTTP POST /api/VA/EnqSupplierInfo responded 200 in 1573.6782 ms
+2026-10-06 22:01:28.533 +05:30 [INF] POST /api/VA/EnqReview body: {}
+2026-10-06 22:01:30.524 +05:30 [INF] HTTP POST /api/VA/EnqReview responded 200 in 1992.8291 ms
+2026-10-06 22:01:30.614 +05:30 [INF] POST /api/VA/GetDetails body: {"enquiryid":3332}
+2026-10-06 22:01:32.314 +05:30 [INF] HTTP POST /api/VA/GetDetails responded 200 in 1701.4556 ms
+2026-10-06 22:01:32.397 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"currency":"SGD","enquiryid":3332,"country":"Singapore"}
+2026-10-06 22:01:35.622 +05:30 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2026-10-06 22:01:36.509 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 4113.5614 ms
+2026-10-06 22:01:37.792 +05:30 [INF] POST /api/VA/PostSupplierQuotes body: [{"qty":1000,"initialUnitprice":"1.25","itemNumber":1,"quoteId":5490,"modifiedBy":1,"negoUnitprice":"1.10","enqId":3332,"supplierQuoteAmountPriceOrQuantity":2},{"qty":1000,"initialUnitprice":"1.25","itemNumber":1,"quoteId":5491,"modifiedBy":1,"negoUnitprice":"1.10","enqId":3332,"supplierQuoteAmountPriceOrQuantity":2},{"qty":1000,"initialUnitprice":"1.25","itemNumber":3,"quoteId":5492,"modifiedBy":1,"negoUnitprice":"1.10","enqId":3332,"supplierQuoteAmountPriceOrQuantity":2},{"qty":1000,"initialUnitprice":"1.25","itemNumber":3,"quoteId":5493,"modifiedBy":1,"negoUnitprice":"1.10","enqId":3332,"supplierQuoteAmountPriceOrQuantity":2},{"qty":1000,"initialUnitprice":"1.25","itemNumber":4,"quoteId":5494,"modifiedBy":1,"negoUnitprice":"1.10","enqId":3332,"supplierQuoteAmountPriceOrQuantity":2},{"qty":1000,"initialUnitprice":"1.25","itemNumber":4,"quoteId":5495,"modifiedBy":1,"negoUnitprice":"1.10","enqId":3332,"supplierQuoteAmountPriceOrQuantity":2}]
+2026-10-06 22:01:39.128 +05:30 [INF] HTTP POST /api/VA/PostSupplierQuotes responded 200 in 1336.9408 ms
+2026-10-06 22:01:39.282 +05:30 [INF] POST /api/VA/CalculateSavings body: {"enqid":3332,"ls_getsupplierQuotes":[{"itemnumber":1,"supplierID":1,"negotiatePrice":1100,"supplierQuotesId":5490,"initialPrice":1250},{"itemnumber":3,"supplierID":1,"negotiatePrice":1100,"supplierQuotesId":5492,"initialPrice":1250},{"itemnumber":4,"supplierID":1,"negotiatePrice":1100,"supplierQuotesId":5494,"initialPrice":1250}]}
+2026-10-06 22:01:41.455 +05:30 [INF] HTTP POST /api/VA/CalculateSavings responded 200 in 2173.5333 ms
+2026-10-06 22:01:41.504 +05:30 [INF] POST /api/VA/UpdateSavingsReasons body: [{"savingsType":"Cost Reduction","savingsReason":"Negotiation","enquiryId":3332,"id":0}]
+2026-10-06 22:01:42.784 +05:30 [INF] HTTP POST /api/VA/UpdateSavingsReasons responded 200 in 1281.1751 ms
+2026-10-06 22:01:42.835 +05:30 [INF] POST /api/VA/GetProjectDetails body: {"currency":"SGD","enquiryid":3332,"country":"Singapore"}
+2026-10-06 22:01:43.232 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 398.4184 ms
+2026-10-06 22:01:44.738 +05:30 [INF] POST /api/VA/PostRefprice body: [{"previousSupplier":"Old supplier","baselineQuantity":"1000","previousPrice":1500,"id":3124,"note":"e2e"},{"previousSupplier":"Old supplier","baselineQuantity":"1000","previousPrice":1500,"id":3125,"note":"e2e"},{"previousSupplier":"Old supplier","baselineQuantity":"1000","previousPrice":1500,"id":3126,"note":"e2e"}]
+2026-10-06 22:01:44.840 +05:30 [INF] HTTP POST /api/VA/PostRefprice responded 200 in 102.8720 ms
+2026-10-06 22:01:44.898 +05:30 [INF] POST /api/VA/UpdateJobSummary body: {"action":"fee","clientContactId":1282,"statusId":2,"enqId":3332,"modifiedBy":1,"managementFee":5,"createdBy":1}
+2026-10-06 22:01:46.619 +05:30 [INF] HTTP POST /api/VA/UpdateJobSummary responded 200 in 1721.6028 ms
+2026-10-06 22:01:46.691 +05:30 [INF] POST /api/VA/UpdateJobSummary body: {"enqId":3332,"createdBy":1,"action":"Update","modifiedBy":1,"projectNo":"E2E-001","clientContactId":1282,"poNumber":"PO-1","projectDesc":"E2E constraint test","statusId":2}
+2026-10-06 22:01:47.816 +05:30 [INF] HTTP POST /api/VA/UpdateJobSummary responded 200 in 1126.2264 ms
+2026-10-06 22:01:47.863 +05:30 [INF] POST /api/VA/UpdateJobStatus body: {"status":3,"modifiedBy":1,"enqId":3332}
+2026-10-06 22:01:48.646 +05:30 [INF] HTTP POST /api/VA/UpdateJobStatus responded 200 in 783.6912 ms
+2026-10-06 22:01:48.708 +05:30 [INF] POST /api/VA/UpdatePreviewQuotes body: {"supplierBNegAmount":"10","supplierBInitAmount":"12","id":4505,"supplierB":"Supplier B"}
+2026-10-06 22:01:49.841 +05:30 [INF] HTTP POST /api/VA/UpdatePreviewQuotes responded 200 in 1134.4564 ms
+2026-10-06 22:01:49.921 +05:30 [INF] POST /api/VA/AddUpdateDeliveryAddress body: {"addressLineOne":"1 Test Road","companyName":"E2E Company","contactNo":"123","id":0,"enqid":3332}
+2026-10-06 22:01:50.030 +05:30 [INF] HTTP POST /api/VA/AddUpdateDeliveryAddress responded 200 in 110.1849 ms
+2026-10-06 22:01:50.076 +05:30 [INF] POST /api/VA/CheckDeliveryAddress body: {"companyName":"E2E Company"}
+2026-10-06 22:01:50.153 +05:30 [INF] HTTP POST /api/VA/CheckDeliveryAddress responded 200 in 78.4322 ms
+2026-10-06 22:01:50.204 +05:30 [INF] POST /api/VA/AddnewBrands body: {"divisionid":1284,"brand":"E2E Brand 1075824822"}
+2026-10-06 22:01:50.298 +05:30 [INF] HTTP POST /api/VA/AddnewBrands responded 200 in 94.4421 ms
+2026-10-06 22:01:50.346 +05:30 [INF] POST /api/VA/AddnewBrands body: {"divisionid":1284,"brand":"E2E Brand 1075824822"}
+2026-10-06 22:01:50.374 +05:30 [INF] HTTP POST /api/VA/AddnewBrands responded 200 in 28.3883 ms
+2026-10-06 22:01:50.447 +05:30 [INF] POST /api/VA/AddnewClient body: {"receivenotification":false,"firstName":"E2E","lastName":"Client","logonid":"e2e.client.1241652915","jobtitle":"Tester","divisionid":1284,"jobPosition":"Buyer","phone":"1","email":"e2e.client.1241652915@example.com"}
+2026-10-06 22:01:50.755 +05:30 [INF] HTTP POST /api/VA/AddnewClient responded 200 in 308.3922 ms
+2026-10-06 22:01:50.821 +05:30 [INF] POST /api/VA/CheckforUsername body: {"username":"e2e.client.1241652915"}
+2026-10-06 22:01:50.877 +05:30 [INF] HTTP POST /api/VA/CheckforUsername responded 200 in 57.6905 ms
+2026-10-06 22:01:50.969 +05:30 [INF] POST /api/VA/EB_Duplicate body: {"enqdetailsId":4505,"modifiedBy":1,"enqId":3332}
+2026-10-06 22:01:52.106 +05:30 [INF] HTTP POST /api/VA/EB_Duplicate responded 200 in 1137.1360 ms
+2026-10-06 22:01:52.187 +05:30 [INF] POST /api/VA/GetPreviewQuotes body: {
+    "enquiryid":  3332
+}
+2026-10-06 22:01:55.949 +05:30 [INF] HTTP POST /api/VA/GetPreviewQuotes responded 200 in 3762.5285 ms
+2026-10-06 22:01:56.400 +05:30 [INF] POST /api/VA/ViewDashboard body: {"username":"x","userCountryId":12,"menuid":1}
+2026-10-06 22:01:57.485 +05:30 [INF] HTTP POST /api/VA/ViewDashboard responded 200 in 1092.6175 ms
+2026-10-06 22:34:49.988 +05:30 [INF] HTTP GET /swagger responded 301 in 36.5931 ms
+2026-10-06 22:34:50.820 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 442.1752 ms
+2026-10-06 22:34:50.928 +05:30 [INF] HTTP GET /swagger/index.js responded 200 in 12.0294 ms
+2026-10-06 22:34:50.948 +05:30 [WRN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-10-06 22:34:50.960 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 43.7501 ms
+2026-10-06 22:34:50.963 +05:30 [WRN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-10-06 22:34:50.955 +05:30 [INF] HTTP GET /swagger/index.css responded 200 in 39.2437 ms
+2026-10-06 22:34:50.966 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 49.5140 ms
+2026-10-06 22:34:50.969 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 52.7470 ms
+2026-10-06 22:34:51.803 +05:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 11.7165 ms
+2026-10-06 22:34:51.928 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 292.5526 ms
+2026-10-06 22:37:22.414 +05:30 [INF] HTTP GET /api/VA/GetSavings responded 401 in 62.4281 ms
+2026-10-06 22:39:23.186 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 7.1961 ms
+2026-10-06 22:39:23.196 +05:30 [WRN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-10-06 22:39:23.216 +05:30 [WRN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-10-06 22:39:23.262 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 0.6146 ms
+2026-10-06 22:39:23.275 +05:30 [INF] HTTP GET /swagger/index.css responded 200 in 0.4416 ms
+2026-10-06 22:39:23.294 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 1.0440 ms
+2026-10-06 22:39:23.314 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 0.7265 ms
+2026-10-06 22:39:23.335 +05:30 [INF] HTTP GET /swagger/index.js responded 200 in 0.8178 ms
+2026-10-06 22:39:23.710 +05:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 6.6870 ms
+2026-10-06 22:39:23.782 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 71.3229 ms
+2026-10-06 22:40:00.277 +05:30 [INF] HTTP GET /api/VA/GetSavings responded 200 in 4747.3598 ms
+2026-10-06 22:41:01.803 +05:30 [INF] HTTP GET /api/VA/GetSavings responded 200 in 731.5257 ms
+2026-10-06 22:42:54.007 +05:30 [INF] POST /api/VA/GetProjectDetails body: {
+  "username": "demouser.sg",
+  "lang": "English",
+  "password":"***",
+  "typeOfJob": "",
+  "country": "Singapore",
+  "currency": "SGD",
+  "savingstype": "",
+  "divisionid": 0,
+  "enquiryid": 3196,
+  "subitemid": 0,
+  "countryId": 0
+}
+2026-10-06 22:42:55.785 +05:30 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2026-10-06 22:42:56.951 +05:30 [INF] HTTP POST /api/VA/GetProjectDetails responded 200 in 2972.6415 ms
+2026-10-06 22:43:37.765 +05:30 [INF] HTTP GET /api/VA/GetProjectStatus responded 200 in 191.9239 ms
+2026-10-06 22:43:55.707 +05:30 [INF] HTTP GET /api/VA/GetProjectStatus responded 200 in 133.5851 ms

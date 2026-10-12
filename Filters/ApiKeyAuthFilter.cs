@@ -1,36 +1,33 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography;
+using System.Text;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Extensions.Options;
+using VAapiNestle.Configuration;
 
 public class ApiKeyAuthFilter : IAuthorizationFilter
 {
-    private readonly IConfiguration _config;
+    private readonly ApiSettings _settings;
 
-    public ApiKeyAuthFilter(IConfiguration config)
+    public ApiKeyAuthFilter(IOptions<ApiSettings> settings)
     {
-        _config = config;
+        _settings = settings.Value;
     }
 
     public void OnAuthorization(AuthorizationFilterContext context)
     {
         var request = context.HttpContext.Request;
 
-        // ✅ Skip Swagger
-        if (request.Path.StartsWithSegments("/swagger"))
-            return;
-
         var apiKey = request.Headers["PMG-API-KEY"].FirstOrDefault();
         var secretKey = request.Headers["PMG-Secret-KEY"].FirstOrDefault();
 
-        var validApiKey = _config["ApiSettings:ApiKey"];
-        var validSecretKey = _config["ApiSettings:SecretKey"];
-
-        if (string.IsNullOrEmpty(apiKey) || apiKey != validApiKey)
+        if (!FixedTimeEquals(apiKey, _settings.ApiKey))
         {
             context.Result = new UnauthorizedObjectResult("Invalid API Key");
             return;
         }
 
-        if (string.IsNullOrEmpty(secretKey) || secretKey != validSecretKey)
+        if (!FixedTimeEquals(secretKey, _settings.SecretKey))
         {
             context.Result = new UnauthorizedObjectResult("Invalid Secret Key");
             return;
@@ -41,5 +38,16 @@ public class ApiKeyAuthFilter : IAuthorizationFilter
         {
             context.Result = new UnauthorizedObjectResult("Invalid Account");
         }
+    }
+
+    // Constant-time comparison so key values cannot be discovered through response timing
+    private static bool FixedTimeEquals(string? provided, string expected)
+    {
+        if (string.IsNullOrEmpty(provided) || string.IsNullOrEmpty(expected))
+            return false;
+
+        return CryptographicOperations.FixedTimeEquals(
+            Encoding.UTF8.GetBytes(provided),
+            Encoding.UTF8.GetBytes(expected));
     }
 }

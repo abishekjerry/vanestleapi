@@ -24,5 +24,5 @@ public partial class TblSla
     public bool Status { get; set; }
 
     public DateTime ServerTime { get; set; }
-    public string Country { get; set; } 
+    public string? Country { get; set; }
 }

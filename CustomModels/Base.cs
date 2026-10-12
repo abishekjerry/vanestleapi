@@ -1,16 +1,18 @@
-﻿using Azure.Core;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
-using System.Net;
-using System.Net.Mail;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
 namespace VAapiNestle.CustomModels
 {
+    // Nullability conventions used by the models below (they keep the existing JSON contract unchanged):
+    //  - "string?"      : optional value / response field that may be absent (null fields are omitted from JSON)
+    //  - "= null!"      : request field that model validation requires ([Required] or implicitly required),
+    //                     so it is never null once the action runs
+    //  - "= []"         : collection that is always returned (empty instead of null)
     public class Base
     {
-        public class NullToEmptyStringConverter : System.Text.Json.Serialization.JsonConverter<string>
+        public class NullToEmptyStringConverter : JsonConverter<string>
         {
             public override string Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
             {
@@ -22,61 +24,21 @@ namespace VAapiNestle.CustomModels
                 writer.WriteStringValue(value ?? "");
             }
         }
-        public bool SendNotificationEmail(HttpContext context, string subject, string body, string emailsTo) // For Ebiz and PRD
-        {
-            try
-            {
-                var host = context.Request.Host.Host;
-                if (host == "localhost" || host == "ebiz.pmgasia.com")
-                {
-                    emailsTo = "va@pmgasia.com,anurekha.m@pmgasia.com,jagdeesan.h@pmgasia.com";
-                }
-                string[] receiver = emailsTo.Split(',');
-                MailMessage mailMessage = new MailMessage();
-                mailMessage.From = new MailAddress("virtualagency@pmgasia.com", "Virtual Agency");
-                mailMessage.Subject = subject;
-                mailMessage.Body = body;
-                mailMessage.IsBodyHtml = true;
-                for (int i = 0; i < receiver.Length; i++)
-                {
-                    if (!string.IsNullOrEmpty(receiver[i]))
-                        mailMessage.To.Add(new MailAddress(receiver[i]));
-                }
-                string bcc = "";
-                string[] splitCount = bcc.Split(',');
-                for (int i = 0; i < splitCount.Length; i++)
-                {
-                    if (!string.IsNullOrEmpty(splitCount[i]))
-                        mailMessage.Bcc.Add(new MailAddress(splitCount[i]));
-                }
-                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-                SmtpClient smtpClient = new SmtpClient("email-smtp.us-west-2.amazonaws.com");
-                smtpClient.EnableSsl = true;
-                smtpClient.Port = 587;
-                smtpClient.Credentials = new NetworkCredential("AKIAI2AG7R3A7BGJQBJQ", "AgTfeOOchUWANHlrnd6QVGvEBzDpuq7xfn24ViEivZIU");
-                smtpClient.Send(mailMessage);
-                return true;
-            }
-            catch (Exception ex)
-            {
-
-                return false;
-            }
-        }
+        // Email sending moved to VAapiNestle.Services.EmailService (credentials now come from configuration)
         public class User
         {
             public int UserID { get; set; }
             public int FkID { get; set; }
             public int CountryId { get; set; }
-            public string Role { get; set; }
-            public string Username { get; set; }
-            public string Email { get; set; }
-            public string Usertype { get; set; }
-            public string Country { get; set; }
-            public string Currency { get; set; }
-            public string password { get; set; }
-            public string Token { get; set; }
-            public string Enquiryid { get; set; }
+            public string? Role { get; set; }
+            public string? Username { get; set; }
+            public string? Email { get; set; }
+            public string? Usertype { get; set; }
+            public string? Country { get; set; }
+            public string? Currency { get; set; }
+            public string? password { get; set; } // never populated in responses
+            public string? Token { get; set; }
+            public string? Enquiryid { get; set; }
 
         }
         public class UserRequest
@@ -84,8 +46,8 @@ namespace VAapiNestle.CustomModels
 
             public string? Username { get; set; }
             public string? Lang { get; set; }
-            public string? NewPassword { get; set; }
             public string? Password { get; set; }
+            public string? NewPassword { get; set; }
             public string? TypeOfJob { get; set; }
             public string? Country { get; set; }
             public string? Currency { get; set; }
@@ -94,49 +56,58 @@ namespace VAapiNestle.CustomModels
             public int Enquiryid { get; set; }
             public int Subitemid { get; set; }
             public int CountryId { get; set; }
-
         }
         public class DropdownItem
         {
             public int Value { get; set; }
-            public string Label { get; set; }
+            public string Label { get; set; } = "";
             public bool Selected { get; set; } = false;
         }
+        // Each endpoint fills only the lists it serves; unset lists are omitted from the response
         public class MasterDropdowns
         {
-            public List<DropdownItem> Country { get; set; }
-            public List<DropdownItem> Status { get; set; }
-            public List<DropdownItem> Client { get; set; }
-            public List<DropdownItem> User { get; set; }
-            public List<DropdownItem> TypeofJob { get; set; }
-            public List<DropdownItem> Division { get; set; }
-            public List<DropdownItem> ManagementFeetype { get; set; }
-            public List<DropdownItem> Year { get; set; }
-            public List<DropdownItem> ProjectAttribute { get; set; }
-            public List<DropdownItem> Brands { get; set; }
-            public List<DropdownItem> Sla { get; set; }
-            public List<DropdownItem> ItemCategory { get; set; }
-            public List<DropdownItem> SubCategory { get; set; }
-            public List<DropdownItem> ExceptionReason { get; set; }
-            public List<DropdownItem> TypeOfItem { get; set; }
-            public List<DropdownItem> GlobalOrder { get; set; }
-            public List<DropdownItem> RegionalOrder { get; set; }
-            public List<DropdownItem> LocalCatalog { get; set; }
-            public List<DropdownItem> PrintingMethod { get; set; }
-            public List<DropdownItem> SourcingLocation { get; set; }
-            public List<DropdownItem> SavingsReason { get; set; }
-            public List<DropdownItem> SavingsType { get; set; }
-            public List<DropdownItem> Printcapabilities { get; set; }
-
-
-
+            public List<DropdownItem>? Country { get; set; }
+            public List<DropdownItem>? Status { get; set; }
+            public List<DropdownItem>? Client { get; set; }
+            public List<DropdownItem>? User { get; set; }
+            public List<DropdownItem>? TypeofJob { get; set; }
+            public List<DropdownItem>? Division { get; set; }
+            public List<DropdownItem>? ManagementFeetype { get; set; }
+            public List<DropdownItem>? Year { get; set; }
+            public List<DropdownItem>? ProjectAttribute { get; set; }
+            public List<DropdownItem>? Brands { get; set; }
+            public List<DropdownItem>? Sla { get; set; }
+            public List<DropdownItem>? ItemCategory { get; set; }
+            public List<DropdownItem>? SubCategory { get; set; }
+            public List<DropdownItem>? ExceptionReason { get; set; }
+            public List<DropdownItem>? TypeOfItem { get; set; }
+            public List<DropdownItem>? GlobalOrder { get; set; }
+            public List<DropdownItem>? RegionalOrder { get; set; }
+            public List<DropdownItem>? LocalCatalog { get; set; }
+            public List<DropdownItem>? PrintingMethod { get; set; }
+            public List<DropdownItem>? SourcingLocation { get; set; }
+            public List<DropdownItem>? SavingsReason { get; set; }
+            public List<DropdownItem>? SavingsType { get; set; }
+            public List<DropdownItem>? Printcapabilities { get; set; }
         }
 
         public class Result
         {
-            public bool Status { get; set; }
-            public dynamic Data { get; set; }
+            public Result()
+            {
+            }
 
+            public Result(bool status, object? data)
+            {
+                Status = status;
+                Data = data;
+            }
+
+            public bool Status { get; set; }
+            public dynamic? Data { get; set; }
+
+            public static Result Ok(object? data) => new(true, data);
+            public static Result Fail(object? data) => new(false, data);
         }
         #region dashboard
         public class EnquiryFilterRequest
@@ -171,26 +142,26 @@ namespace VAapiNestle.CustomModels
             public int newrfq { get; set; }
             public int quoteproposed { get; set; }
             public int invites { get; set; }
-            public List<GetJobStatus> JobStatus { get; set; }
+            public List<GetJobStatus> JobStatus { get; set; } = [];
 
         }
         public class GetJobStatus
         {
             public int? StatusId { get; set; }
-            public string StatusName { get; set; }
+            public string? StatusName { get; set; }
             public int EnquiryCount { get; set; }
         }
         public class ProjectInformation
         {
             [Key]
             public int Id { get; set; }
-            public string EnquiryId { get; set; }
-            public string ProjectNo { get; set; }
-            public string ProjectDesc { get; set; }
+            public string? EnquiryId { get; set; }
+            public string? ProjectNo { get; set; }
+            public string? ProjectDesc { get; set; }
             public string? ServerTime { get; set; }
             public int? Status { get; set; }
             public string? StatusName { get; set; }
-            public string Country { get; set; }
+            public string? Country { get; set; }
             public int PmgEntity { get; set; }
             public DateTime? BiddingStartDate { get; set; }
             public DateTime? BiddingEndDate { get; set; }
@@ -209,7 +180,7 @@ namespace VAapiNestle.CustomModels
             public string? OldsurveyENQ { get; set; }
             public string? Ponumber { get; set; }
             public string? SurveyStatusName { get; set; }
-            public string BusinessUnit { get; set; }
+            public string? BusinessUnit { get; set; }
             public int ClientContactId { get; set; }
         }
 
@@ -219,25 +190,25 @@ namespace VAapiNestle.CustomModels
         {
             [Required(ErrorMessage = "First Name is required")]
             [RegularExpression(@"\S+", ErrorMessage = "First Name cannot be empty or whitespace")]
-            public string FirstName { get; set; }
+            public string FirstName { get; set; } = null!;
 
-            public string LastName { get; set; }
+            public string LastName { get; set; } = null!;
 
             [Required(ErrorMessage = "Logon ID is required")]
             [RegularExpression(@"\S+", ErrorMessage = "Logon ID cannot be empty or whitespace")]
-            public string Logonid { get; set; }
+            public string Logonid { get; set; } = null!;
 
-            public string Jobtitle { get; set; }
+            public string Jobtitle { get; set; } = null!;
 
             [Required(ErrorMessage = "Email is required")]
             [EmailAddress(ErrorMessage = "Invalid Email format")]
-            public string Email { get; set; }
+            public string Email { get; set; } = null!;
 
 
-            public string Phone { get; set; }
+            public string Phone { get; set; } = null!;
 
             [Required(ErrorMessage = "Job Position is required")]
-            public string JobPosition { get; set; }
+            public string JobPosition { get; set; } = null!;
 
             [Required(ErrorMessage = "Receive Notification flag is required")]
             public bool Receivenotification { get; set; }
@@ -251,7 +222,7 @@ namespace VAapiNestle.CustomModels
             [Required]
             public int Divisionid { get; set; }
             [Required(ErrorMessage = "Brand is required")]
-            public string Brand { get; set; }
+            public string Brand { get; set; } = null!;
             public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
             {
                 if (string.IsNullOrWhiteSpace(Brand))
@@ -270,15 +241,15 @@ namespace VAapiNestle.CustomModels
             public int CreatedBy { get; set; }
             public int ModifiedBy { get; set; }
             [Required(ErrorMessage = "Brands are required.")]
-            public string Brand { get; set; }
+            public string Brand { get; set; } = null!;
             public int DeliveryCountryId { get; set; }
             public int PMGEntity { get; set; }
             public int EnqId { get; set; }
             public int? Menuid { get; set; }
 
             [Required(ErrorMessage = "The Above or At Market is required.")]
-            public string AboveorAtmarket { get; set; }
-            public string Action { get; set; }
+            public string AboveorAtmarket { get; set; } = null!;
+            public string Action { get; set; } = null!;
             public string? Divisionname { get; set; }
             public string? Client { get; set; }
             public string? Entityname { get; set; }
@@ -305,15 +276,15 @@ namespace VAapiNestle.CustomModels
             public int EnqId { get; set; }
 
             [Required(ErrorMessage = "ProjectNo are required.")]
-            public string ProjectNo { get; set; }
+            public string ProjectNo { get; set; } = null!;
 
             [Required(ErrorMessage = "ProjectDesc are required.")]
-            public string ProjectDesc { get; set; }
+            public string ProjectDesc { get; set; } = null!;
 
             [Required(ErrorMessage = "Estimate Date are required.")]
-            public string Estdate { get; set; }
+            public string Estdate { get; set; } = null!;
             [Required(ErrorMessage = "Brief Date are required.")]
-            public string Briefdate { get; set; }
+            public string Briefdate { get; set; } = null!;
             public int ModifiedBy { get; set; }
             public int? QuoteBy { get; set; }
             public int? SlaId { get; set; }
@@ -325,16 +296,16 @@ namespace VAapiNestle.CustomModels
 
             [Required(ErrorMessage = "Year are required.")]
             public string? Year { get; set; }
-            public string Quotestartdate { get; set; }
-            public string Quoteenddate { get; set; }
-            public string Proofstartdate { get; set; }
-            public string Proofenddate { get; set; }
-            public string Productionstartdate { get; set; }
-            public string Productionenddate { get; set; }
-            public string Filecopiesstartdate { get; set; }
-            public string Filecopiesenddate { get; set; }
-            public string Invoicestartdate { get; set; }
-            public string Invoiceenddate { get; set; }
+            public string Quotestartdate { get; set; } = null!;
+            public string Quoteenddate { get; set; } = null!;
+            public string Proofstartdate { get; set; } = null!;
+            public string Proofenddate { get; set; } = null!;
+            public string Productionstartdate { get; set; } = null!;
+            public string Productionenddate { get; set; } = null!;
+            public string Filecopiesstartdate { get; set; } = null!;
+            public string Filecopiesenddate { get; set; } = null!;
+            public string Invoicestartdate { get; set; } = null!;
+            public string Invoiceenddate { get; set; } = null!;
 
             public int? ModifiedQuote { get; set; }
             public int? ModifiedProof { get; set; }
@@ -448,9 +419,9 @@ namespace VAapiNestle.CustomModels
         {
             public string? SelectedSuppliers { get; set; }
             public int? EnqId { get; set; }
+            public int? ModifiedBy { get; set; }
             public int[]? EnqDetailsId { get; set; }
             public string? NewSelectedSuppliers { get; set; }
-            public int? ModifiedBy { get; set; }
         }
         public class Jobstatus
         {
@@ -515,18 +486,18 @@ namespace VAapiNestle.CustomModels
         public class RevisedQuotes
         {
             public int? ItemNumber { get; set; }
-            public string ItemName { get; set; }
-            public string SupplierName { get; set; }
+            public string? ItemName { get; set; }
+            public string? SupplierName { get; set; }
             public decimal? SupplierPrice { get; set; }
-            public string ItemNote { get; set; }
+            public string? ItemNote { get; set; }
             public string? DateOfChange { get; set; }
         }
 
         public class RequestQuotes
         {
             public int? ItemNumber { get; set; }
-            public string ItemName { get; set; }
-            public string SupplierName { get; set; }
+            public string? ItemName { get; set; }
+            public string? SupplierName { get; set; }
             public int? SupplierQuotesId { get; set; }
             public int? EnquiryId { get; set; }
             public int? EnquiryDetailsId { get; set; }
@@ -599,7 +570,7 @@ namespace VAapiNestle.CustomModels
             public int ModifiedBy { get; set; }
             public int CreatedBy { get; set; }
             public int ClientContactId { get; set; }
-            public string Action { get; set; }
+            public string Action { get; set; } = null!;
             public int EnqId { get; set; }
             public int StatusId { get; set; }
             public string? InvoiceDate { get; set; }
@@ -629,13 +600,13 @@ namespace VAapiNestle.CustomModels
             public List<LineItemsLogs> lineItemLogs { get; set; } = [];
             public List<RevisedQuotes> revisedQuotes { get; set; } = [];
             public List<RequestQuotes> requestQuotes { get; set; } = [];
-            public List<CalculationDetails> calculationDetails { get; set; }
+            public List<CalculationDetails>? calculationDetails { get; set; }
             public List<CalculationSupplierlogs> calculationSupplierlogs { get; set; } = [];
             public List<SavingReasons> savingReasons { get; set; } = [];
-            public SavingsResponseDto SavingsResponseDto { get; set; }
-            public List<DeliveryOrder> DeliveryOrder { get; set; }
-            public List<ProjectStatus> ProjectStatus { get; set; }
-            public List<PreviewQuotes> PreviewQuotes { get; set; }
+            public SavingsResponseDto? SavingsResponseDto { get; set; }
+            public List<DeliveryOrder>? DeliveryOrder { get; set; }
+            public List<ProjectStatus>? ProjectStatus { get; set; }
+            public List<PreviewQuotes>? PreviewQuotes { get; set; }
         }
 
         public class ProjectStatus
@@ -651,13 +622,13 @@ namespace VAapiNestle.CustomModels
             public decimal TotalManagementFee { get; set; }
             public decimal TotalSaving { get; set; }
             public decimal TotalSavingPercent { get; set; }
-            public List<SavingsItemDto> ItemWiseSummary { get; set; } = new();
-            public List<SavingsDetailsDto> Details { get; set; } = new();
+            public List<SavingsItemDto> ItemWiseSummary { get; set; } = [];
+            public List<SavingsDetailsDto> Details { get; set; } = [];
         }
         public class SavingsItemDto
         {
             public int? ItemNumber { get; set; }
-            public string ItemName { get; set; }
+            public string? ItemName { get; set; }
             public decimal TotalPreviousPrice { get; set; }
             public decimal TotalSellPrice { get; set; }
             public decimal TotalNegSellPrice { get; set; }
@@ -680,30 +651,30 @@ namespace VAapiNestle.CustomModels
             public int EnquiryId { get; set; }
             public int EnquiryDetailsId { get; set; }
             public int? ItemNumber { get; set; }
-            public string ItemName { get; set; }
-            public string ReasonForSaving { get; set; }
-            public string PreviousSupplier { get; set; }
+            public string? ItemName { get; set; }
+            public string? ReasonForSaving { get; set; }
+            public string? PreviousSupplier { get; set; }
             public decimal PreviousPrice { get; set; }
             public decimal ItemSellPrice { get; set; }
             public decimal NegItemSellPrice { get; set; }
             public decimal ManagementFee { get; set; }
-            public string BaselineQuantity { get; set; }
+            public string? BaselineQuantity { get; set; }
             public decimal BaselineUnitPrice { get; set; }
             public decimal BaselinePrice { get; set; }
             public decimal BaselineSaving { get; set; }
             public decimal GainShare { get; set; }
-            public string QuoteQtyOrSize { get; set; }
-            public string SavingType { get; set; }
+            public string? QuoteQtyOrSize { get; set; }
+            public string? SavingType { get; set; }
             public decimal MFee { get; set; }
 
         }
         public class GetDetails
         {
-            public EnqClientinfo enqClientinfo { get; set; }
-            public EnqProjectinfo enqProjectinfo { get; set; }
-            public List<EnquiryItem> enqlineItems { get; set; } = new List<EnquiryItem>();
-            public List<SupplierDetails> supplierinfo { get; set; } = new List<SupplierDetails>();
-            public string Jobstatus { get; set; }
+            public EnqClientinfo? enqClientinfo { get; set; }
+            public EnqProjectinfo? enqProjectinfo { get; set; }
+            public List<EnquiryItem> enqlineItems { get; set; } = [];
+            public List<SupplierDetails> supplierinfo { get; set; } = [];
+            public string? Jobstatus { get; set; }
             public int? StatusId { get; set; }
             public int? StepId { get; set; }
         }
@@ -718,7 +689,7 @@ namespace VAapiNestle.CustomModels
             public decimal? Invoicing { get; set; }
 
             public int Id { get; set; }
-            public string Description { get; set; }
+            public string? Description { get; set; }
             public bool Status { get; set; }
             public bool? IsDefault { get; set; }
 
@@ -730,7 +701,7 @@ namespace VAapiNestle.CustomModels
         }
         public class Calculate_supplierQuotes
         {
-            public List<Ls_Calculate_SupplierQuotesd> Ls_getsupplierQuotes { get; set; } = new List<Ls_Calculate_SupplierQuotesd>();
+            public List<Ls_Calculate_SupplierQuotesd> Ls_getsupplierQuotes { get; set; } = [];
             public int Enqid { get; set; }
 
         }
@@ -746,9 +717,9 @@ namespace VAapiNestle.CustomModels
         }
         public class Ls_Store_Refprice
         {
-            public string previousSupplier { get; set; }
+            public string previousSupplier { get; set; } = null!;
             public decimal previousPrice { get; set; }
-            public string note { get; set; }
+            public string note { get; set; } = null!;
             public int Id { get; set; }
             public string? BaselineQuantity { get; set; }
         }
@@ -767,6 +738,18 @@ namespace VAapiNestle.CustomModels
             public string? Tco { get; set; }
             public string? UserType { get; set; }
 
+        }
+
+        public class SendSurveyMailRequest
+        {
+            public int EnqId { get; set; }
+            public string? Country { get; set; }
+            public string? RootPath { get; set; }
+            public string? ProjectNumber { get; set; }
+            public string? ProjectDescription { get; set; }
+            public string? EnquiryNumber { get; set; }
+            public string? ClientName { get; set; }
+            public string? EmailAddress { get; set; }
         }
 
     }

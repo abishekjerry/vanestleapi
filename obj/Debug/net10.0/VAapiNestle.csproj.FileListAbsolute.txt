@@ -1,0 +1,374 @@
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\appsettings.Development.json
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\appsettings.json
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\VAapiNestle.staticwebassets.endpoints.json
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\VAapiNestle.exe
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\VAapiNestle.deps.json
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\VAapiNestle.runtimeconfig.json
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\VAapiNestle.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\VAapiNestle.pdb
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Azure.Core.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Azure.Identity.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ClosedXML.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ClosedXML.Parser.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\DocumentFormat.OpenXml.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\DocumentFormat.OpenXml.Framework.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ExcelNumberFormat.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Humanizer.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.Identity.Client.Broker.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.Identity.Client.NativeInterop.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.OpenApi.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Mono.TextTemplating.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Newtonsoft.Json.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\NReco.PdfGenerator.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\RBush.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Serilog.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Serilog.AspNetCore.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Serilog.Sinks.File.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\SixLabors.Fonts.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.ClientModel.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.CodeDom.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.Composition.Convention.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.Composition.Hosting.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.Composition.Runtime.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.Composition.TypedParts.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.IO.Packaging.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.Memory.Data.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\runtimes\linux-x64\native\libmsalruntime.so
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\runtimes\osx-arm64\native\msalruntime_arm64.dylib
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\runtimes\osx-x64\native\msalruntime.dylib
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
+D:\LocalSource\VA_API\VAapiNestle\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\VAapiNestle.csproj.AssemblyReference.cache
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\VAapiNestle.GeneratedMSBuildEditorConfig.editorconfig
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\VAapiNestle.AssemblyInfoInputs.cache
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\VAapiNestle.AssemblyInfo.cs
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\VAapiNestle.csproj.CoreCompileInputs.cache
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\VAapiNestle.MvcApplicationPartsAssemblyInfo.cs
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\VAapiNestle.MvcApplicationPartsAssemblyInfo.cache
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\scopedcss\bundle\VAapiNestle.styles.css
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\staticwebassets.build.json
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\staticwebassets.development.json
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\swae.build.ex.cache
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\VAapiNes.92CD471F.Up2Date
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\VAapiNestle.dll
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\refint\VAapiNestle.dll
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\VAapiNestle.pdb
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\VAapiNestle.genruntimeconfig.cache
+D:\LocalSource\VA_API\VAapiNestle\obj\Debug\net10.0\ref\VAapiNestle.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\VAapiNestle.csproj.AssemblyReference.cache
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\VAapiNestle.GeneratedMSBuildEditorConfig.editorconfig
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\VAapiNestle.AssemblyInfoInputs.cache
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\VAapiNestle.AssemblyInfo.cs
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\VAapiNestle.csproj.CoreCompileInputs.cache
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\VAapiNestle.MvcApplicationPartsAssemblyInfo.cs
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\VAapiNestle.MvcApplicationPartsAssemblyInfo.cache
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\VAapiNestle.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\refint\VAapiNestle.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\VAapiNestle.pdb
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\appsettings.Development.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\VAapiNestle.staticwebassets.endpoints.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\appsettings.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\VAapiNestle.exe
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\VAapiNestle.deps.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\VAapiNestle.runtimeconfig.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\VAapiNestle.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\VAapiNestle.pdb
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Azure.Core.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Azure.Identity.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ClosedXML.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ClosedXML.Parser.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\DocumentFormat.OpenXml.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\DocumentFormat.OpenXml.Framework.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ExcelNumberFormat.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Humanizer.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.Identity.Client.Broker.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.Identity.Client.NativeInterop.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.OpenApi.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Mono.TextTemplating.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Newtonsoft.Json.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\NReco.PdfGenerator.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\RBush.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Serilog.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Serilog.AspNetCore.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Serilog.Sinks.File.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\SixLabors.Fonts.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.ClientModel.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.CodeDom.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.Composition.Convention.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.Composition.Hosting.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.Composition.Runtime.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.Composition.TypedParts.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.IO.Packaging.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.Memory.Data.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\runtimes\linux-x64\native\libmsalruntime.so
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\runtimes\osx-arm64\native\msalruntime_arm64.dylib
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\runtimes\osx-x64\native\msalruntime.dylib
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\scopedcss\bundle\VAapiNestle.styles.css
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\staticwebassets.build.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\staticwebassets.development.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\swae.build.ex.cache
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\VAapiNes.92CD471F.Up2Date
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\VAapiNestle.genruntimeconfig.cache
+D:\Abishek\OneDrive - PMG Asia Pacific Pte Ltd\VAapiNestle\obj\Debug\net10.0\ref\VAapiNestle.dll

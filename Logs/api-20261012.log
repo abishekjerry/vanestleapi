@@ -1,0 +1,11 @@
+2026-10-12 12:48:33.861 +05:30 [INF] HTTP GET /swagger responded 301 in 13.3543 ms
+2026-10-12 12:48:34.224 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 207.0654 ms
+2026-10-12 12:48:34.290 +05:30 [INF] HTTP GET /swagger/index.js responded 200 in 2.4686 ms
+2026-10-12 12:48:34.305 +05:30 [INF] HTTP GET /swagger/index.css responded 200 in 16.9336 ms
+2026-10-12 12:48:34.307 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 18.9886 ms
+2026-10-12 12:48:34.309 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 21.5872 ms
+2026-10-12 12:48:34.308 +05:30 [WRN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-10-12 12:48:34.341 +05:30 [WRN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-10-12 12:48:34.343 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 47.0397 ms
+2026-10-12 12:48:34.683 +05:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 17.9143 ms
+2026-10-12 12:48:34.798 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 187.6602 ms

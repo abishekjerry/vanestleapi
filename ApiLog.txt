@@ -3827,23 +3827,3 @@
     "Currency": "SGD",
     "Country": "Singapore"
 }
-06-10-2026 15:48:46 GET /swagger 
-
-06-10-2026 15:48:53 GET /swagger/index.html 
-
-06-10-2026 15:48:54 GET /swagger/swagger-ui-standalone-preset.js 
-
-06-10-2026 15:48:54 GET /swagger/swagger-ui-bundle.js 
-
-06-10-2026 15:49:19 GET /swagger/v1/swagger.json 
-
-06-10-2026 15:49:20 GET /swagger/favicon-16x16.png 
-
-06-10-2026 15:49:59 POST /api/VA/EnqLineItemsDropdowns 
-{
-    "TypeOfJob": "POSM"
-}
-06-10-2026 15:50:59 POST /api/VA/EnqLineItemsDropdowns 
-{
-    "TypeOfJob": "POSM"
-}
